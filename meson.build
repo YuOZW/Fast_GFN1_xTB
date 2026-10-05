@@ -132,7 +132,7 @@ xtb_dep_static = declare_dependency(
 )
 
 xtb_exe = executable(
-  meson.project_name(),
+  'fast-gfn1-xtb',
   sources: prog,
   dependencies: xtb_dep_static,
   link_language: 'fortran',

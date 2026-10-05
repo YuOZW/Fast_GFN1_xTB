@@ -215,27 +215,29 @@ endif()
 # Executables #
 ###############
 
+set(xtb_executable "fast-gfn1-xtb")
+
 add_executable(
-  ${PROJECT_NAME}-exe
+  ${xtb_executable}
   ${prog}
 )
 
 target_link_libraries(
-   ${PROJECT_NAME}-exe
+   ${xtb_executable}
    PRIVATE
    "lib-${PROJECT_NAME}-static"
 )
 
 set_target_properties(
-  ${PROJECT_NAME}-exe
+  ${xtb_executable}
   PROPERTIES
   Fortran_MODULE_DIRECTORY ${PROJECT_BINARY_DIR}/include
   RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}
-  OUTPUT_NAME "${PROJECT_NAME}"
+  OUTPUT_NAME "${xtb_executable}"
 )
 
 target_include_directories(
-   ${PROJECT_NAME}-exe 
+   ${xtb_executable}
    PRIVATE 
    ${PROJECT_SOURCE_DIR}/include
    $<BUILD_INTERFACE:${PROJECT_BINARY_DIR}/include>
@@ -280,7 +282,7 @@ if (WITH_OBJECT)
       TARGETS
       "lib-${PROJECT_NAME}-static"
       "lib-${PROJECT_NAME}-shared"
-      "${PROJECT_NAME}-exe"
+      "${xtb_executable}"
       EXPORT "${PROJECT_NAME}-targets"
       LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
       ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
@@ -291,7 +293,7 @@ else()
    install(
       TARGETS
       "lib-${PROJECT_NAME}-static"
-      "${PROJECT_NAME}-exe"
+      "${xtb_executable}"
       EXPORT "${PROJECT_NAME}-targets"
       ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
       RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"

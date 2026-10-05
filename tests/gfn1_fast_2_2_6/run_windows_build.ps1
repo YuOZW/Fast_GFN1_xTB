@@ -1,7 +1,7 @@
 param(
     [ValidateSet('Release', 'Debug')][string]$BuildType = 'Release',
     [int]$Parallel = 4,
-    [ValidatePattern('^[a-zA-Z0-9.-]+$')][string]$BuildName = 'build-gfn1-fast-2.2.6-windows-ifx',
+    [ValidatePattern('^[a-zA-Z0-9.-]+$')][string]$BuildName = 'build-gfn1-fast-current-windows-ifx',
     [string]$OneApiSetvars = 'C:\Program Files (x86)\Intel\oneAPI\setvars.bat'
 )
 
@@ -70,12 +70,12 @@ try {
     }
     try {
         Invoke-Checked 'cmake' $configureArguments *> $logPath
-        Invoke-Checked 'cmake' @('--build', $buildDir, '--target', 'xtb-exe', '--parallel', "$Parallel") *>> $logPath
+        Invoke-Checked 'cmake' @('--build', $buildDir, '--target', 'fast-gfn1-xtb', '--parallel', "$Parallel") *>> $logPath
     } catch {
         Get-Content $logPath -Tail 60
         throw
     }
-    Write-Host "PASS Windows $BuildType build: $(Join-Path $buildDir 'xtb.exe')"
+    Write-Host "PASS Windows $BuildType build: $(Join-Path $buildDir 'fast-gfn1-xtb.exe')"
     Invoke-Checked $PY @('--version')
     Invoke-Checked $PY @('-c', 'import sys; print(sys.executable)')
     Invoke-Checked $PY @((Join-Path $PSScriptRoot 'test_source_guards.py'))
@@ -93,7 +93,7 @@ try {
     } finally { Pop-Location }
 
     $smokeArguments = @((Join-Path $PSScriptRoot 'test_windows_smoke.py'),
-        '--exe', (Join-Path $buildDir 'xtb.exe'), '--output', (Join-Path $buildDir 'smoke'))
+        '--exe', (Join-Path $buildDir 'fast-gfn1-xtb.exe'), '--output', (Join-Path $buildDir 'smoke'))
     # Full runtime checking is expensive for the 350-AO gradient. Release
     # exercises the large-system parity cases; Debug checks startup and ALPB.
     if ($BuildType -eq 'Debug') { $smokeArguments += '--small-only' }

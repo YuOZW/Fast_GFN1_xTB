@@ -5,7 +5,7 @@ $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '../..')).Path
 $buildDir = Join-Path $repoRoot "build-gfn1-fast-current-windows-ifx-$($BuildType.ToLowerInvariant())"
 $PY = 'C:\Users\f3r1i\mambaforge\envs\fastxtb\python.exe'
 $setvars = 'C:\Program Files (x86)\Intel\oneAPI\setvars.bat'
-$arguments = "--exe `"$buildDir/xtb.exe`" --output `"$buildDir/hessian-cli-test`""
+$arguments = "--exe `"$buildDir/fast-gfn1-xtb.exe`" --output `"$buildDir/hessian-cli-test`""
 if ($BuildType -eq 'Debug') { $arguments += ' --small-only' }
 if ($Benchmark) { $arguments += " --reference `"$repoRoot/build-reference-xtb-6.7.1-windows-ifx-release/xtb.exe`"" }
 & cmd /d /c "call `"$setvars`" intel64 >nul && `"$PY`" `"$PSScriptRoot/test_runtime.py`" $arguments"

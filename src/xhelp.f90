@@ -97,7 +97,7 @@ subroutine help(iunit)
    implicit none
    integer, intent(in) :: iunit
    write(iunit,'(a)') &
-   "Usage: xtb [options] <geometry> [options]", &
+   "Usage: fast-gfn1-xtb [options] <geometry> [options]", &
    "",&
    "<geometry> may be provided as valid TM coordinate file (*coord in Bohr),",&
    "in xmol format (*.xyz in Ångström), sdf or mol file format, PDB format",&
@@ -341,7 +341,7 @@ end subroutine help
 
 subroutine help_legacy
    use, intrinsic :: iso_fortran_env, only : id => output_unit
-   write(id,'(''Usage: xtb <geometry> [options]'',/)')
+   write(id,'(''Usage: fast-gfn1-xtb <geometry> [options]'',/)')
 
    write(id,'(''<geometry> may be provided as'','//&
    &    'x,''valid TM coordinate file (*coord in Bohr) or'','//&

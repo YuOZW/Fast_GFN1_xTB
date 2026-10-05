@@ -367,7 +367,7 @@ subroutine IRHelp(unit)
    integer, intent(in) :: unit
 
    write(unit, '(a)') &
-   "Usage: xtb ir [options] <geometry> --dftbplus <hessian> --born <born>", &
+   "Usage: fast-gfn1-xtb ir [options] <geometry> --dftbplus <hessian> --born <born>", &
    "",&
    "<geometry> may be provided as any valid input to xtb", &
    "the [hessian] file is read and processed depending on the selected options,", &

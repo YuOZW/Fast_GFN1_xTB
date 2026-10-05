@@ -289,7 +289,7 @@ subroutine thermoHelp(unit)
    integer, intent(in) :: unit
 
    write(unit, '(a)') &
-   "Usage: xtb thermo [options] <geometry> [hessian]", &
+   "Usage: fast-gfn1-xtb thermo [options] <geometry> [hessian]", &
    "",&
    "<geometry> may be provided as any valid input to xtb", &
    "the [hessian] file is read and processed depending on the selected options,", &

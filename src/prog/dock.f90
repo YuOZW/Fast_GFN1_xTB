@@ -738,7 +738,7 @@ contains
       integer, intent(in) :: iunit
 
       write (iunit, '(a)') &
-         "Usage: xtb dock <geometry> <geometry> [-options]", &
+         "Usage: fast-gfn1-xtb dock <geometry> <geometry> [-options]", &
          "", &
          "<geometry> may be provided as any valid input to xtb", &
          "", &

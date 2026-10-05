@@ -21,6 +21,6 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Strict subspace math regression failed' }
 } finally { Pop-Location }
 $command = "call `"$setvars`" intel64 >nul && `"$PY`" `"$PSScriptRoot/test_runtime.py`" " +
-    "--exe `"$buildDir/xtb.exe`" --output `"$buildDir/reuse-regression`""
+    "--exe `"$buildDir/fast-gfn1-xtb.exe`" --output `"$buildDir/reuse-regression`""
 & cmd /d /c $command
 if ($LASTEXITCODE -ne 0) { throw 'Subspace runtime regression failed' }

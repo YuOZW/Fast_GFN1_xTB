@@ -78,5 +78,5 @@ For production use the default threshold and set the runtime explicitly:
 Remove-Item Env:XTB_GFN1_FAST_HESSIAN_OMP_MIN_NAO -ErrorAction SilentlyContinue
 $env:OMP_NUM_THREADS = '8'
 $env:MKL_NUM_THREADS = '1'
-.\build-gfn1-fast-current-windows-ifx-release\xtb.exe input.xyz --gfn 1 --hess --norestart
+.\build-gfn1-fast-current-windows-ifx-release\fast-gfn1-xtb.exe input.xyz --gfn 1 --hess --norestart
 ```

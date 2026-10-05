@@ -217,7 +217,7 @@ subroutine topologyHelp(unit)
    integer, intent(in) :: unit
 
    write(unit, '(a)') &
-   "Usage: xtb topology [options] <geometry>", &
+   "Usage: fast-gfn1-xtb topology [options] <geometry>", &
    "",&
    "<geometry> may be provided as any valid input to xtb", &
    "",&

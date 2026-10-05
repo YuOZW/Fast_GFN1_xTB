@@ -46,5 +46,5 @@ GFN1-fast 2.2.6 native-GFN1 full Debug build completed with:
   - backtraces/frame pointers
   - no unpinned dependency fetches
 Run tests/gfn1_fast_2_2_6/run_regression.sh and then the normal Energy/Gradient
-molecule regression set with the Debug xtb executable.
+molecule regression set with the Debug fast-gfn1-xtb executable.
 MSG

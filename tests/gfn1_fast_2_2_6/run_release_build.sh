@@ -21,4 +21,4 @@ cmake -S "$ROOT" -B "$BUILD" -G Ninja \
   -DWITH_JSON=OFF
 cmake --build "$BUILD" --parallel "${CMAKE_BUILD_PARALLEL_LEVEL:-$(nproc)}"
 
-echo "GFN1-fast 2.2.6 Release executable: $BUILD/xtb"
+echo "fast-gfn1-xtb Release executable: $BUILD/fast-gfn1-xtb"
