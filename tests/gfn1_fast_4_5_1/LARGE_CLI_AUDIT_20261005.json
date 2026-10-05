@@ -1,0 +1,69 @@
+{
+  "exe_sha256": {
+    "analytic": "bcb61b376e0612704901e51f44319db458b1656b4e077685ec29e4d40080048e"
+  },
+  "exe": {
+    "analytic": "C:\\GitHub_repository\\Fast_GFN1_xTB\\_reference\\gfn1-fast-4.5.1-source-snapshot\\binaries\\release\\xtb.exe"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "molecule": "taxol",
+  "atoms": 113,
+  "nao": 350,
+  "n3": 339,
+  "step_bohr": 1e-05,
+  "scc_accuracy": 1e-07,
+  "threads": 1,
+  "profile_for_timings": false,
+  "warmups": 1,
+  "models": [
+    {
+      "model": "gbsa",
+      "profile_audit": {
+        "name": "gbsa_profile_audit",
+        "model": "gbsa",
+        "process_wall_seconds": 36.29997169999115,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 837627904,
+          "peak_pagefile_usage_bytes": 857718784,
+          "maximum_sampled_private_bytes": 857575424,
+          "samples": 720,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-audit-4.5.1\\gbsa_profile_audit\\run.log",
+        "analytic_used": true,
+        "reason": "analytic solvated GFN1",
+        "estimated_workspace_bytes": 880428680,
+        "energy_Eh": -195.956493169214,
+        "gradient_norm_Eh_bohr": 0.13183221411
+      },
+      "trials": []
+    },
+    {
+      "model": "alpb",
+      "profile_audit": {
+        "name": "alpb_profile_audit",
+        "model": "alpb",
+        "process_wall_seconds": 34.00030300000799,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 837058560,
+          "peak_pagefile_usage_bytes": 857808896,
+          "maximum_sampled_private_bytes": 857808896,
+          "samples": 675,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-audit-4.5.1\\alpb_profile_audit\\run.log",
+        "analytic_used": true,
+        "reason": "analytic solvated GFN1",
+        "estimated_workspace_bytes": 880428680,
+        "energy_Eh": -195.958435147873,
+        "gradient_norm_Eh_bohr": 0.136167697281
+      },
+      "trials": []
+    }
+  ],
+  "stock_scope": "Original numerical formula; only Hessian OpenMP directives removed for Windows ifx; one thread"
+}

@@ -1,0 +1,50 @@
+PASS --hess water_serial: analytic=True, 0.0399s
+PASS --hess water_threads2: analytic=True, 0.0342s
+PASS Hessian parity water actual workers 2: 0.000e+00 Eh/bohr^2
+PASS --hess water_threads4: analytic=True, 0.0341s
+PASS Hessian parity water actual workers 4: 0.000e+00 Eh/bohr^2
+PASS --hess water_zero_serial: analytic=True, 0.0350s
+PASS --hess water_zero_threads2: analytic=True, 0.0349s
+PASS Hessian parity water_zero actual workers 2: 0.000e+00 Eh/bohr^2
+PASS --hess water_zero_threads4: analytic=True, 0.0348s
+PASS Hessian parity water_zero actual workers 4: 0.000e+00 Eh/bohr^2
+PASS --hess water_open_serial: analytic=True, 0.0341s
+PASS --hess water_open_threads2: analytic=True, 0.0372s
+PASS Hessian parity water_open actual workers 2: 0.000e+00 Eh/bohr^2
+PASS --hess water_open_threads4: analytic=True, 0.0348s
+PASS Hessian parity water_open actual workers 4: 0.000e+00 Eh/bohr^2
+PASS --hess water_hot_serial: analytic=True, 0.0340s
+PASS --hess water_hot_threads2: analytic=True, 0.0350s
+PASS Hessian parity water_hot actual workers 2: 0.000e+00 Eh/bohr^2
+PASS --hess water_hot_threads4: analytic=True, 0.0381s
+PASS Hessian parity water_hot actual workers 4: 0.000e+00 Eh/bohr^2
+PASS --hess disilane_serial: analytic=True, 0.0438s
+PASS --hess disilane_threads2: analytic=True, 0.0450s
+PASS Hessian parity disilane actual workers 2: 0.000e+00 Eh/bohr^2
+PASS --hess disilane_threads4: analytic=True, 0.0466s
+PASS Hessian parity disilane actual workers 4: 0.000e+00 Eh/bohr^2
+PASS --hess benzene_serial: analytic=True, 0.0515s
+PASS --hess benzene_threads2: analytic=True, 0.0478s
+PASS Hessian parity benzene actual workers 2: 0.000e+00 Eh/bohr^2
+PASS --hess benzene_threads4: analytic=True, 0.0522s
+PASS Hessian parity benzene actual workers 4: 0.000e+00 Eh/bohr^2
+PASS --hess disilane_extra_serial: analytic=True, 0.0704s
+PASS --hess eight_workers: analytic=True, 0.0438s
+PASS Hessian parity eight_workers: 0.000e+00 Eh/bohr^2
+PASS --hess worker_limit: analytic=True, 0.0455s
+PASS Hessian parity worker_limit: 0.000e+00 Eh/bohr^2
+PASS --hess runtime_team_limit: analytic=True, 0.0434s
+PASS Hessian parity runtime_team_limit: 0.000e+00 Eh/bohr^2
+PASS --hess parallel_memory_fallback_numerical: analytic=False, 0.0727s
+PASS --hess parallel_memory_fallback: analytic=False, 0.0743s
+PASS Hessian parity parallel_memory_fallback: 0.000e+00 Eh/bohr^2
+PASS --hess parallel_surface_fallback_numerical: analytic=False, 0.0625s
+PASS --hess parallel_surface_fallback: analytic=False, 0.0444s
+PASS Hessian parity parallel_surface_fallback: 0.000e+00 Eh/bohr^2
+PASS --hess parallel_screening_fallback_numerical: analytic=False, 0.0463s
+PASS --hess parallel_screening_fallback: analytic=False, 0.0517s
+PASS Hessian parity parallel_screening_fallback: 0.000e+00 Eh/bohr^2
+PASS --hess parallel_constraint_fallback_numerical: analytic=False, 0.0424s
+PASS --hess parallel_constraint_fallback: analytic=False, 0.0488s
+PASS Hessian parity parallel_constraint_fallback: 0.000e+00 Eh/bohr^2
+PASS actual analytic coordinate/susceptibility workers and serial switch

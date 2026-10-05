@@ -1,0 +1,15 @@
+PASS extracted dependency hashes: 124
+PASS Windows Debug build: C:\GitHub_repository\Fast_GFN1_xTB\dist\verification-4.6.0\xtb-gfn1-fast-4.6.0\build-gfn1-fast-current-windows-ifx-debug\xtb.exe
+Python 3.13.15
+C:\Users\f3r1i\mambaforge\envs\fastxtb\python.exe
+PASS source guards 2.2.6
+PASS GFN1 overlap-only gradient guards 2.2.6
+PASS thermal-aware partial guards 2.2.6
+PASS partial autotune/SYEVR guards 2.2.6
+PASS full eigensolver phase/probe guards 2.2.6
+PASS full eigensolver backend autotune guards 2.2.6
+PASS compact density / SYEVD production guards 2.2.6
+PASS compact weighted-SYRK and fused contraction math 2.2.6
+ PASS thermal partial dispatcher policy 2.2.6
+PASS water_gas: NAO=8, E=-5.764209595203, |G|=0.094423990378
+PASS water_alpb: NAO=8, E=-5.787247944321, |G|=0.075935279788

@@ -1,0 +1,63 @@
+ halogen=          17  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  4.000000000000000E-004  H error=
+  7.911039348607041E-008
+ halogen=          17  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  2.000000000000000E-004  H error=
+  1.978909128230733E-008
+ PASS molecular halogen=          17  temperature=   300.000000000000      
+  charge=  0.000000000000000E+000  XB energy=  0.000000000000000E+000  terms=
+           0  Gradient error=  4.407444461479448E-015
+ halogen=          35  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  4.000000000000000E-004  H error=
+  7.912198110582302E-008
+ halogen=          35  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  2.000000000000000E-004  H error=
+  1.978011809899982E-008
+ PASS molecular halogen=          35  temperature=   300.000000000000      
+  charge=  0.000000000000000E+000  XB energy= -1.626763143685147E-003  terms=
+           1  Gradient error=  5.898059818321144E-016
+ halogen=          53  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  4.000000000000000E-004  H error=
+  7.914202945769055E-008
+ halogen=          53  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  2.000000000000000E-004  H error=
+  1.977921312845687E-008
+ PASS molecular halogen=          53  temperature=   300.000000000000      
+  charge=  0.000000000000000E+000  XB energy= -1.302336872154334E-003  terms=
+           1  Gradient error=  8.344019919448442E-016
+ halogen=          85  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  4.000000000000000E-004  H error=
+  7.919180594617714E-008
+ halogen=          85  temperature=   300.000000000000       charge=
+  0.000000000000000E+000  step=  2.000000000000000E-004  H error=
+  1.979752609071461E-008
+ PASS molecular halogen=          85  temperature=   300.000000000000      
+  charge=  0.000000000000000E+000  XB energy= -2.806821592094239E-004  terms=
+           1  Gradient error=  9.154135782729611E-015
+ halogen=          35  temperature=  0.000000000000000E+000  charge=
+  0.000000000000000E+000  step=  4.000000000000000E-004  H error=
+  7.912198110582302E-008
+ halogen=          35  temperature=  0.000000000000000E+000  charge=
+  0.000000000000000E+000  step=  2.000000000000000E-004  H error=
+  1.978011809899982E-008
+ PASS molecular halogen=          35  temperature=  0.000000000000000E+000 
+  charge=  0.000000000000000E+000  XB energy= -1.626763143685147E-003  terms=
+           1  Gradient error=  5.898059818321144E-016
+ halogen=          35  temperature=   30000.0000000000       charge=
+  0.000000000000000E+000  step=  4.000000000000000E-004  H error=
+  7.294900680743233E-008
+ halogen=          35  temperature=   30000.0000000000       charge=
+  0.000000000000000E+000  step=  2.000000000000000E-004  H error=
+  1.823883813423244E-008
+ PASS molecular halogen=          35  temperature=   30000.0000000000      
+  charge=  0.000000000000000E+000  XB energy= -1.626763143685147E-003  terms=
+           1  Gradient error=  1.382227665658320E-014
+ halogen=          53  temperature=   3000.00000000000       charge=
+   1.00000000000000       step=  4.000000000000000E-004  H error=
+  7.949364602688469E-008
+ halogen=          53  temperature=   3000.00000000000       charge=
+   1.00000000000000       step=  2.000000000000000E-004  H error=
+  1.987240144663005E-008
+ PASS molecular halogen=          53  temperature=   3000.00000000000      
+  charge=   1.00000000000000       XB energy= -1.302336872154334E-003  terms=
+           1  Gradient error=  3.348016308635238E-015

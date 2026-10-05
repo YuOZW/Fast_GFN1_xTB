@@ -1,0 +1,37 @@
+ large model/E/G/analytic CPU/Gradient error:           1
+  -195.956493168050       0.131832218853165        24.4375000000000     
+  1.950696548735920E-015
+ large model/completed columns/H difference:           1          50
+  6.936934415779916E-009
+ large model/completed columns/H difference:           1         100
+  9.129502813454149E-009
+ large model/completed columns/H difference:           1         150
+  9.417478408213498E-009
+ large model/completed columns/H difference:           1         200
+  9.417478408213498E-009
+ large model/completed columns/H difference:           1         250
+  9.417478408213498E-009
+ large model/completed columns/H difference:           1         300
+  9.417478408213498E-009
+ large full SCC model/columns/step/H error/E-G error/FD CPU:           1
+         339  1.000000000000000E-005  9.417478408213498E-009
+  5.211435070181895E-008   152.250000000000     
+ large model/E/G/analytic CPU/Gradient error:           2
+  -195.958435141957       0.136167696458973        27.6406250000000     
+  2.032228552106830E-015
+ large model/completed columns/H difference:           2          50
+  5.888900461237592E-009
+ large model/completed columns/H difference:           2         100
+  6.043753129902907E-009
+ large model/completed columns/H difference:           2         150
+  7.483872174751660E-009
+ large model/completed columns/H difference:           2         200
+  7.483872174751660E-009
+ large model/completed columns/H difference:           2         250
+  1.460055921650993E-008
+ large model/completed columns/H difference:           2         300
+  1.595389011394346E-008
+ large full SCC model/columns/step/H error/E-G error/FD CPU:           2
+         339  1.000000000000000E-005  1.595389011394346E-008
+  5.519169038589386E-008   152.250000000000     
+ PASS two large solvated SCC Hessians, all 339 raw columns

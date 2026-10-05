@@ -1,0 +1,1214 @@
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS closed-shell kernel compatibility
+ PASS independent generalized eigensolve
+ PASS independent generalized eigensolve
+ spin=           0  T=  0.000000000000000E+000  step=  2.000000000000000E-004 
+  dP error=  1.179400771489370E-009  dW error=  2.559471840198058E-012
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent generalized eigensolve
+ spin=           0  T=  0.000000000000000E+000  step=  1.000000000000000E-004 
+  dP error=  2.946159149974648E-010  dW error=  6.399024647836538E-013
+ PASS generalized eigensolve finite difference
+ PASS second-order finite-difference convergence
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS coupled shell-response factorization
+ PASS coupled P/W/shell-charge response
+ PASS coupled charge conservation
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ coupled spin=           0  T=  0.000000000000000E+000  dP error=
+  2.776231744494595E-010  dW error=  5.739313646731248E-013
+ PASS self-consistent P finite difference
+ PASS self-consistent W finite difference
+ PASS self-consistent charge finite difference
+ PASS self-consistent free-energy gradient
+ PASS electronic Hessian from gradient differentiation
+ PASS second coordinate response reuses factorization
+ electronic Hessian mixed symmetry error=  5.421010862427522E-020
+ PASS unsymmetrized electronic Hessian reciprocity
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ PASS mixed electronic Hessian finite difference
+ PASS independent shell susceptibility
+ PASS independent shell susceptibility
+ PASS independent shell susceptibility
+ PASS critical-kernel construction
+ PASS singular coupled SCC response rejected
+ PASS failed coupled cache invalidated
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           0  T=   300.000000000000       step=  2.000000000000000E-004 
+  dP error=  6.824066034472054E-010  dW error=  5.696034572830189E-012
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           0  T=   300.000000000000       step=  1.000000000000000E-004 
+  dP error=  1.704203167474105E-010  dW error=  1.419387448287762E-012
+ PASS generalized eigensolve finite difference
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           0  T=   3000.00000000000       step=  2.000000000000000E-004 
+  dP error=  4.300563377634958E-012  dW error=  1.475174691602243E-013
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           0  T=   3000.00000000000       step=  1.000000000000000E-004 
+  dP error=  1.688171824554274E-011  dW error=  6.782860948253977E-014
+ PASS generalized eigensolve finite difference
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS coupled shell-response factorization
+ PASS coupled P/W/shell-charge response
+ PASS coupled charge conservation
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ coupled spin=           0  T=   3000.00000000000       dP error=
+  5.681869905127535E-012  dW error=  7.232848217922361E-014
+ PASS self-consistent P finite difference
+ PASS self-consistent W finite difference
+ PASS self-consistent charge finite difference
+ PASS self-consistent free-energy gradient
+ PASS electronic Hessian from gradient differentiation
+ PASS second coordinate response reuses factorization
+ electronic Hessian mixed symmetry error=  2.168404344971009E-019
+ PASS unsymmetrized electronic Hessian reciprocity
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ PASS mixed electronic Hessian finite difference
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           0  T=   30000.0000000000       step=  2.000000000000000E-004 
+  dP error=  7.247443964408795E-012  dW error=  5.152313038020440E-014
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           0  T=   30000.0000000000       step=  1.000000000000000E-004 
+  dP error=  1.168833606290942E-011  dW error=  4.005490058557604E-014
+ PASS generalized eigensolve finite difference
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent generalized eigensolve
+ spin=           1  T=  0.000000000000000E+000  step=  2.000000000000000E-004 
+  dP error=  1.137654148664069E-008  dW error=  2.783108194858580E-011
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent generalized eigensolve
+ spin=           1  T=  0.000000000000000E+000  step=  1.000000000000000E-004 
+  dP error=  2.843699109522646E-009  dW error=  6.952446105802645E-012
+ PASS generalized eigensolve finite difference
+ PASS second-order finite-difference convergence
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS coupled shell-response factorization
+ PASS coupled P/W/shell-charge response
+ PASS coupled charge conservation
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ coupled spin=           1  T=  0.000000000000000E+000  dP error=
+  3.450681962391400E-009  dW error=  8.227142491573636E-012
+ PASS self-consistent P finite difference
+ PASS self-consistent W finite difference
+ PASS self-consistent charge finite difference
+ PASS self-consistent free-energy gradient
+ PASS electronic Hessian from gradient differentiation
+ PASS second coordinate response reuses factorization
+ electronic Hessian mixed symmetry error=  4.404571325722362E-020
+ PASS unsymmetrized electronic Hessian reciprocity
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS self-consistent generalized eigensolve
+ PASS independent nonlinear SCC converged
+ PASS mixed electronic Hessian finite difference
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           1  T=   300.000000000000       step=  2.000000000000000E-004 
+  dP error=  1.093496210247125E-009  dW error=  3.518354932483675E-012
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           1  T=   300.000000000000       step=  1.000000000000000E-004 
+  dP error=  2.731812553946611E-010  dW error=  8.745439268598165E-013
+ PASS generalized eigensolve finite difference
+ PASS second-order finite-difference convergence
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           1  T=   3000.00000000000       step=  2.000000000000000E-004 
+  dP error=  4.598945356482087E-012  dW error=  1.253350179718227E-013
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           1  T=   3000.00000000000       step=  1.000000000000000E-004 
+  dP error=  7.652058674201268E-012  dW error=  4.990918702624247E-014
+ PASS generalized eigensolve finite difference
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS coupled shell-response factorization
+ PASS coupled P/W/shell-charge response
+ PASS coupled charge conservation
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ coupled spin=           1  T=   3000.00000000000       dP error=
+  7.544928223857106E-012  dW error=  5.086188902773264E-014
+ PASS self-consistent P finite difference
+ PASS self-consistent W finite difference
+ PASS self-consistent charge finite difference
+ PASS self-consistent free-energy gradient
+ PASS electronic Hessian from gradient differentiation
+ PASS second coordinate response reuses factorization
+ electronic Hessian mixed symmetry error=  2.710505431213761E-019
+ PASS unsymmetrized electronic Hessian reciprocity
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS self-consistent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent nonlinear SCC converged
+ PASS mixed electronic Hessian finite difference
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS response cache initialized
+ PASS P/W response evaluated
+ PASS cached overlap metric preserves P/W response
+ PASS cached canonical chemical-potential response
+ PASS canonical AO electron response
+ PASS d(HP=SW) identity
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           1  T=   30000.0000000000       step=  2.000000000000000E-004 
+  dP error=  1.118636433483644E-012  dW error=  5.096259785702939E-014
+ PASS generalized eigensolve finite difference
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ spin=           1  T=   30000.0000000000       step=  1.000000000000000E-004 
+  dP error=  6.501178068107905E-012  dW error=  2.626943259274872E-014
+ PASS generalized eigensolve finite difference
+ PASS shell Mulliken response finite difference
+ PASS charge response conservation
+ PASS finite-temperature exact degeneracy accepted
+ PASS degenerate gauge invariance
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS degenerate response finite difference
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS near-degenerate finite-temperature response
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS independent generalized eigensolve
+ PASS independent canonical occupations
+ PASS independent canonical occupations
+ PASS near-degenerate finite difference
+ PASS zero-temperature occupied/virtual degeneracy rejected
+ PASS failed reinitialization invalidates cache
+ PASS missing reference rejected
+ PASS zero-temperature fractional filling rejected
+ PASS inconsistent occupations rejected
+ PASS valid reference restored
+ PASS nonfinite perturbation rejected
+ PASS nonsymmetric perturbation rejected
+ PASS shape mismatch rejected
+ PASS cached metric shape mismatch rejected
+ PASS nonfinite cached metric rejected
+ PASS Coulomb response kernel uses lower triangle
+ third-order mode=           1  kernel derivative error=  7.348288644237755E-014
+ PASS actual addShift finite difference
+ PASS Coulomb response kernel uses lower triangle
+ third-order mode=           2  kernel derivative error=  8.176792576364278E-014
+ PASS actual addShift finite difference
+ PASS Coulomb response kernel uses lower triangle
+ third-order mode=           3  kernel derivative error=  6.408068520258325E-014
+ PASS actual addShift finite difference
+ PASS missing Coulomb matrix rejected
+ PASS invalid shell mapping rejected
+ PASS nonfinite authoritative Coulomb entry rejected

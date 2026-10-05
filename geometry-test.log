@@ -1,0 +1,58 @@
+ geometry=           1  shells=           0           0  Hessian error=
+  3.492345995725898E-011
+ geometry=           1  shells=           0           1  Hessian error=
+  4.551722887491394E-011
+ geometry=           1  shells=           0           2  Hessian error=
+  5.098476639024927E-011
+ geometry=           1  shells=           1           0  Hessian error=
+  3.584615937413105E-011
+ geometry=           1  shells=           1           1  Hessian error=
+  6.627770554601398E-011
+ geometry=           1  shells=           1           2  Hessian error=
+  5.205328990207297E-011
+ geometry=           1  shells=           2           0  Hessian error=
+  5.844846828750860E-011
+ geometry=           1  shells=           2           1  Hessian error=
+  6.314865239882144E-011
+ geometry=           1  shells=           2           2  Hessian error=
+  8.339604039894061E-011
+ geometry=           2  shells=           0           0  Hessian error=
+  1.399710347627092E-010
+ geometry=           2  shells=           0           1  Hessian error=
+  1.299014448131607E-017
+ geometry=           2  shells=           0           2  Hessian error=
+  1.400799956300956E-010
+ geometry=           2  shells=           1           0  Hessian error=
+  2.204497590160562E-017
+ geometry=           2  shells=           1           1  Hessian error=
+  1.899227441981566E-010
+ geometry=           2  shells=           1           2  Hessian error=
+  1.600565101446524E-017
+ geometry=           2  shells=           2           0  Hessian error=
+  1.386413761572669E-010
+ geometry=           2  shells=           2           1  Hessian error=
+  3.734651903375226E-017
+ geometry=           2  shells=           2           2  Hessian error=
+  2.009902799748886E-010
+ geometry=           3  shells=           0           0  Hessian error=
+  7.217195049057101E-014
+ geometry=           3  shells=           0           1  Hessian error=
+  1.239504375874501E-013
+ geometry=           3  shells=           0           2  Hessian error=
+  2.322134455209901E-013
+ geometry=           3  shells=           1           0  Hessian error=
+  1.261299007945804E-013
+ geometry=           3  shells=           1           1  Hessian error=
+  1.905860994196040E-013
+ geometry=           3  shells=           1           2  Hessian error=
+  2.743550829228947E-013
+ geometry=           3  shells=           2           0  Hessian error=
+  2.406822571104916E-013
+ geometry=           3  shells=           2           1  Hessian error=
+  3.483628316369725E-013
+ geometry=           3  shells=           2           2  Hessian error=
+  4.972385350687780E-013
+ CN type=           1  Hessian error=  1.820974815380794E-009
+ CN type=           2  Hessian error=  1.860565479461229E-009
+ CN type=           3  Hessian error=  1.589314457817181E-009
+ CN type=           4  Hessian error=  1.123762860544275E-009

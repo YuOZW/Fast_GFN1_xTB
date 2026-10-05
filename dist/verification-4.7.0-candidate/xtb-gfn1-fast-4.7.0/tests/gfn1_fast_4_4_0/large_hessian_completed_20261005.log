@@ -1,0 +1,21 @@
+PASS --hess taxol_-1_stock: analytic=None, 254.8799s
+PASS --hess taxol_-1_analytic: analytic=None, 29.8699s
+PASS Hessian parity taxol trial -1: 2.991e-07 Eh/bohr^2
+PASS --hess taxol_0_stock: analytic=None, 249.0892s
+PASS --hess taxol_0_analytic: analytic=None, 30.0708s
+PASS Hessian parity taxol trial 0: 2.991e-07 Eh/bohr^2
+PASS --hess taxol_1_stock: analytic=None, 250.2386s
+PASS --hess taxol_1_analytic: analytic=None, 31.1309s
+PASS Hessian parity taxol trial 1: 2.991e-07 Eh/bohr^2
+PASS --hess taxol_2_analytic: analytic=None, 29.7632s
+PASS --hess taxol_2_stock: analytic=None, 250.6061s
+PASS Hessian parity taxol trial 2: 2.991e-07 Eh/bohr^2
+PASS --hess taxol_3_analytic: analytic=None, 30.8039s
+PASS --hess taxol_3_stock: analytic=None, 253.3931s
+PASS Hessian parity taxol trial 3: 2.991e-07 Eh/bohr^2
+PASS --hess taxol_4_analytic: analytic=None, 29.8760s
+PASS --hess taxol_4_stock: analytic=None, 248.7179s
+PASS Hessian parity taxol trial 4: 2.991e-07 Eh/bohr^2
+PASS --hess taxol_profile: analytic=True, 29.7771s
+BENCH taxol Hessian {'stock': 250.23860180000338, 'analytic': 30.07081029999972} 8.321644787869442
+PASS large-molecule full Hessian parity and timing

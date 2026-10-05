@@ -1,0 +1,72 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+  "exe_sha256": "aacf3e40afe5dd587923a6c1f10555abd803ec2560147048d797ded05fc6662b",
+  "cases": [
+    {
+      "case": "gbsa_neutral",
+      "max_abs_H_difference_Eh_bohr2": 1.880000000120674e-08
+    },
+    {
+      "case": "gbsa_open",
+      "max_abs_H_difference_Eh_bohr2": 1.9399999995339812e-08
+    },
+    {
+      "case": "gbsa_highT",
+      "max_abs_H_difference_Eh_bohr2": 1.6299999960889267e-08
+    },
+    {
+      "case": "alpb_neutral",
+      "max_abs_H_difference_Eh_bohr2": 1.8900000009480777e-08
+    },
+    {
+      "case": "alpb_open",
+      "max_abs_H_difference_Eh_bohr2": 1.9399999995339812e-08
+    },
+    {
+      "case": "alpb_highT",
+      "max_abs_H_difference_Eh_bohr2": 1.620000000812638e-08
+    },
+    {
+      "case": "disilane_gbsa",
+      "max_abs_H_difference_Eh_bohr2": 5.899999988567828e-09
+    },
+    {
+      "case": "disilane_alpb",
+      "max_abs_H_difference_Eh_bohr2": 5.999999996841865e-09
+    },
+    {
+      "case": "smooth_halogen_gbsa",
+      "max_abs_H_difference_Eh_bohr2": 6.699999999248973e-09
+    },
+    {
+      "case": "smooth_halogen_alpb",
+      "max_abs_H_difference_Eh_bohr2": 6.600000101997239e-09
+    },
+    {
+      "case": "screened_surface",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "solvent response or branch rejected"
+    },
+    {
+      "case": "conservative_disilane_window",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "solvent response or branch rejected"
+    },
+    {
+      "case": "solvent_memory",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "memory budget"
+    },
+    {
+      "case": "solvent_legacy",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "legacy Gradient derivative policy"
+    },
+    {
+      "case": "solvent_salt",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "solvation model"
+    }
+  ],
+  "benchmarks": []
+}

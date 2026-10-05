@@ -1,0 +1,47 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+  "exe_sha256": "aacf3e40afe5dd587923a6c1f10555abd803ec2560147048d797ded05fc6662b",
+  "cases": [
+    {
+      "case": "water",
+      "max_abs_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "hcl",
+      "max_abs_H_difference_Eh_bohr2": 1.1859999998753423e-07
+    },
+    {
+      "case": "water_zero",
+      "max_abs_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "water_highT",
+      "max_abs_H_difference_Eh_bohr2": 9.420000002258178e-08
+    },
+    {
+      "case": "water_open",
+      "max_abs_H_difference_Eh_bohr2": 1.2979999997053682e-07
+    },
+    {
+      "case": "water_defaults",
+      "step_bohr": 0.005,
+      "max_abs_H_difference_Eh_bohr2": 1.2477600000004863e-05
+    },
+    {
+      "case": "salt_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "solvation model"
+    },
+    {
+      "case": "disable_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "disabled"
+    },
+    {
+      "case": "constraint_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "constraints"
+    }
+  ],
+  "benchmarks": []
+}

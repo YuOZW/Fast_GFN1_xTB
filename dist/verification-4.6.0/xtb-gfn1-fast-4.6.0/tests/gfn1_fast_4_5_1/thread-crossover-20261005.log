@@ -1,0 +1,601 @@
+PASS --hess water_gas_-1_analytic_1: analytic=None, 0.0372s
+PASS --hess water_gas_-1_numerical_1: analytic=None, 0.0404s
+PASS --hess water_gas_-1_numerical_4: analytic=None, 0.0441s
+PASS --hess water_gas_-1_analytic_8: analytic=None, 0.0386s
+PASS --hess water_gas_-1_analytic_4: analytic=None, 0.0382s
+PASS --hess water_gas_-1_numerical_8: analytic=None, 0.0455s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_0_numerical_4: analytic=None, 0.0580s
+PASS --hess water_gas_0_numerical_8: analytic=None, 0.0476s
+PASS --hess water_gas_0_analytic_1: analytic=None, 0.0348s
+PASS --hess water_gas_0_analytic_8: analytic=None, 0.0477s
+PASS --hess water_gas_0_analytic_4: analytic=None, 0.0366s
+PASS --hess water_gas_0_numerical_1: analytic=None, 0.0405s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_1_numerical_1: analytic=None, 0.0426s
+PASS --hess water_gas_1_numerical_4: analytic=None, 0.0486s
+PASS --hess water_gas_1_analytic_1: analytic=None, 0.0342s
+PASS --hess water_gas_1_analytic_4: analytic=None, 0.0343s
+PASS --hess water_gas_1_numerical_8: analytic=None, 0.0494s
+PASS --hess water_gas_1_analytic_8: analytic=None, 0.0347s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_2_numerical_4: analytic=None, 0.0453s
+PASS --hess water_gas_2_numerical_8: analytic=None, 0.0472s
+PASS --hess water_gas_2_numerical_1: analytic=None, 0.0420s
+PASS --hess water_gas_2_analytic_4: analytic=None, 0.0350s
+PASS --hess water_gas_2_analytic_1: analytic=None, 0.0345s
+PASS --hess water_gas_2_analytic_8: analytic=None, 0.0883s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_3_numerical_1: analytic=None, 0.0413s
+PASS --hess water_gas_3_analytic_4: analytic=None, 0.0355s
+PASS --hess water_gas_3_analytic_8: analytic=None, 0.0414s
+PASS --hess water_gas_3_analytic_1: analytic=None, 0.0324s
+PASS --hess water_gas_3_numerical_8: analytic=None, 0.0473s
+PASS --hess water_gas_3_numerical_4: analytic=None, 0.0438s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_4_numerical_4: analytic=None, 0.0438s
+PASS --hess water_gas_4_analytic_8: analytic=None, 0.0385s
+PASS --hess water_gas_4_numerical_1: analytic=None, 0.0394s
+PASS --hess water_gas_4_analytic_4: analytic=None, 0.0351s
+PASS --hess water_gas_4_numerical_8: analytic=None, 0.0464s
+PASS --hess water_gas_4_analytic_1: analytic=None, 0.0336s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_5_numerical_1: analytic=None, 0.0395s
+PASS --hess water_gas_5_analytic_1: analytic=None, 0.0317s
+PASS --hess water_gas_5_analytic_4: analytic=None, 0.0332s
+PASS --hess water_gas_5_numerical_8: analytic=None, 0.0471s
+PASS --hess water_gas_5_analytic_8: analytic=None, 0.0351s
+PASS --hess water_gas_5_numerical_4: analytic=None, 0.0440s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_6_analytic_4: analytic=None, 0.0341s
+PASS --hess water_gas_6_analytic_1: analytic=None, 0.0322s
+PASS --hess water_gas_6_numerical_8: analytic=None, 0.0457s
+PASS --hess water_gas_6_analytic_8: analytic=None, 0.0343s
+PASS --hess water_gas_6_numerical_1: analytic=None, 0.0384s
+PASS --hess water_gas_6_numerical_4: analytic=None, 0.0429s
+PASS Hessian parity water_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas analytic_1: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_4: 1.259e-07 Eh/bohr^2
+PASS Hessian parity water_gas analytic_8: 1.259e-07 Eh/bohr^2
+PASS --hess water_gas_audit_1: analytic=True, 0.0339s
+PASS --hess water_gas_audit_4: analytic=True, 0.1174s
+PASS --hess water_gas_audit_8: analytic=True, 0.0371s
+BENCH Hessian thread crossover water_gas {'numerical_1': 0.04047730000456795, 'numerical_4': 0.04397139999491628, 'numerical_8': 0.04715749999741092, 'analytic_1': 0.033600599999772385, 'analytic_4': 0.03495000000111759, 'analytic_8': 0.03852060000644997}
+PASS --hess water_gas_defaults_-1_numerical_1: analytic=None, 0.0380s
+PASS --hess water_gas_defaults_-1_analytic_8: analytic=None, 0.0346s
+PASS --hess water_gas_defaults_-1_numerical_8: analytic=None, 0.0475s
+PASS --hess water_gas_defaults_-1_analytic_1: analytic=None, 0.0323s
+PASS --hess water_gas_defaults_-1_numerical_4: analytic=None, 0.0409s
+PASS --hess water_gas_defaults_-1_analytic_4: analytic=None, 0.0339s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_0_analytic_4: analytic=None, 0.0356s
+PASS --hess water_gas_defaults_0_analytic_1: analytic=None, 0.0337s
+PASS --hess water_gas_defaults_0_numerical_1: analytic=None, 0.0386s
+PASS --hess water_gas_defaults_0_analytic_8: analytic=None, 0.0350s
+PASS --hess water_gas_defaults_0_numerical_4: analytic=None, 0.0434s
+PASS --hess water_gas_defaults_0_numerical_8: analytic=None, 0.0447s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_1_numerical_4: analytic=None, 0.0421s
+PASS --hess water_gas_defaults_1_numerical_8: analytic=None, 0.0447s
+PASS --hess water_gas_defaults_1_analytic_4: analytic=None, 0.0347s
+PASS --hess water_gas_defaults_1_analytic_1: analytic=None, 0.0347s
+PASS --hess water_gas_defaults_1_numerical_1: analytic=None, 0.0376s
+PASS --hess water_gas_defaults_1_analytic_8: analytic=None, 0.0340s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_2_numerical_4: analytic=None, 0.0422s
+PASS --hess water_gas_defaults_2_analytic_4: analytic=None, 0.0335s
+PASS --hess water_gas_defaults_2_numerical_8: analytic=None, 0.0453s
+PASS --hess water_gas_defaults_2_numerical_1: analytic=None, 0.0385s
+PASS --hess water_gas_defaults_2_analytic_1: analytic=None, 0.0347s
+PASS --hess water_gas_defaults_2_analytic_8: analytic=None, 0.0357s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_3_numerical_4: analytic=None, 0.0459s
+PASS --hess water_gas_defaults_3_numerical_8: analytic=None, 0.0499s
+PASS --hess water_gas_defaults_3_analytic_8: analytic=None, 0.0374s
+PASS --hess water_gas_defaults_3_numerical_1: analytic=None, 0.0372s
+PASS --hess water_gas_defaults_3_analytic_1: analytic=None, 0.0333s
+PASS --hess water_gas_defaults_3_analytic_4: analytic=None, 0.0331s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_4_numerical_1: analytic=None, 0.0385s
+PASS --hess water_gas_defaults_4_numerical_4: analytic=None, 0.0415s
+PASS --hess water_gas_defaults_4_analytic_1: analytic=None, 0.0326s
+PASS --hess water_gas_defaults_4_analytic_8: analytic=None, 0.0344s
+PASS --hess water_gas_defaults_4_numerical_8: analytic=None, 0.0456s
+PASS --hess water_gas_defaults_4_analytic_4: analytic=None, 0.0342s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_5_analytic_1: analytic=None, 0.0336s
+PASS --hess water_gas_defaults_5_analytic_4: analytic=None, 0.0350s
+PASS --hess water_gas_defaults_5_numerical_1: analytic=None, 0.0381s
+PASS --hess water_gas_defaults_5_numerical_4: analytic=None, 0.0408s
+PASS --hess water_gas_defaults_5_analytic_8: analytic=None, 0.0354s
+PASS --hess water_gas_defaults_5_numerical_8: analytic=None, 0.0438s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_6_analytic_1: analytic=None, 0.0327s
+PASS --hess water_gas_defaults_6_numerical_4: analytic=None, 0.0423s
+PASS --hess water_gas_defaults_6_numerical_1: analytic=None, 0.0390s
+PASS --hess water_gas_defaults_6_analytic_8: analytic=None, 0.0349s
+PASS --hess water_gas_defaults_6_analytic_4: analytic=None, 0.0341s
+PASS --hess water_gas_defaults_6_numerical_8: analytic=None, 0.0447s
+PASS Hessian parity water_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_1: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_4: 1.248e-05 Eh/bohr^2
+PASS Hessian parity water_gas_defaults analytic_8: 1.248e-05 Eh/bohr^2
+PASS --hess water_gas_defaults_audit_1: analytic=True, 0.0353s
+PASS --hess water_gas_defaults_audit_4: analytic=True, 0.0349s
+PASS --hess water_gas_defaults_audit_8: analytic=True, 0.0366s
+BENCH Hessian thread crossover water_gas_defaults {'numerical_1': 0.03847089999180753, 'numerical_4': 0.042205900012049824, 'numerical_8': 0.04474369999661576, 'analytic_1': 0.03359679999994114, 'analytic_4': 0.03417970000009518, 'analytic_8': 0.03498449998733122}
+PASS --hess disilane_gas_-1_analytic_4: analytic=None, 0.0963s
+PASS --hess disilane_gas_-1_analytic_8: analytic=None, 0.0455s
+PASS --hess disilane_gas_-1_analytic_1: analytic=None, 0.0442s
+PASS --hess disilane_gas_-1_numerical_1: analytic=None, 0.1496s
+PASS --hess disilane_gas_-1_numerical_8: analytic=None, 0.0576s
+PASS --hess disilane_gas_-1_numerical_4: analytic=None, 0.0738s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_0_numerical_1: analytic=None, 0.1500s
+PASS --hess disilane_gas_0_analytic_1: analytic=None, 0.0437s
+PASS --hess disilane_gas_0_analytic_4: analytic=None, 0.0438s
+PASS --hess disilane_gas_0_numerical_8: analytic=None, 0.0588s
+PASS --hess disilane_gas_0_analytic_8: analytic=None, 0.0448s
+PASS --hess disilane_gas_0_numerical_4: analytic=None, 0.0694s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_1_numerical_4: analytic=None, 0.0733s
+PASS --hess disilane_gas_1_numerical_1: analytic=None, 0.1514s
+PASS --hess disilane_gas_1_analytic_1: analytic=None, 0.0906s
+PASS --hess disilane_gas_1_numerical_8: analytic=None, 0.0624s
+PASS --hess disilane_gas_1_analytic_4: analytic=None, 0.0444s
+PASS --hess disilane_gas_1_analytic_8: analytic=None, 0.0456s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_2_numerical_8: analytic=None, 0.0630s
+PASS --hess disilane_gas_2_numerical_4: analytic=None, 0.0698s
+PASS --hess disilane_gas_2_analytic_8: analytic=None, 0.0441s
+PASS --hess disilane_gas_2_analytic_1: analytic=None, 0.0456s
+PASS --hess disilane_gas_2_numerical_1: analytic=None, 0.1504s
+PASS --hess disilane_gas_2_analytic_4: analytic=None, 0.0441s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_3_analytic_4: analytic=None, 0.0467s
+PASS --hess disilane_gas_3_analytic_1: analytic=None, 0.0439s
+PASS --hess disilane_gas_3_numerical_1: analytic=None, 0.1527s
+PASS --hess disilane_gas_3_numerical_4: analytic=None, 0.0713s
+PASS --hess disilane_gas_3_analytic_8: analytic=None, 0.0443s
+PASS --hess disilane_gas_3_numerical_8: analytic=None, 0.0602s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_4_analytic_4: analytic=None, 0.0497s
+PASS --hess disilane_gas_4_numerical_4: analytic=None, 0.0705s
+PASS --hess disilane_gas_4_numerical_8: analytic=None, 0.0562s
+PASS --hess disilane_gas_4_numerical_1: analytic=None, 0.1503s
+PASS --hess disilane_gas_4_analytic_1: analytic=None, 0.0442s
+PASS --hess disilane_gas_4_analytic_8: analytic=None, 0.0438s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_5_analytic_1: analytic=None, 0.0444s
+PASS --hess disilane_gas_5_analytic_4: analytic=None, 0.0434s
+PASS --hess disilane_gas_5_analytic_8: analytic=None, 0.0441s
+PASS --hess disilane_gas_5_numerical_1: analytic=None, 0.1503s
+PASS --hess disilane_gas_5_numerical_4: analytic=None, 0.0720s
+PASS --hess disilane_gas_5_numerical_8: analytic=None, 0.0585s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_6_numerical_1: analytic=None, 0.1486s
+PASS --hess disilane_gas_6_numerical_8: analytic=None, 0.0603s
+PASS --hess disilane_gas_6_analytic_8: analytic=None, 0.1291s
+PASS --hess disilane_gas_6_analytic_4: analytic=None, 0.0448s
+PASS --hess disilane_gas_6_analytic_1: analytic=None, 0.0439s
+PASS --hess disilane_gas_6_numerical_4: analytic=None, 0.0780s
+PASS Hessian parity disilane_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_1: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_4: 1.487e-07 Eh/bohr^2
+PASS Hessian parity disilane_gas analytic_8: 1.487e-07 Eh/bohr^2
+PASS --hess disilane_gas_audit_1: analytic=True, 0.0446s
+PASS --hess disilane_gas_audit_4: analytic=True, 0.0450s
+PASS --hess disilane_gas_audit_8: analytic=True, 0.0452s
+BENCH Hessian thread crossover disilane_gas {'numerical_1': 0.15031989999988582, 'numerical_4': 0.07128170000214595, 'numerical_8': 0.06016229999659117, 'analytic_1': 0.044166599996970035, 'analytic_4': 0.044430299996747635, 'analytic_8': 0.04432960000121966}
+PASS --hess disilane_gas_defaults_-1_analytic_4: analytic=None, 0.0431s
+PASS --hess disilane_gas_defaults_-1_numerical_4: analytic=None, 0.0615s
+PASS --hess disilane_gas_defaults_-1_analytic_1: analytic=None, 0.0435s
+PASS --hess disilane_gas_defaults_-1_numerical_1: analytic=None, 0.1181s
+PASS --hess disilane_gas_defaults_-1_analytic_8: analytic=None, 0.0448s
+PASS --hess disilane_gas_defaults_-1_numerical_8: analytic=None, 0.0553s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_0_numerical_8: analytic=None, 0.0525s
+PASS --hess disilane_gas_defaults_0_analytic_1: analytic=None, 0.0442s
+PASS --hess disilane_gas_defaults_0_analytic_4: analytic=None, 0.0433s
+PASS --hess disilane_gas_defaults_0_numerical_1: analytic=None, 0.1183s
+PASS --hess disilane_gas_defaults_0_numerical_4: analytic=None, 0.1549s
+PASS --hess disilane_gas_defaults_0_analytic_8: analytic=None, 0.0439s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_1_analytic_4: analytic=None, 0.0441s
+PASS --hess disilane_gas_defaults_1_numerical_4: analytic=None, 0.0614s
+PASS --hess disilane_gas_defaults_1_numerical_1: analytic=None, 0.1186s
+PASS --hess disilane_gas_defaults_1_analytic_8: analytic=None, 0.0449s
+PASS --hess disilane_gas_defaults_1_analytic_1: analytic=None, 0.0450s
+PASS --hess disilane_gas_defaults_1_numerical_8: analytic=None, 0.0567s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_2_numerical_4: analytic=None, 0.0613s
+PASS --hess disilane_gas_defaults_2_analytic_4: analytic=None, 0.0428s
+PASS --hess disilane_gas_defaults_2_numerical_1: analytic=None, 0.1154s
+PASS --hess disilane_gas_defaults_2_analytic_8: analytic=None, 0.0450s
+PASS --hess disilane_gas_defaults_2_numerical_8: analytic=None, 0.0555s
+PASS --hess disilane_gas_defaults_2_analytic_1: analytic=None, 0.0443s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_3_numerical_8: analytic=None, 0.0547s
+PASS --hess disilane_gas_defaults_3_numerical_4: analytic=None, 0.0739s
+PASS --hess disilane_gas_defaults_3_analytic_8: analytic=None, 0.0456s
+PASS --hess disilane_gas_defaults_3_analytic_1: analytic=None, 0.0994s
+PASS --hess disilane_gas_defaults_3_analytic_4: analytic=None, 0.0444s
+PASS --hess disilane_gas_defaults_3_numerical_1: analytic=None, 0.1171s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_4_numerical_4: analytic=None, 0.0647s
+PASS --hess disilane_gas_defaults_4_numerical_8: analytic=None, 0.0540s
+PASS --hess disilane_gas_defaults_4_analytic_4: analytic=None, 0.0430s
+PASS --hess disilane_gas_defaults_4_analytic_8: analytic=None, 0.0437s
+PASS --hess disilane_gas_defaults_4_numerical_1: analytic=None, 0.1166s
+PASS --hess disilane_gas_defaults_4_analytic_1: analytic=None, 0.0446s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_5_numerical_1: analytic=None, 0.1165s
+PASS --hess disilane_gas_defaults_5_analytic_8: analytic=None, 0.0457s
+PASS --hess disilane_gas_defaults_5_numerical_4: analytic=None, 0.0602s
+PASS --hess disilane_gas_defaults_5_analytic_4: analytic=None, 0.0421s
+PASS --hess disilane_gas_defaults_5_analytic_1: analytic=None, 0.0430s
+PASS --hess disilane_gas_defaults_5_numerical_8: analytic=None, 0.0526s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_6_numerical_4: analytic=None, 0.0652s
+PASS --hess disilane_gas_defaults_6_analytic_4: analytic=None, 0.0868s
+PASS --hess disilane_gas_defaults_6_numerical_8: analytic=None, 0.0560s
+PASS --hess disilane_gas_defaults_6_analytic_1: analytic=None, 0.0436s
+PASS --hess disilane_gas_defaults_6_numerical_1: analytic=None, 0.1165s
+PASS --hess disilane_gas_defaults_6_analytic_8: analytic=None, 0.0450s
+PASS Hessian parity disilane_gas_defaults numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_1: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_4: 2.751e-05 Eh/bohr^2
+PASS Hessian parity disilane_gas_defaults analytic_8: 2.751e-05 Eh/bohr^2
+PASS --hess disilane_gas_defaults_audit_1: analytic=True, 0.0446s
+PASS --hess disilane_gas_defaults_audit_4: analytic=True, 0.0438s
+PASS --hess disilane_gas_defaults_audit_8: analytic=True, 0.0441s
+BENCH Hessian thread crossover disilane_gas_defaults {'numerical_1': 0.11657269998977426, 'numerical_4': 0.0647393999970518, 'numerical_8': 0.05471350000880193, 'analytic_1': 0.04432790000282694, 'analytic_4': 0.04331890000321437, 'analytic_8': 0.04497970000375062}
+PASS --hess benzene_gas_-1_numerical_1: analytic=None, 0.2904s
+PASS --hess benzene_gas_-1_numerical_8: analytic=None, 0.0848s
+PASS --hess benzene_gas_-1_numerical_4: analytic=None, 0.1070s
+PASS --hess benzene_gas_-1_analytic_1: analytic=None, 0.0504s
+PASS --hess benzene_gas_-1_analytic_4: analytic=None, 0.0504s
+PASS --hess benzene_gas_-1_analytic_8: analytic=None, 0.0563s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_0_numerical_1: analytic=None, 0.3101s
+PASS --hess benzene_gas_0_analytic_8: analytic=None, 0.0500s
+PASS --hess benzene_gas_0_numerical_8: analytic=None, 0.0873s
+PASS --hess benzene_gas_0_numerical_4: analytic=None, 0.1068s
+PASS --hess benzene_gas_0_analytic_1: analytic=None, 0.0499s
+PASS --hess benzene_gas_0_analytic_4: analytic=None, 0.0491s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_1_numerical_4: analytic=None, 0.1108s
+PASS --hess benzene_gas_1_analytic_8: analytic=None, 0.0499s
+PASS --hess benzene_gas_1_numerical_1: analytic=None, 0.2965s
+PASS --hess benzene_gas_1_numerical_8: analytic=None, 0.0942s
+PASS --hess benzene_gas_1_analytic_4: analytic=None, 0.0506s
+PASS --hess benzene_gas_1_analytic_1: analytic=None, 0.0516s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_2_analytic_8: analytic=None, 0.0507s
+PASS --hess benzene_gas_2_analytic_4: analytic=None, 0.0505s
+PASS --hess benzene_gas_2_analytic_1: analytic=None, 0.0498s
+PASS --hess benzene_gas_2_numerical_8: analytic=None, 0.0829s
+PASS --hess benzene_gas_2_numerical_1: analytic=None, 0.2989s
+PASS --hess benzene_gas_2_numerical_4: analytic=None, 0.1096s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_3_numerical_1: analytic=None, 0.3003s
+PASS --hess benzene_gas_3_numerical_8: analytic=None, 0.0825s
+PASS --hess benzene_gas_3_analytic_8: analytic=None, 0.0492s
+PASS --hess benzene_gas_3_analytic_1: analytic=None, 0.0492s
+PASS --hess benzene_gas_3_analytic_4: analytic=None, 0.0502s
+PASS --hess benzene_gas_3_numerical_4: analytic=None, 0.1066s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_4_analytic_4: analytic=None, 0.0517s
+PASS --hess benzene_gas_4_numerical_8: analytic=None, 0.0801s
+PASS --hess benzene_gas_4_numerical_4: analytic=None, 0.1130s
+PASS --hess benzene_gas_4_numerical_1: analytic=None, 0.3003s
+PASS --hess benzene_gas_4_analytic_1: analytic=None, 0.0517s
+PASS --hess benzene_gas_4_analytic_8: analytic=None, 0.0506s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_5_analytic_8: analytic=None, 0.0699s
+PASS --hess benzene_gas_5_analytic_1: analytic=None, 0.0537s
+PASS --hess benzene_gas_5_numerical_1: analytic=None, 0.2960s
+PASS --hess benzene_gas_5_numerical_4: analytic=None, 0.1084s
+PASS --hess benzene_gas_5_analytic_4: analytic=None, 0.0515s
+PASS --hess benzene_gas_5_numerical_8: analytic=None, 0.0873s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_6_analytic_1: analytic=None, 0.0523s
+PASS --hess benzene_gas_6_analytic_4: analytic=None, 0.0504s
+PASS --hess benzene_gas_6_numerical_8: analytic=None, 0.0813s
+PASS --hess benzene_gas_6_numerical_1: analytic=None, 0.2989s
+PASS --hess benzene_gas_6_numerical_4: analytic=None, 0.1081s
+PASS --hess benzene_gas_6_analytic_8: analytic=None, 0.0502s
+PASS Hessian parity benzene_gas numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_1: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_4: 1.670e-07 Eh/bohr^2
+PASS Hessian parity benzene_gas analytic_8: 1.670e-07 Eh/bohr^2
+PASS --hess benzene_gas_audit_1: analytic=True, 0.0521s
+PASS --hess benzene_gas_audit_4: analytic=True, 0.0494s
+PASS --hess benzene_gas_audit_8: analytic=True, 0.0501s
+BENCH Hessian thread crossover benzene_gas {'numerical_1': 0.298908400000073, 'numerical_4': 0.10835650000080932, 'numerical_8': 0.08294979999482166, 'analytic_1': 0.05162059998838231, 'analytic_4': 0.05052760000398848, 'analytic_8': 0.05022770000505261}
+PASS --hess disilane_alpb_-1_analytic_8: analytic=None, 0.0472s
+PASS --hess disilane_alpb_-1_numerical_4: analytic=None, 0.0712s
+PASS --hess disilane_alpb_-1_numerical_8: analytic=None, 0.0604s
+PASS --hess disilane_alpb_-1_numerical_1: analytic=None, 0.1520s
+PASS --hess disilane_alpb_-1_analytic_4: analytic=None, 0.0456s
+PASS --hess disilane_alpb_-1_analytic_1: analytic=None, 0.0457s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_0_analytic_8: analytic=None, 0.0450s
+PASS --hess disilane_alpb_0_analytic_1: analytic=None, 0.0467s
+PASS --hess disilane_alpb_0_numerical_1: analytic=None, 0.1535s
+PASS --hess disilane_alpb_0_numerical_8: analytic=None, 0.0618s
+PASS --hess disilane_alpb_0_analytic_4: analytic=None, 0.0579s
+PASS --hess disilane_alpb_0_numerical_4: analytic=None, 0.0766s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_1_numerical_8: analytic=None, 0.0616s
+PASS --hess disilane_alpb_1_numerical_4: analytic=None, 0.0706s
+PASS --hess disilane_alpb_1_numerical_1: analytic=None, 0.1560s
+PASS --hess disilane_alpb_1_analytic_8: analytic=None, 0.0482s
+PASS --hess disilane_alpb_1_analytic_4: analytic=None, 0.0708s
+PASS --hess disilane_alpb_1_analytic_1: analytic=None, 0.0558s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_2_analytic_4: analytic=None, 0.0456s
+PASS --hess disilane_alpb_2_numerical_8: analytic=None, 0.0592s
+PASS --hess disilane_alpb_2_analytic_8: analytic=None, 0.0480s
+PASS --hess disilane_alpb_2_analytic_1: analytic=None, 0.0501s
+PASS --hess disilane_alpb_2_numerical_4: analytic=None, 0.0978s
+PASS --hess disilane_alpb_2_numerical_1: analytic=None, 0.1772s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_3_numerical_8: analytic=None, 0.0668s
+PASS --hess disilane_alpb_3_numerical_4: analytic=None, 0.0722s
+PASS --hess disilane_alpb_3_analytic_4: analytic=None, 0.0450s
+PASS --hess disilane_alpb_3_analytic_1: analytic=None, 0.0471s
+PASS --hess disilane_alpb_3_analytic_8: analytic=None, 0.0468s
+PASS --hess disilane_alpb_3_numerical_1: analytic=None, 0.1539s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_4_analytic_8: analytic=None, 0.0466s
+PASS --hess disilane_alpb_4_analytic_4: analytic=None, 0.0465s
+PASS --hess disilane_alpb_4_analytic_1: analytic=None, 0.0479s
+PASS --hess disilane_alpb_4_numerical_8: analytic=None, 0.0586s
+PASS --hess disilane_alpb_4_numerical_4: analytic=None, 0.0705s
+PASS --hess disilane_alpb_4_numerical_1: analytic=None, 0.1517s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_5_analytic_4: analytic=None, 0.0461s
+PASS --hess disilane_alpb_5_numerical_1: analytic=None, 0.1517s
+PASS --hess disilane_alpb_5_numerical_8: analytic=None, 0.1264s
+PASS --hess disilane_alpb_5_analytic_8: analytic=None, 0.0456s
+PASS --hess disilane_alpb_5_numerical_4: analytic=None, 0.0738s
+PASS --hess disilane_alpb_5_analytic_1: analytic=None, 0.0472s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_6_numerical_8: analytic=None, 0.0602s
+PASS --hess disilane_alpb_6_numerical_4: analytic=None, 0.0701s
+PASS --hess disilane_alpb_6_analytic_1: analytic=None, 0.0441s
+PASS --hess disilane_alpb_6_analytic_4: analytic=None, 0.0467s
+PASS --hess disilane_alpb_6_numerical_1: analytic=None, 0.1553s
+PASS --hess disilane_alpb_6_analytic_8: analytic=None, 0.0473s
+PASS Hessian parity disilane_alpb numerical_1: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_4: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb numerical_8: 0.000e+00 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_1: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_4: 6.000e-09 Eh/bohr^2
+PASS Hessian parity disilane_alpb analytic_8: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_audit_1: analytic=True, 0.0458s
+PASS --hess disilane_alpb_audit_4: analytic=True, 0.0459s
+PASS --hess disilane_alpb_audit_8: analytic=True, 0.0462s
+BENCH Hessian thread crossover disilane_alpb {'numerical_1': 0.1538927999936277, 'numerical_4': 0.07222550000005867, 'numerical_8': 0.061615600003278814, 'analytic_1': 0.04719470000418369, 'analytic_4': 0.046469699998851866, 'analytic_8': 0.046837100002449006}
+PASS Hessian crossover measurements

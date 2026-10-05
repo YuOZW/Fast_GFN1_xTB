@@ -1,0 +1,96 @@
+{
+  "executable": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+  "cases": [
+    {
+      "name": "water_gas",
+      "energy_Eh": -5.764209595203,
+      "gradient_norm_Eh_bohr": 0.094423990378,
+      "nao": 8,
+      "compact_iterations": 0,
+      "wall_seconds": 0.041260300000431016,
+      "iterations": 6,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\water_gas\\run.log"
+    },
+    {
+      "name": "water_alpb",
+      "energy_Eh": -5.787247944321,
+      "gradient_norm_Eh_bohr": 0.075935279788,
+      "nao": 8,
+      "compact_iterations": 0,
+      "wall_seconds": 0.03183520000311546,
+      "iterations": 6,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\water_alpb\\run.log"
+    },
+    {
+      "name": "taxol_fast",
+      "energy_Eh": -195.911950900123,
+      "gradient_norm_Eh_bohr": 0.149903893916,
+      "nao": 350,
+      "compact_iterations": 10,
+      "wall_seconds": 0.21742770000128075,
+      "iterations": 11,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_fast\\run.log"
+    },
+    {
+      "name": "taxol_legacy_density",
+      "energy_Eh": -195.911950900123,
+      "gradient_norm_Eh_bohr": 0.149903893916,
+      "nao": 350,
+      "compact_iterations": 0,
+      "wall_seconds": 0.21993279999878723,
+      "iterations": 11,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_legacy_density\\run.log"
+    },
+    {
+      "name": "taxol_generic_gradient",
+      "energy_Eh": -195.911950900123,
+      "gradient_norm_Eh_bohr": 0.149903893916,
+      "nao": 350,
+      "compact_iterations": 10,
+      "wall_seconds": 0.2743183999991743,
+      "iterations": 11,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_generic_gradient\\run.log"
+    },
+    {
+      "name": "taxol_alpb_fast",
+      "energy_Eh": -195.958435141829,
+      "gradient_norm_Eh_bohr": 0.136167479182,
+      "nao": 350,
+      "compact_iterations": 10,
+      "wall_seconds": 0.22046740000951104,
+      "iterations": 11,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_alpb_fast\\run.log"
+    },
+    {
+      "name": "taxol_alpb_legacy_density",
+      "energy_Eh": -195.958435141829,
+      "gradient_norm_Eh_bohr": 0.136167479182,
+      "nao": 350,
+      "compact_iterations": 0,
+      "wall_seconds": 0.2635269000020344,
+      "iterations": 11,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_alpb_legacy_density\\run.log"
+    }
+  ],
+  "comparisons": [
+    {
+      "fast": "taxol_fast",
+      "reference": "taxol_legacy_density",
+      "abs_delta_energy_Eh": 0.0,
+      "max_abs_delta_gradient_Eh_bohr": 2.005340338229189e-15
+    },
+    {
+      "fast": "taxol_fast",
+      "reference": "taxol_generic_gradient",
+      "abs_delta_energy_Eh": 0.0,
+      "max_abs_delta_gradient_Eh_bohr": 9.992007221626409e-16
+    },
+    {
+      "fast": "taxol_alpb_fast",
+      "reference": "taxol_alpb_legacy_density",
+      "abs_delta_energy_Eh": 0.0,
+      "max_abs_delta_gradient_Eh_bohr": 1.9984014443252818e-15
+    }
+  ],
+  "threads": 1
+}

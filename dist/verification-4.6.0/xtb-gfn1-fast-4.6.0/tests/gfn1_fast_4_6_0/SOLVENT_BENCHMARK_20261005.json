@@ -1,0 +1,843 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+  "exe_sha256": "00bf2c21ed9a40f2516c31231a4998cc4a4952b5b737d6d562ac4c7afa344eb9",
+  "cases": [
+    {
+      "case": "gbsa_neutral",
+      "max_abs_H_difference_Eh_bohr2": 1.880000000120674e-08
+    },
+    {
+      "case": "gbsa_open",
+      "max_abs_H_difference_Eh_bohr2": 1.9399999995339812e-08
+    },
+    {
+      "case": "gbsa_highT",
+      "max_abs_H_difference_Eh_bohr2": 1.6299999960889267e-08
+    },
+    {
+      "case": "alpb_neutral",
+      "max_abs_H_difference_Eh_bohr2": 1.8900000009480777e-08
+    },
+    {
+      "case": "alpb_open",
+      "max_abs_H_difference_Eh_bohr2": 1.9399999995339812e-08
+    },
+    {
+      "case": "alpb_highT",
+      "max_abs_H_difference_Eh_bohr2": 1.620000000812638e-08
+    },
+    {
+      "case": "disilane_gbsa",
+      "max_abs_H_difference_Eh_bohr2": 5.899999988567828e-09
+    },
+    {
+      "case": "disilane_alpb",
+      "max_abs_H_difference_Eh_bohr2": 5.999999996841865e-09
+    },
+    {
+      "case": "smooth_halogen_gbsa",
+      "max_abs_H_difference_Eh_bohr2": 6.699999999248973e-09
+    },
+    {
+      "case": "smooth_halogen_alpb",
+      "max_abs_H_difference_Eh_bohr2": 6.600000101997239e-09
+    },
+    {
+      "case": "screened_surface",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "solvent response or branch rejected"
+    },
+    {
+      "case": "conservative_disilane_window",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "solvent response or branch rejected"
+    },
+    {
+      "case": "solvent_memory",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "memory budget"
+    },
+    {
+      "case": "solvent_legacy",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "legacy Gradient derivative policy"
+    },
+    {
+      "case": "solvent_salt",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "reason": "solvation model"
+    }
+  ],
+  "benchmarks": [
+    {
+      "case": "disilane_gbsa",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "step_bohr": 0.0001,
+      "samples_seconds": {
+        "stock": [
+          0.19995369999378454,
+          0.1986682999995537,
+          0.20280640000419226,
+          0.19987780001247302,
+          0.2004128000116907,
+          0.20123040000908077,
+          0.20072980000986718
+        ],
+        "fast_numerical": [
+          0.15234599998802878,
+          0.15246040000056382,
+          0.17614490000414662,
+          0.16463600000133738,
+          0.15325860001030378,
+          0.15255179999803659,
+          0.15251010000065435
+        ],
+        "fast_analytic": [
+          0.0462344999978086,
+          0.04549440000846516,
+          0.046278599998913705,
+          0.045779899999615736,
+          0.04688049999822397,
+          0.05004709999775514,
+          0.047376600006828085
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.2004128000116907,
+        "fast_numerical": 0.15255179999803659,
+        "fast_analytic": 0.046278599998913705
+      },
+      "trials": [
+        {
+          "order": [
+            "fast_analytic",
+            "stock",
+            "fast_numerical"
+          ],
+          "observations": {
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.819113662846,
+              "gradient_norm_Eh_bohr": 0.355220230915
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 4.330571798118244,
+      "speedup_over_fast_numerical": 3.2963788879010476
+    },
+    {
+      "case": "disilane_alpb",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "step_bohr": 0.0001,
+      "samples_seconds": {
+        "stock": [
+          0.1996210999932373,
+          0.1966214999993099,
+          0.19716589999734424,
+          0.19769719999749213,
+          0.20005090000631753,
+          0.20612819999223575,
+          0.1985493999964092
+        ],
+        "fast_numerical": [
+          0.15104989999963436,
+          0.14998810000543017,
+          0.1520240000099875,
+          0.15195340001082513,
+          0.15425259999756236,
+          0.24032680000527762,
+          0.1598989000049187
+        ],
+        "fast_analytic": [
+          0.045700000002398156,
+          0.04778799999621697,
+          0.04644249999546446,
+          0.04556510000838898,
+          0.04698889999417588,
+          0.058728400006657466,
+          0.06537499999103602
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.1985493999964092,
+        "fast_numerical": 0.1520240000099875,
+        "fast_analytic": 0.04698889999417588
+      },
+      "trials": [
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_analytic",
+            "fast_numerical",
+            "stock"
+          ],
+          "observations": {
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_analytic",
+            "fast_numerical"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_analytic",
+            "fast_numerical"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_analytic",
+            "fast_numerical"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "fast_analytic": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            },
+            "stock": {
+              "energy_Eh": -6.823523599798,
+              "gradient_norm_Eh_bohr": 0.352262618232
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 4.225453245788234,
+      "speedup_over_fast_numerical": 3.2353172776726074
+    },
+    {
+      "case": "smooth_halogen_gbsa",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "step_bohr": 0.0001,
+      "samples_seconds": {
+        "stock": [
+          0.17238479999650735,
+          0.16575010000087786,
+          0.16908320000220556,
+          0.17922059999546036,
+          0.165782299998682,
+          0.16946820000885054,
+          0.17116430000169203
+        ],
+        "fast_numerical": [
+          0.12771050000446849,
+          0.1279050000011921,
+          0.13288639999518637,
+          0.1344933999935165,
+          0.13080539999646135,
+          0.12706410000100732,
+          0.12926129999686964
+        ],
+        "fast_analytic": [
+          0.043359199989936315,
+          0.044212599997990765,
+          0.04976080000051297,
+          0.043438399996375665,
+          0.047144000011030585,
+          0.04474280000431463,
+          0.07799469999736175
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.16946820000885054,
+        "fast_numerical": 0.12926129999686964,
+        "fast_analytic": 0.04474280000431463
+      },
+      "trials": [
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "stock",
+            "fast_analytic"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "stock",
+            "fast_analytic"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_analytic",
+            "fast_numerical"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_analytic",
+            "stock",
+            "fast_numerical"
+          ],
+          "observations": {
+            "fast_analytic": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "stock": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.34811879101,
+              "gradient_norm_Eh_bohr": 0.311377567577
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 3.787608285411472,
+      "speedup_over_fast_numerical": 2.8889854900543717
+    },
+    {
+      "case": "smooth_halogen_alpb",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "step_bohr": 0.0001,
+      "samples_seconds": {
+        "stock": [
+          0.16996909999579657,
+          0.1700835000083316,
+          0.17182489999686368,
+          0.17112620000261813,
+          0.16887100000167266,
+          0.1682470999949146,
+          0.17593189999752212
+        ],
+        "fast_numerical": [
+          0.12899579999793787,
+          0.16169130000344012,
+          0.12789340000017546,
+          0.1304765000095358,
+          0.13278400000126567,
+          0.12815500001306646,
+          0.12991229999170173
+        ],
+        "fast_analytic": [
+          0.04421770000772085,
+          0.04699230000551324,
+          0.04291499999817461,
+          0.04347059999417979,
+          0.043329599997377954,
+          0.043500500003574416,
+          0.04297670000232756
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.1700835000083316,
+        "fast_numerical": 0.12991229999170173,
+        "fast_analytic": 0.04347059999417979
+      },
+      "trials": [
+        {
+          "order": [
+            "fast_numerical",
+            "stock",
+            "fast_analytic"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "stock",
+            "fast_analytic"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_analytic",
+            "stock",
+            "fast_numerical"
+          ],
+          "observations": {
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_analytic",
+            "fast_numerical",
+            "stock"
+          ],
+          "observations": {
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "fast_analytic",
+            "stock"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "fast_numerical",
+            "fast_analytic"
+          ],
+          "observations": {
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        },
+        {
+          "order": [
+            "fast_numerical",
+            "stock",
+            "fast_analytic"
+          ],
+          "observations": {
+            "fast_numerical": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "stock": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            },
+            "fast_analytic": {
+              "energy_Eh": -13.351699475786,
+              "gradient_norm_Eh_bohr": 0.304715372516
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 3.9126099025802223,
+      "speedup_over_fast_numerical": 2.988509475578793
+    }
+  ],
+  "stock_sha256": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a",
+  "stock_hessian_compatibility": "Stock numerical arithmetic; Hessian OpenMP directives suppressed for Windows ifx descriptor crash; one thread only"
+}

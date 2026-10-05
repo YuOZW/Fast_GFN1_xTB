@@ -1,0 +1,28 @@
+{
+  "executable": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+  "cases": [
+    {
+      "name": "water_gas",
+      "energy_Eh": -5.764209595203,
+      "gradient_norm_Eh_bohr": 0.094423990378,
+      "nao": 8,
+      "compact_iterations": 0,
+      "wall_seconds": 0.04704400000628084,
+      "iterations": 6,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\smoke\\water_gas\\run.log"
+    },
+    {
+      "name": "water_alpb",
+      "energy_Eh": -5.787247944321,
+      "gradient_norm_Eh_bohr": 0.075935279788,
+      "nao": 8,
+      "compact_iterations": 0,
+      "wall_seconds": 0.04436709999572486,
+      "iterations": 6,
+      "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\smoke\\water_alpb\\run.log"
+    }
+  ],
+  "comparisons": [],
+  "threads": 1,
+  "scope": "water startup and ALPB"
+}

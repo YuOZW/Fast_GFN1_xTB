@@ -1,0 +1,32 @@
+{
+  "stage": "4.3.0 large-system preliminary verification",
+  "molecule": "taxol",
+  "nat": 113,
+  "nao": 350,
+  "n3": 339,
+  "scc_accuracy": 1e-07,
+  "step_bohr": 0.0005,
+  "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07,
+  "observations": [
+    {
+      "energy_Eh": -195.911950900294,
+      "gradient_norm_Eh_bohr": 0.149904645402
+    },
+    {
+      "energy_Eh": -195.911950900295,
+      "gradient_norm_Eh_bohr": 0.149904645402
+    }
+  ],
+  "single_process_seconds": {
+    "stock_profile_off": 250.9413127000007,
+    "analytic_profile_on": 31.432069199996477
+  },
+  "estimated_workspace_bytes": 872726600,
+  "benchmark_status": "Single runs only; repeated profile-off benchmark not yet measured",
+  "sha256": {
+    "build-gfn1-fast-current-windows-ifx-release\\xtb.exe": "74fb95ccbe318cbef1d0a83fdbfdbf8ef2c11d6ef12bac74f5186bf8f5be41e1",
+    "build-reference-xtb-6.7.1-windows-ifx-release\\xtb.exe": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a",
+    "build-gfn1-fast-current-windows-ifx-release\\large-hessian-test\\taxol_stock_probe\\hessian": "4220ea82e64f81f7ce7b76da295275538b9332f3f51065c25a56d94a7ad37e07",
+    "build-gfn1-fast-current-windows-ifx-release\\large-hessian-test\\taxol_analytic_probe\\hessian": "648751a20144663ccf99521f208c6af35c70033a41a73764190d43eca3726802"
+  }
+}

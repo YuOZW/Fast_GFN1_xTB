@@ -1,0 +1,990 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+  "exe_sha256": "dd0f95b2e58758bad5be1e9a0987b66c039b27b7822af7086647febff21c74d5",
+  "cases": [
+    {
+      "case": "nodal_hessian",
+      "max_abs_H_difference_Eh_bohr2": 1.1759999996030501e-07
+    },
+    {
+      "case": "legacy_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "generic_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "nodal_gas_energy_fd",
+      "accuracy": 0.0001,
+      "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+      "max_abs_G_difference_Eh_bohr": 1.0759949528593715e-08
+    },
+    {
+      "case": "nodal_alpb_energy_fd",
+      "accuracy": 0.0001,
+      "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+      "max_abs_G_difference_Eh_bohr": 9.546317264463866e-09
+    },
+    {
+      "case": "nodal_gbsa_energy_fd",
+      "accuracy": 0.0001,
+      "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .67 .62\n",
+      "max_abs_G_difference_Eh_bohr": 9.262179169466922e-09
+    }
+  ],
+  "benchmarks": [
+    {
+      "case": "disilane",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "samples_seconds": {
+        "stock": [
+          0.036165399993478786,
+          0.03531939999811584,
+          0.03640590000577504,
+          0.09743999999773223,
+          0.03557549999823095,
+          0.03589359999750741,
+          0.038304299996525515
+        ],
+        "legacy_fast": [
+          0.0333911000052467,
+          0.0341478000045754,
+          0.03434860000561457,
+          0.03669120000267867,
+          0.038649300004180986,
+          0.034964700003911275,
+          0.03860849999909988
+        ],
+        "direct_fast": [
+          0.03426900000340538,
+          0.03587179999885848,
+          0.03551010000228416,
+          0.03459840000141412,
+          0.0354386999970302,
+          0.034892799994850066,
+          0.03823749999719439
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.036165399993478786,
+        "legacy_fast": 0.034964700003911275,
+        "direct_fast": 0.0354386999970302
+      },
+      "trials": [
+        {
+          "order": [
+            "direct_fast",
+            "stock",
+            "legacy_fast"
+          ],
+          "results": {
+            "direct_fast": {
+              "name": "bench_disilane_0_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03426900000340538,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_0_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_disilane_0_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.036165399993478786,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_0_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_disilane_0_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.0333911000052467,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_0_legacy_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "legacy_fast",
+            "direct_fast",
+            "stock"
+          ],
+          "results": {
+            "legacy_fast": {
+              "name": "bench_disilane_1_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.0341478000045754,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_1_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_disilane_1_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03587179999885848,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_1_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_disilane_1_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03531939999811584,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_1_stock\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "legacy_fast",
+            "direct_fast",
+            "stock"
+          ],
+          "results": {
+            "legacy_fast": {
+              "name": "bench_disilane_2_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03434860000561457,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_2_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_disilane_2_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03551010000228416,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_2_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_disilane_2_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03640590000577504,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_2_stock\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_disilane_3_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.09743999999773223,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_3_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_disilane_3_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03669120000267867,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_3_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_disilane_3_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03459840000141412,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_3_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_disilane_4_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03557549999823095,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_4_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_disilane_4_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.038649300004180986,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_4_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_disilane_4_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.0354386999970302,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_4_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_disilane_5_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03589359999750741,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_5_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_disilane_5_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.034964700003911275,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_5_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_disilane_5_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.034892799994850066,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_5_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_disilane_6_stock",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.038304299996525515,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_6_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_disilane_6_legacy_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03860849999909988,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_6_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_disilane_6_direct_fast",
+              "energy_Eh": -6.824037648189,
+              "gradient_norm_Eh_bohr": 0.354456442651,
+              "nao": 30,
+              "compact_iterations": null,
+              "wall_seconds": 0.03823749999719439,
+              "iterations": 9,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_disilane_6_direct_fast\\run.log"
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 1.0205058310973452,
+      "speedup_over_legacy_fast": 0.986624791734498
+    },
+    {
+      "case": "taxol_gas",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "samples_seconds": {
+        "stock": [
+          0.3252260000008391,
+          0.31781559999944875,
+          0.3740101000003051,
+          0.3256704999948852,
+          0.3854445999968448,
+          0.3369158000059542,
+          0.3298563999996986
+        ],
+        "legacy_fast": [
+          0.21692820000316715,
+          0.22477810000418685,
+          0.21856199999456294,
+          0.21924079999735113,
+          0.22250570000323933,
+          0.27971619999880204,
+          0.22232439999788767
+        ],
+        "direct_fast": [
+          0.22624270000233082,
+          0.22249030000239145,
+          0.21872410000651143,
+          0.22167759999865666,
+          0.22153640000033192,
+          0.21981220000452595,
+          0.22242349999578437
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.3298563999996986,
+        "legacy_fast": 0.22232439999788767,
+        "direct_fast": 0.22167759999865666
+      },
+      "trials": [
+        {
+          "order": [
+            "direct_fast",
+            "stock",
+            "legacy_fast"
+          ],
+          "results": {
+            "direct_fast": {
+              "name": "bench_taxol_gas_0_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22624270000233082,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_0_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_taxol_gas_0_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3252260000008391,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_0_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_gas_0_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.21692820000316715,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_0_legacy_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "legacy_fast",
+            "direct_fast",
+            "stock"
+          ],
+          "results": {
+            "legacy_fast": {
+              "name": "bench_taxol_gas_1_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22477810000418685,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_1_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_gas_1_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22249030000239145,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_1_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_taxol_gas_1_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.31781559999944875,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_1_stock\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "legacy_fast",
+            "direct_fast",
+            "stock"
+          ],
+          "results": {
+            "legacy_fast": {
+              "name": "bench_taxol_gas_2_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.21856199999456294,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_2_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_gas_2_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.21872410000651143,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_2_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_taxol_gas_2_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3740101000003051,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_2_stock\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_gas_3_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3256704999948852,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_3_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_gas_3_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.21924079999735113,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_3_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_gas_3_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22167759999865666,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_3_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_gas_4_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3854445999968448,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_4_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_gas_4_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22250570000323933,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_4_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_gas_4_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22153640000033192,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_4_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_gas_5_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3369158000059542,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_5_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_gas_5_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.27971619999880204,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_5_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_gas_5_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.21981220000452595,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_5_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_gas_6_stock",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3298563999996986,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_6_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_gas_6_legacy_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22232439999788767,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_6_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_gas_6_direct_fast",
+              "energy_Eh": -195.911950900123,
+              "gradient_norm_Eh_bohr": 0.149903893916,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22242349999578437,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_gas_6_direct_fast\\run.log"
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 1.488000591858165,
+      "speedup_over_legacy_fast": 1.0029177508202676
+    },
+    {
+      "case": "taxol_alpb",
+      "threads": 1,
+      "profile": false,
+      "warmups": 1,
+      "samples_seconds": {
+        "stock": [
+          0.33030739999958314,
+          0.3281633000005968,
+          0.3296810999963782,
+          0.3376552999980049,
+          0.32913420000113547,
+          0.32731259999854956,
+          0.3256961000006413
+        ],
+        "legacy_fast": [
+          0.22412289999920176,
+          0.22140760000183946,
+          0.2229122999997344,
+          0.22191190000012284,
+          0.22138859999540728,
+          0.2235283999980311,
+          0.22060190000047442
+        ],
+        "direct_fast": [
+          0.22583319999830564,
+          0.22523830000136513,
+          0.2220919999963371,
+          0.2220378000056371,
+          0.22132699999929173,
+          0.22724749999906635,
+          0.22415610000462038
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.32913420000113547,
+        "legacy_fast": 0.22191190000012284,
+        "direct_fast": 0.22415610000462038
+      },
+      "trials": [
+        {
+          "order": [
+            "direct_fast",
+            "stock",
+            "legacy_fast"
+          ],
+          "results": {
+            "direct_fast": {
+              "name": "bench_taxol_alpb_0_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22583319999830564,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_0_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_taxol_alpb_0_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.33030739999958314,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_0_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_0_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22412289999920176,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_0_legacy_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "legacy_fast",
+            "direct_fast",
+            "stock"
+          ],
+          "results": {
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_1_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22140760000183946,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_1_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_alpb_1_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22523830000136513,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_1_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_taxol_alpb_1_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3281633000005968,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_1_stock\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "legacy_fast",
+            "direct_fast",
+            "stock"
+          ],
+          "results": {
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_2_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.2229122999997344,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_2_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_alpb_2_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.2220919999963371,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_2_direct_fast\\run.log"
+            },
+            "stock": {
+              "name": "bench_taxol_alpb_2_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3296810999963782,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_2_stock\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_alpb_3_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3376552999980049,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_3_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_3_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22191190000012284,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_3_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_alpb_3_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.2220378000056371,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_3_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_alpb_4_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.32913420000113547,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_4_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_4_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22138859999540728,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_4_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_alpb_4_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22132699999929173,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_4_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_alpb_5_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.32731259999854956,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_5_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_5_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.2235283999980311,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_5_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_alpb_5_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22724749999906635,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_5_direct_fast\\run.log"
+            }
+          }
+        },
+        {
+          "order": [
+            "stock",
+            "legacy_fast",
+            "direct_fast"
+          ],
+          "results": {
+            "stock": {
+              "name": "bench_taxol_alpb_6_stock",
+              "energy_Eh": -195.958435141828,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.3256961000006413,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_6_stock\\run.log"
+            },
+            "legacy_fast": {
+              "name": "bench_taxol_alpb_6_legacy_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22060190000047442,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_6_legacy_fast\\run.log"
+            },
+            "direct_fast": {
+              "name": "bench_taxol_alpb_6_direct_fast",
+              "energy_Eh": -195.958435141829,
+              "gradient_norm_Eh_bohr": 0.136167479182,
+              "nao": 350,
+              "compact_iterations": null,
+              "wall_seconds": 0.22415610000462038,
+              "iterations": 11,
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\nodal-cli-test\\bench_taxol_alpb_6_direct_fast\\run.log"
+            }
+          }
+        }
+      ],
+      "speedup_over_stock": 1.4683258675287054,
+      "speedup_over_legacy_fast": 0.9899882269344832
+    }
+  ],
+  "stock_sha256": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a"
+}

@@ -1,0 +1,1905 @@
+{
+  "scope": "Frozen 4.6.0 versus optimized 4.7.0, actual complete CLI Hessians",
+  "exe_sha256": {
+    "baseline_4_6_0": "3f042588d183c64af8ab268ce8b6cbb27e40b91fd481142a237ed06a53916587",
+    "current": "ebf4e04d6d85dc22d1d07f379389ae164e0d2b6b56e13a54901421fcbf349f37"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "threads": {
+    "baseline_4_6_0": 1,
+    "current_1": 1,
+    "current_4": 4,
+    "current_8": 8
+  },
+  "warmups_per_configuration": 1,
+  "measured_repeats": 5,
+  "MKL_NUM_THREADS": 1,
+  "OMP_DYNAMIC": false,
+  "profile_during_timing": false,
+  "models": {
+    "gas": {
+      "audits": {
+        "baseline_4_6_0": {
+          "name": "gas_audit_baseline_4_6_0",
+          "model": "gas",
+          "process_wall_seconds": 30.878215200005798,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 832729088,
+            "peak_pagefile_usage_bytes": 853225472,
+            "maximum_sampled_private_bytes": 852889600,
+            "samples": 613,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_audit_baseline_4_6_0\\run.log",
+          "omp_threads": 1,
+          "analytic_used": true,
+          "reason": "analytic gas GFN1",
+          "estimated_workspace_bytes": 872726600,
+          "energy_Eh": -195.911950900295,
+          "gradient_norm_Eh_bohr": 0.149904645402
+        },
+        "current_1": {
+          "name": "gas_audit_current_1",
+          "model": "gas",
+          "process_wall_seconds": 15.636691699997755,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 841519104,
+            "peak_pagefile_usage_bytes": 858365952,
+            "maximum_sampled_private_bytes": 857559040,
+            "samples": 311,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_audit_current_1\\run.log",
+          "omp_threads": 1,
+          "analytic_used": true,
+          "reason": "analytic gas GFN1",
+          "estimated_workspace_bytes": 872726600,
+          "energy_Eh": -195.911950900295,
+          "gradient_norm_Eh_bohr": 0.149904645402
+        },
+        "current_4": {
+          "name": "gas_audit_current_4",
+          "model": "gas",
+          "process_wall_seconds": 5.6354560000036145,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 903475200,
+            "peak_pagefile_usage_bytes": 933941248,
+            "maximum_sampled_private_bytes": 933167104,
+            "samples": 113,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_audit_current_4\\run.log",
+          "omp_threads": 4,
+          "analytic_used": true,
+          "reason": "analytic gas GFN1",
+          "estimated_workspace_bytes": 948846200,
+          "energy_Eh": -195.911950900295,
+          "gradient_norm_Eh_bohr": 0.149904645402
+        },
+        "current_8": {
+          "name": "gas_audit_current_8",
+          "model": "gas",
+          "process_wall_seconds": 4.231167000005371,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 987906048,
+            "peak_pagefile_usage_bytes": 1035018240,
+            "maximum_sampled_private_bytes": 1033900032,
+            "samples": 85,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_audit_current_8\\run.log",
+          "omp_threads": 8,
+          "analytic_used": true,
+          "reason": "analytic gas GFN1",
+          "estimated_workspace_bytes": 1050339000,
+          "energy_Eh": -195.911950900295,
+          "gradient_norm_Eh_bohr": 0.149904645402
+        }
+      },
+      "trials": [
+        {
+          "order": [
+            "current_4",
+            "current_8",
+            "baseline_4_6_0",
+            "current_1"
+          ],
+          "results": {
+            "current_4": {
+              "name": "gas_trial0_current_4",
+              "model": "gas",
+              "process_wall_seconds": 5.5350569000002,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 903671808,
+                "peak_pagefile_usage_bytes": 933998592,
+                "maximum_sampled_private_bytes": 933941248,
+                "samples": 111,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial0_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gas_trial0_current_8",
+              "model": "gas",
+              "process_wall_seconds": 4.2271713000081945,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 988790784,
+                "peak_pagefile_usage_bytes": 1035116544,
+                "maximum_sampled_private_bytes": 1034178560,
+                "samples": 85,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial0_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gas_trial0_baseline_4_6_0",
+              "model": "gas",
+              "process_wall_seconds": 30.73926620000566,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 831864832,
+                "peak_pagefile_usage_bytes": 853241856,
+                "maximum_sampled_private_bytes": 853241856,
+                "samples": 610,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial0_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gas_trial0_current_1",
+              "model": "gas",
+              "process_wall_seconds": 15.598181400011526,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 840531968,
+                "peak_pagefile_usage_bytes": 858382336,
+                "maximum_sampled_private_bytes": 857423872,
+                "samples": 311,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial0_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "current_1",
+            "baseline_4_6_0",
+            "current_4",
+            "current_8"
+          ],
+          "results": {
+            "current_1": {
+              "name": "gas_trial1_current_1",
+              "model": "gas",
+              "process_wall_seconds": 15.549068399996031,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 840814592,
+                "peak_pagefile_usage_bytes": 858009600,
+                "maximum_sampled_private_bytes": 857432064,
+                "samples": 310,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial1_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gas_trial1_baseline_4_6_0",
+              "model": "gas",
+              "process_wall_seconds": 30.847101299994392,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 831672320,
+                "peak_pagefile_usage_bytes": 853245952,
+                "maximum_sampled_private_bytes": 853245952,
+                "samples": 613,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial1_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gas_trial1_current_4",
+              "model": "gas",
+              "process_wall_seconds": 5.4007467000046745,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 904372224,
+                "peak_pagefile_usage_bytes": 933896192,
+                "maximum_sampled_private_bytes": 933875712,
+                "samples": 108,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial1_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gas_trial1_current_8",
+              "model": "gas",
+              "process_wall_seconds": 4.313902599998983,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 987222016,
+                "peak_pagefile_usage_bytes": 1035042816,
+                "maximum_sampled_private_bytes": 1033998336,
+                "samples": 87,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial1_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "current_4",
+            "baseline_4_6_0",
+            "current_8",
+            "current_1"
+          ],
+          "results": {
+            "current_4": {
+              "name": "gas_trial2_current_4",
+              "model": "gas",
+              "process_wall_seconds": 5.905321199999889,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 903503872,
+                "peak_pagefile_usage_bytes": 933400576,
+                "maximum_sampled_private_bytes": 932880384,
+                "samples": 119,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial2_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gas_trial2_baseline_4_6_0",
+              "model": "gas",
+              "process_wall_seconds": 30.92640529999335,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 831938560,
+                "peak_pagefile_usage_bytes": 853221376,
+                "maximum_sampled_private_bytes": 853221376,
+                "samples": 614,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial2_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gas_trial2_current_8",
+              "model": "gas",
+              "process_wall_seconds": 4.271927199995844,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 987017216,
+                "peak_pagefile_usage_bytes": 1035042816,
+                "maximum_sampled_private_bytes": 1033302016,
+                "samples": 86,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial2_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gas_trial2_current_1",
+              "model": "gas",
+              "process_wall_seconds": 15.752074199990602,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 841023488,
+                "peak_pagefile_usage_bytes": 859316224,
+                "maximum_sampled_private_bytes": 859316224,
+                "samples": 314,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial2_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "baseline_4_6_0",
+            "current_4",
+            "current_8",
+            "current_1"
+          ],
+          "results": {
+            "baseline_4_6_0": {
+              "name": "gas_trial3_baseline_4_6_0",
+              "model": "gas",
+              "process_wall_seconds": 30.552780099998927,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 831852544,
+                "peak_pagefile_usage_bytes": 853233664,
+                "maximum_sampled_private_bytes": 852910080,
+                "samples": 607,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial3_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gas_trial3_current_4",
+              "model": "gas",
+              "process_wall_seconds": 5.379532699997071,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 904200192,
+                "peak_pagefile_usage_bytes": 933806080,
+                "maximum_sampled_private_bytes": 933748736,
+                "samples": 108,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial3_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gas_trial3_current_8",
+              "model": "gas",
+              "process_wall_seconds": 4.454411600003368,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 987713536,
+                "peak_pagefile_usage_bytes": 1035288576,
+                "maximum_sampled_private_bytes": 1033179136,
+                "samples": 90,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial3_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gas_trial3_current_1",
+              "model": "gas",
+              "process_wall_seconds": 15.558758599989233,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 840773632,
+                "peak_pagefile_usage_bytes": 858312704,
+                "maximum_sampled_private_bytes": 858013696,
+                "samples": 310,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial3_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "current_1",
+            "current_8",
+            "current_4",
+            "baseline_4_6_0"
+          ],
+          "results": {
+            "current_1": {
+              "name": "gas_trial4_current_1",
+              "model": "gas",
+              "process_wall_seconds": 15.598491400000057,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 840794112,
+                "peak_pagefile_usage_bytes": 858005504,
+                "maximum_sampled_private_bytes": 857423872,
+                "samples": 310,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial4_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gas_trial4_current_8",
+              "model": "gas",
+              "process_wall_seconds": 4.220559500012314,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 988016640,
+                "peak_pagefile_usage_bytes": 1035161600,
+                "maximum_sampled_private_bytes": 1034297344,
+                "samples": 85,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial4_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gas_trial4_current_4",
+              "model": "gas",
+              "process_wall_seconds": 6.089933199997176,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 904404992,
+                "peak_pagefile_usage_bytes": 933949440,
+                "maximum_sampled_private_bytes": 933687296,
+                "samples": 122,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial4_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gas_trial4_baseline_4_6_0",
+              "model": "gas",
+              "process_wall_seconds": 30.833869199996116,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 831930368,
+                "peak_pagefile_usage_bytes": 853237760,
+                "maximum_sampled_private_bytes": 853237760,
+                "samples": 612,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gas_trial4_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.911950900295,
+              "gradient_norm_Eh_bohr": 0.149904645402,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        }
+      ],
+      "samples_seconds": {
+        "baseline_4_6_0": [
+          30.73926620000566,
+          30.847101299994392,
+          30.92640529999335,
+          30.552780099998927,
+          30.833869199996116
+        ],
+        "current_1": [
+          15.598181400011526,
+          15.549068399996031,
+          15.752074199990602,
+          15.558758599989233,
+          15.598491400000057
+        ],
+        "current_4": [
+          5.5350569000002,
+          5.4007467000046745,
+          5.905321199999889,
+          5.379532699997071,
+          6.089933199997176
+        ],
+        "current_8": [
+          4.2271713000081945,
+          4.313902599998983,
+          4.271927199995844,
+          4.454411600003368,
+          4.220559500012314
+        ]
+      },
+      "median_seconds": {
+        "baseline_4_6_0": 30.833869199996116,
+        "current_1": 15.598181400011526,
+        "current_4": 5.5350569000002,
+        "current_8": 4.271927199995844
+      },
+      "speedup_over_4_6_0": {
+        "baseline_4_6_0": 1.0,
+        "current_1": 1.9767605215806332,
+        "current_4": 5.570650809388248,
+        "current_8": 7.2177890110173495
+      },
+      "parallel_speedup_over_current_1": {
+        "baseline_4_6_0": 0.5058781724355726,
+        "current_1": 1.0,
+        "current_4": 2.81807065073007,
+        "current_8": 3.651321913919016
+      }
+    },
+    "gbsa": {
+      "audits": {
+        "baseline_4_6_0": {
+          "name": "gbsa_audit_baseline_4_6_0",
+          "model": "gbsa",
+          "process_wall_seconds": 34.09775289999379,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 837255168,
+            "peak_pagefile_usage_bytes": 858472448,
+            "maximum_sampled_private_bytes": 858451968,
+            "samples": 677,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_audit_baseline_4_6_0\\run.log",
+          "omp_threads": 1,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 880428680,
+          "energy_Eh": -195.956493169214,
+          "gradient_norm_Eh_bohr": 0.13183221411
+        },
+        "current_1": {
+          "name": "gbsa_audit_current_1",
+          "model": "gbsa",
+          "process_wall_seconds": 16.16563760000281,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 844988416,
+            "peak_pagefile_usage_bytes": 861622272,
+            "maximum_sampled_private_bytes": 861609984,
+            "samples": 322,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_audit_current_1\\run.log",
+          "omp_threads": 1,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 880428680,
+          "energy_Eh": -195.956493169214,
+          "gradient_norm_Eh_bohr": 0.13183221411
+        },
+        "current_4": {
+          "name": "gbsa_audit_current_4",
+          "model": "gbsa",
+          "process_wall_seconds": 6.055930899994564,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 907591680,
+            "peak_pagefile_usage_bytes": 937291776,
+            "maximum_sampled_private_bytes": 936677376,
+            "samples": 121,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_audit_current_4\\run.log",
+          "omp_threads": 4,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 956548280,
+          "energy_Eh": -195.956493169214,
+          "gradient_norm_Eh_bohr": 0.13183221411
+        },
+        "current_8": {
+          "name": "gbsa_audit_current_8",
+          "model": "gbsa",
+          "process_wall_seconds": 4.443293800009997,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 991920128,
+            "peak_pagefile_usage_bytes": 1038696448,
+            "maximum_sampled_private_bytes": 1038696448,
+            "samples": 90,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_audit_current_8\\run.log",
+          "omp_threads": 8,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 1058041080,
+          "energy_Eh": -195.956493169214,
+          "gradient_norm_Eh_bohr": 0.13183221411
+        }
+      },
+      "trials": [
+        {
+          "order": [
+            "current_8",
+            "current_1",
+            "current_4",
+            "baseline_4_6_0"
+          ],
+          "results": {
+            "current_8": {
+              "name": "gbsa_trial0_current_8",
+              "model": "gbsa",
+              "process_wall_seconds": 4.6768091000121785,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 990982144,
+                "peak_pagefile_usage_bytes": 1038106624,
+                "maximum_sampled_private_bytes": 1036894208,
+                "samples": 94,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial0_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gbsa_trial0_current_1",
+              "model": "gbsa",
+              "process_wall_seconds": 15.960807700001169,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 845238272,
+                "peak_pagefile_usage_bytes": 861646848,
+                "maximum_sampled_private_bytes": 861065216,
+                "samples": 318,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial0_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gbsa_trial0_current_4",
+              "model": "gbsa",
+              "process_wall_seconds": 5.737071900002775,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907661312,
+                "peak_pagefile_usage_bytes": 937730048,
+                "maximum_sampled_private_bytes": 937730048,
+                "samples": 115,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial0_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gbsa_trial0_baseline_4_6_0",
+              "model": "gbsa",
+              "process_wall_seconds": 35.442291799990926,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837459968,
+                "peak_pagefile_usage_bytes": 858333184,
+                "maximum_sampled_private_bytes": 858046464,
+                "samples": 704,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial0_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "current_8",
+            "current_1",
+            "baseline_4_6_0",
+            "current_4"
+          ],
+          "results": {
+            "current_8": {
+              "name": "gbsa_trial1_current_8",
+              "model": "gbsa",
+              "process_wall_seconds": 4.431729000003543,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 991133696,
+                "peak_pagefile_usage_bytes": 1037819904,
+                "maximum_sampled_private_bytes": 1037058048,
+                "samples": 89,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial1_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gbsa_trial1_current_1",
+              "model": "gbsa",
+              "process_wall_seconds": 16.208281599989277,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 845078528,
+                "peak_pagefile_usage_bytes": 861868032,
+                "maximum_sampled_private_bytes": 861859840,
+                "samples": 322,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial1_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gbsa_trial1_baseline_4_6_0",
+              "model": "gbsa",
+              "process_wall_seconds": 35.34501050000836,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837230592,
+                "peak_pagefile_usage_bytes": 858284032,
+                "maximum_sampled_private_bytes": 858034176,
+                "samples": 701,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial1_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gbsa_trial1_current_4",
+              "model": "gbsa",
+              "process_wall_seconds": 5.989677800011123,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 908668928,
+                "peak_pagefile_usage_bytes": 937684992,
+                "maximum_sampled_private_bytes": 936796160,
+                "samples": 120,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial1_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "baseline_4_6_0",
+            "current_4",
+            "current_8",
+            "current_1"
+          ],
+          "results": {
+            "baseline_4_6_0": {
+              "name": "gbsa_trial2_baseline_4_6_0",
+              "model": "gbsa",
+              "process_wall_seconds": 35.10739979999198,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837206016,
+                "peak_pagefile_usage_bytes": 858488832,
+                "maximum_sampled_private_bytes": 858488832,
+                "samples": 696,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial2_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gbsa_trial2_current_4",
+              "model": "gbsa",
+              "process_wall_seconds": 5.667002600006526,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907472896,
+                "peak_pagefile_usage_bytes": 937635840,
+                "maximum_sampled_private_bytes": 936759296,
+                "samples": 114,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial2_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gbsa_trial2_current_8",
+              "model": "gbsa",
+              "process_wall_seconds": 4.558010799999465,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 992452608,
+                "peak_pagefile_usage_bytes": 1039687680,
+                "maximum_sampled_private_bytes": 1039687680,
+                "samples": 92,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial2_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gbsa_trial2_current_1",
+              "model": "gbsa",
+              "process_wall_seconds": 16.339509900004487,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 844779520,
+                "peak_pagefile_usage_bytes": 862060544,
+                "maximum_sampled_private_bytes": 861122560,
+                "samples": 325,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial2_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "baseline_4_6_0",
+            "current_4",
+            "current_1",
+            "current_8"
+          ],
+          "results": {
+            "baseline_4_6_0": {
+              "name": "gbsa_trial3_baseline_4_6_0",
+              "model": "gbsa",
+              "process_wall_seconds": 35.09668319999764,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837214208,
+                "peak_pagefile_usage_bytes": 858513408,
+                "maximum_sampled_private_bytes": 858468352,
+                "samples": 696,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial3_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "gbsa_trial3_current_4",
+              "model": "gbsa",
+              "process_wall_seconds": 5.6373855999991065,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907796480,
+                "peak_pagefile_usage_bytes": 937426944,
+                "maximum_sampled_private_bytes": 936902656,
+                "samples": 113,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial3_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gbsa_trial3_current_1",
+              "model": "gbsa",
+              "process_wall_seconds": 16.330505599995377,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 844988416,
+                "peak_pagefile_usage_bytes": 861679616,
+                "maximum_sampled_private_bytes": 861671424,
+                "samples": 325,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial3_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gbsa_trial3_current_8",
+              "model": "gbsa",
+              "process_wall_seconds": 4.511623600003077,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 993026048,
+                "peak_pagefile_usage_bytes": 1038856192,
+                "maximum_sampled_private_bytes": 1038020608,
+                "samples": 91,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial3_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "current_4",
+            "current_1",
+            "baseline_4_6_0",
+            "current_8"
+          ],
+          "results": {
+            "current_4": {
+              "name": "gbsa_trial4_current_4",
+              "model": "gbsa",
+              "process_wall_seconds": 5.982862999997451,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907509760,
+                "peak_pagefile_usage_bytes": 937328640,
+                "maximum_sampled_private_bytes": 937328640,
+                "samples": 120,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial4_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "gbsa_trial4_current_1",
+              "model": "gbsa",
+              "process_wall_seconds": 16.130557299999055,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 844984320,
+                "peak_pagefile_usage_bytes": 861696000,
+                "maximum_sampled_private_bytes": 861696000,
+                "samples": 321,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial4_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "gbsa_trial4_baseline_4_6_0",
+              "model": "gbsa",
+              "process_wall_seconds": 34.56900079999468,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837464064,
+                "peak_pagefile_usage_bytes": 858357760,
+                "maximum_sampled_private_bytes": 858025984,
+                "samples": 686,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial4_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "gbsa_trial4_current_8",
+              "model": "gbsa",
+              "process_wall_seconds": 4.352013399999123,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 991117312,
+                "peak_pagefile_usage_bytes": 1038913536,
+                "maximum_sampled_private_bytes": 1037078528,
+                "samples": 88,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\gbsa_trial4_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        }
+      ],
+      "samples_seconds": {
+        "baseline_4_6_0": [
+          35.442291799990926,
+          35.34501050000836,
+          35.10739979999198,
+          35.09668319999764,
+          34.56900079999468
+        ],
+        "current_1": [
+          15.960807700001169,
+          16.208281599989277,
+          16.339509900004487,
+          16.330505599995377,
+          16.130557299999055
+        ],
+        "current_4": [
+          5.737071900002775,
+          5.989677800011123,
+          5.667002600006526,
+          5.6373855999991065,
+          5.982862999997451
+        ],
+        "current_8": [
+          4.6768091000121785,
+          4.431729000003543,
+          4.558010799999465,
+          4.511623600003077,
+          4.352013399999123
+        ]
+      },
+      "median_seconds": {
+        "baseline_4_6_0": 35.10739979999198,
+        "current_1": 16.208281599989277,
+        "current_4": 5.737071900002775,
+        "current_8": 4.511623600003077
+      },
+      "speedup_over_4_6_0": {
+        "baseline_4_6_0": 1.0,
+        "current_1": 2.1660161555938915,
+        "current_4": 6.1193933790467225,
+        "current_8": 7.781544497632303
+      },
+      "parallel_speedup_over_current_1": {
+        "baseline_4_6_0": 0.46167707356079896,
+        "current_1": 1.0,
+        "current_4": 2.82518362720562,
+        "current_8": 3.592560691450019
+      }
+    },
+    "alpb": {
+      "audits": {
+        "baseline_4_6_0": {
+          "name": "alpb_audit_baseline_4_6_0",
+          "model": "alpb",
+          "process_wall_seconds": 33.51338730000134,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 837718016,
+            "peak_pagefile_usage_bytes": 858472448,
+            "maximum_sampled_private_bytes": 858021888,
+            "samples": 665,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_audit_baseline_4_6_0\\run.log",
+          "omp_threads": 1,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 880428680,
+          "energy_Eh": -195.958435147873,
+          "gradient_norm_Eh_bohr": 0.136167697281
+        },
+        "current_1": {
+          "name": "alpb_audit_current_1",
+          "model": "alpb",
+          "process_wall_seconds": 15.848792299992056,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 844734464,
+            "peak_pagefile_usage_bytes": 862027776,
+            "maximum_sampled_private_bytes": 862027776,
+            "samples": 315,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_audit_current_1\\run.log",
+          "omp_threads": 1,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 880428680,
+          "energy_Eh": -195.958435147873,
+          "gradient_norm_Eh_bohr": 0.136167697281
+        },
+        "current_4": {
+          "name": "alpb_audit_current_4",
+          "model": "alpb",
+          "process_wall_seconds": 5.653305900006671,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 907800576,
+            "peak_pagefile_usage_bytes": 937934848,
+            "maximum_sampled_private_bytes": 937074688,
+            "samples": 113,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_audit_current_4\\run.log",
+          "omp_threads": 4,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 956548280,
+          "energy_Eh": -195.958435147873,
+          "gradient_norm_Eh_bohr": 0.136167697281
+        },
+        "current_8": {
+          "name": "alpb_audit_current_8",
+          "model": "alpb",
+          "process_wall_seconds": 4.5029073000041535,
+          "n3": 339,
+          "step_bohr": 1e-05,
+          "resources": {
+            "peak_working_set_bytes": 992186368,
+            "peak_pagefile_usage_bytes": 1038852096,
+            "maximum_sampled_private_bytes": 1038852096,
+            "samples": 91,
+            "sample_interval_seconds": 0.05
+          },
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_audit_current_8\\run.log",
+          "omp_threads": 8,
+          "analytic_used": true,
+          "reason": "analytic solvated GFN1",
+          "estimated_workspace_bytes": 1058041080,
+          "energy_Eh": -195.958435147873,
+          "gradient_norm_Eh_bohr": 0.136167697281
+        }
+      },
+      "trials": [
+        {
+          "order": [
+            "current_8",
+            "current_1",
+            "current_4",
+            "baseline_4_6_0"
+          ],
+          "results": {
+            "current_8": {
+              "name": "alpb_trial0_current_8",
+              "model": "alpb",
+              "process_wall_seconds": 4.810920800009626,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 989831168,
+                "peak_pagefile_usage_bytes": 1038069760,
+                "maximum_sampled_private_bytes": 1032790016,
+                "samples": 97,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial0_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "alpb_trial0_current_1",
+              "model": "alpb",
+              "process_wall_seconds": 16.010021900001448,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 844689408,
+                "peak_pagefile_usage_bytes": 861446144,
+                "maximum_sampled_private_bytes": 861065216,
+                "samples": 318,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial0_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "alpb_trial0_current_4",
+              "model": "alpb",
+              "process_wall_seconds": 5.811906000002637,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907628544,
+                "peak_pagefile_usage_bytes": 937611264,
+                "maximum_sampled_private_bytes": 936734720,
+                "samples": 117,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial0_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147872,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "alpb_trial0_baseline_4_6_0",
+              "model": "alpb",
+              "process_wall_seconds": 33.856527600000845,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837271552,
+                "peak_pagefile_usage_bytes": 858521600,
+                "maximum_sampled_private_bytes": 858083328,
+                "samples": 672,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial0_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "current_4",
+            "baseline_4_6_0",
+            "current_8",
+            "current_1"
+          ],
+          "results": {
+            "current_4": {
+              "name": "alpb_trial1_current_4",
+              "model": "alpb",
+              "process_wall_seconds": 6.075303499994334,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907849728,
+                "peak_pagefile_usage_bytes": 937525248,
+                "maximum_sampled_private_bytes": 936718336,
+                "samples": 122,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial1_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "baseline_4_6_0": {
+              "name": "alpb_trial1_baseline_4_6_0",
+              "model": "alpb",
+              "process_wall_seconds": 33.86421249998966,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837668864,
+                "peak_pagefile_usage_bytes": 858804224,
+                "maximum_sampled_private_bytes": 858771456,
+                "samples": 672,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial1_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "alpb_trial1_current_8",
+              "model": "alpb",
+              "process_wall_seconds": 4.576209000006202,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 991404032,
+                "peak_pagefile_usage_bytes": 1038770176,
+                "maximum_sampled_private_bytes": 1037561856,
+                "samples": 92,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial1_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "alpb_trial1_current_1",
+              "model": "alpb",
+              "process_wall_seconds": 15.980743000007351,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 844955648,
+                "peak_pagefile_usage_bytes": 861913088,
+                "maximum_sampled_private_bytes": 861913088,
+                "samples": 318,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial1_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "baseline_4_6_0",
+            "current_1",
+            "current_4",
+            "current_8"
+          ],
+          "results": {
+            "baseline_4_6_0": {
+              "name": "alpb_trial2_baseline_4_6_0",
+              "model": "alpb",
+              "process_wall_seconds": 33.86297059999197,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837459968,
+                "peak_pagefile_usage_bytes": 858562560,
+                "maximum_sampled_private_bytes": 858128384,
+                "samples": 672,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial2_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "alpb_trial2_current_1",
+              "model": "alpb",
+              "process_wall_seconds": 16.109298099996522,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 845352960,
+                "peak_pagefile_usage_bytes": 861442048,
+                "maximum_sampled_private_bytes": 861065216,
+                "samples": 320,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial2_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "alpb_trial2_current_4",
+              "model": "alpb",
+              "process_wall_seconds": 5.808963899995433,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907923456,
+                "peak_pagefile_usage_bytes": 937340928,
+                "maximum_sampled_private_bytes": 937033728,
+                "samples": 116,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial2_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "alpb_trial2_current_8",
+              "model": "alpb",
+              "process_wall_seconds": 4.553099199998542,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 993144832,
+                "peak_pagefile_usage_bytes": 1038925824,
+                "maximum_sampled_private_bytes": 1038020608,
+                "samples": 92,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial2_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "baseline_4_6_0",
+            "current_1",
+            "current_4",
+            "current_8"
+          ],
+          "results": {
+            "baseline_4_6_0": {
+              "name": "alpb_trial3_baseline_4_6_0",
+              "model": "alpb",
+              "process_wall_seconds": 33.733903800006374,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837541888,
+                "peak_pagefile_usage_bytes": 858300416,
+                "maximum_sampled_private_bytes": 858279936,
+                "samples": 669,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial3_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "alpb_trial3_current_1",
+              "model": "alpb",
+              "process_wall_seconds": 15.928191599989077,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 845414400,
+                "peak_pagefile_usage_bytes": 861569024,
+                "maximum_sampled_private_bytes": 861061120,
+                "samples": 317,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial3_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "alpb_trial3_current_4",
+              "model": "alpb",
+              "process_wall_seconds": 5.64336239999102,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907599872,
+                "peak_pagefile_usage_bytes": 937615360,
+                "maximum_sampled_private_bytes": 936787968,
+                "samples": 113,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial3_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "alpb_trial3_current_8",
+              "model": "alpb",
+              "process_wall_seconds": 4.462094199989224,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 991412224,
+                "peak_pagefile_usage_bytes": 1038946304,
+                "maximum_sampled_private_bytes": 1038766080,
+                "samples": 90,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial3_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        },
+        {
+          "order": [
+            "baseline_4_6_0",
+            "current_8",
+            "current_1",
+            "current_4"
+          ],
+          "results": {
+            "baseline_4_6_0": {
+              "name": "alpb_trial4_baseline_4_6_0",
+              "model": "alpb",
+              "process_wall_seconds": 33.931640099996,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837386240,
+                "peak_pagefile_usage_bytes": 858542080,
+                "maximum_sampled_private_bytes": 858107904,
+                "samples": 673,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial4_baseline_4_6_0\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_8": {
+              "name": "alpb_trial4_current_8",
+              "model": "alpb",
+              "process_wall_seconds": 4.41498159999901,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 992141312,
+                "peak_pagefile_usage_bytes": 1038598144,
+                "maximum_sampled_private_bytes": 1036955648,
+                "samples": 89,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial4_current_8\\run.log",
+              "omp_threads": 8,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_1": {
+              "name": "alpb_trial4_current_1",
+              "model": "alpb",
+              "process_wall_seconds": 15.996531299999333,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 845017088,
+                "peak_pagefile_usage_bytes": 861990912,
+                "maximum_sampled_private_bytes": 861425664,
+                "samples": 318,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial4_current_1\\run.log",
+              "omp_threads": 1,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            },
+            "current_4": {
+              "name": "alpb_trial4_current_4",
+              "model": "alpb",
+              "process_wall_seconds": 5.567685600006371,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 907874304,
+                "peak_pagefile_usage_bytes": 937271296,
+                "maximum_sampled_private_bytes": 936656896,
+                "samples": 112,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\parallel-frozen-benchmark-4.7.0\\alpb_trial4_current_4\\run.log",
+              "omp_threads": 4,
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147872,
+              "gradient_norm_Eh_bohr": 0.136167697281,
+              "maximum_H_difference_from_4_6_0": 0.0
+            }
+          }
+        }
+      ],
+      "samples_seconds": {
+        "baseline_4_6_0": [
+          33.856527600000845,
+          33.86421249998966,
+          33.86297059999197,
+          33.733903800006374,
+          33.931640099996
+        ],
+        "current_1": [
+          16.010021900001448,
+          15.980743000007351,
+          16.109298099996522,
+          15.928191599989077,
+          15.996531299999333
+        ],
+        "current_4": [
+          5.811906000002637,
+          6.075303499994334,
+          5.808963899995433,
+          5.64336239999102,
+          5.567685600006371
+        ],
+        "current_8": [
+          4.810920800009626,
+          4.576209000006202,
+          4.553099199998542,
+          4.462094199989224,
+          4.41498159999901
+        ]
+      },
+      "median_seconds": {
+        "baseline_4_6_0": 33.86297059999197,
+        "current_1": 15.996531299999333,
+        "current_4": 5.808963899995433,
+        "current_8": 4.553099199998542
+      },
+      "speedup_over_4_6_0": {
+        "baseline_4_6_0": 1.0,
+        "current_1": 2.116894592016544,
+        "current_4": 5.8294338169356825,
+        "current_8": 7.437345226302738
+      },
+      "parallel_speedup_over_current_1": {
+        "baseline_4_6_0": 0.4723900773195346,
+        "current_1": 1.0,
+        "current_4": 2.753766691511357,
+        "current_8": 3.5133280865052217
+      }
+    }
+  }
+}

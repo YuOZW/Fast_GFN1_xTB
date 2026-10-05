@@ -1,0 +1,124 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+  "exe_sha256": "eccf25cc2d63323ef9a42d43f930f26cf80b63ce68e0fbe9e0d314a1efa2390f",
+  "baseline_policy": {
+    "XTB_GFN1_FAST_DISABLE_ANALYTIC_HESSIAN": "1"
+  },
+  "default_policy": {},
+  "cases": [
+    {
+      "case": "water",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "disilane",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 1.486999999800176e-07
+    },
+    {
+      "case": "benzene",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 1.669999999953653e-07
+    },
+    {
+      "case": "water_defaults",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 1.2477600000004863e-05
+    },
+    {
+      "case": "disilane_defaults",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 2.7513500000075908e-05
+    },
+    {
+      "case": "water_zero",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "water_open",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 1.2979999997053682e-07
+    },
+    {
+      "case": "water_highT",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 9.420000002258178e-08
+    },
+    {
+      "case": "disilane_alpb",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 5.999999996841865e-09
+    },
+    {
+      "case": "smooth_halogen_gas",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 2.6600000091470122e-08
+    },
+    {
+      "case": "smooth_halogen_gbsa",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 6.699999999248973e-09
+    },
+    {
+      "case": "explicit_disable",
+      "default_analytic_used": false,
+      "reason": "disabled",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "explicit_enable_zero",
+      "default_analytic_used": false,
+      "reason": "disabled",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "constraint",
+      "default_analytic_used": false,
+      "reason": "constraints",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "memory",
+      "default_analytic_used": false,
+      "reason": "memory budget",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "legacy",
+      "default_analytic_used": false,
+      "reason": "legacy Gradient derivative policy",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "salt",
+      "default_analytic_used": false,
+      "reason": "solvation model",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "surface_branch",
+      "default_analytic_used": false,
+      "reason": "solvent response or branch rejected",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "d3_cutoff",
+      "default_analytic_used": false,
+      "reason": "reference or response rejected",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "screened_overlap",
+      "default_analytic_used": false,
+      "reason": "reference or response rejected",
+      "maximum_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "default_analytic_threads",
+      "default_analytic_used": true,
+      "maximum_H_difference_Eh_bohr2": 0.0
+    }
+  ]
+}

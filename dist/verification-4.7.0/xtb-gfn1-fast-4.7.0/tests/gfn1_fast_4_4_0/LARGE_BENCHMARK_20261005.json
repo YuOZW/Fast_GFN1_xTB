@@ -1,0 +1,189 @@
+{
+  "molecule": "taxol",
+  "atoms": 113,
+  "nao": 350,
+  "n3": 339,
+  "exe_sha256": {
+    "fast": "dd0f95b2e58758bad5be1e9a0987b66c039b27b7822af7086647febff21c74d5",
+    "stock": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "threads": 1,
+  "profile": false,
+  "warmups": 1,
+  "scc_accuracy": 1e-07,
+  "step_bohr": 0.0005,
+  "trials": [
+    {
+      "order": [
+        "stock",
+        "analytic"
+      ],
+      "results": {
+        "stock": {
+          "name": "taxol_0_stock",
+          "process_wall_seconds": 249.08923450000293,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_0_stock\\run.log"
+        },
+        "analytic": {
+          "name": "taxol_0_analytic",
+          "process_wall_seconds": 30.07081029999972,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_0_analytic\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    },
+    {
+      "order": [
+        "stock",
+        "analytic"
+      ],
+      "results": {
+        "stock": {
+          "name": "taxol_1_stock",
+          "process_wall_seconds": 250.23860180000338,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_1_stock\\run.log"
+        },
+        "analytic": {
+          "name": "taxol_1_analytic",
+          "process_wall_seconds": 31.130946600002062,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_1_analytic\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    },
+    {
+      "order": [
+        "analytic",
+        "stock"
+      ],
+      "results": {
+        "analytic": {
+          "name": "taxol_2_analytic",
+          "process_wall_seconds": 29.763184100003855,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_2_analytic\\run.log"
+        },
+        "stock": {
+          "name": "taxol_2_stock",
+          "process_wall_seconds": 250.60607889999665,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_2_stock\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    },
+    {
+      "order": [
+        "analytic",
+        "stock"
+      ],
+      "results": {
+        "analytic": {
+          "name": "taxol_3_analytic",
+          "process_wall_seconds": 30.803857599996263,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_3_analytic\\run.log"
+        },
+        "stock": {
+          "name": "taxol_3_stock",
+          "process_wall_seconds": 253.39308960000199,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_3_stock\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    },
+    {
+      "order": [
+        "analytic",
+        "stock"
+      ],
+      "results": {
+        "analytic": {
+          "name": "taxol_4_analytic",
+          "process_wall_seconds": 29.87598770000477,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_4_analytic\\run.log"
+        },
+        "stock": {
+          "name": "taxol_4_stock",
+          "process_wall_seconds": 248.71787040000345,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_4_stock\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    }
+  ],
+  "stock_hessian_compatibility": "Original numerical formula; only Hessian OpenMP directives suppressed for Windows ifx; one thread",
+  "profile_audit": {
+    "name": "taxol_profile",
+    "process_wall_seconds": 29.77709380000306,
+    "analytic_used": true,
+    "reason": "analytic gas GFN1",
+    "step_bohr": 0.0005,
+    "n3": 339,
+    "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark-4.4.0\\taxol_profile\\run.log"
+  },
+  "samples_seconds": {
+    "stock": [
+      249.08923450000293,
+      250.23860180000338,
+      250.60607889999665,
+      253.39308960000199,
+      248.71787040000345
+    ],
+    "analytic": [
+      30.07081029999972,
+      31.130946600002062,
+      29.763184100003855,
+      30.803857599996263,
+      29.87598770000477
+    ]
+  },
+  "median_seconds": {
+    "stock": 250.23860180000338,
+    "analytic": 30.07081029999972
+  },
+  "speedup_over_stock": 8.321644787869442,
+  "observed_profile_audit_memory": {
+    "private_bytes": 841154560,
+    "peak_working_set_bytes": 831291392,
+    "scope": "One live process sample during separate profiled audit; not complete peak/private-allocation measurement"
+  }
+}

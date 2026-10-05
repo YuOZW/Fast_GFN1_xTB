@@ -1,0 +1,254 @@
+{
+  "verified_at": "2026-10-05T08:00:42.819061+09:00",
+  "scope": "Born/SASA/CM5 analytic components; solvent SCC Hessian not connected",
+  "builds": {
+    "release": {
+      "born": {
+        "model_pair_geometries": 32,
+        "FD_steps_per_case": 4,
+        "smallest_step_bohr": 5e-05,
+        "max_smallest_step_error": 5.389091062291129e-09,
+        "directed_branches": {
+          "buried": 16,
+          "partial": 16,
+          "nonoverlap": 32
+        }
+      },
+      "cm5": {
+        "distinct_pair_geometries": 16,
+        "executions": 32,
+        "FD_steps_per_case": 4,
+        "smallest_step_bohr": 2.5e-05,
+        "max_smallest_step_error": 2.695067302660448e-08
+      },
+      "surface": {
+        "model_cases": 2,
+        "max_smaller_step_error": 1.491590850832836e-08
+      },
+      "exe_sha256": "1271b860ded6e01ddbba176e5dbceddf41f724faf465dd446c1d1391a158fa20",
+      "ordinary_smoke": {
+        "executable": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+        "cases": [
+          {
+            "name": "water_gas",
+            "energy_Eh": -5.764209595203,
+            "gradient_norm_Eh_bohr": 0.094423990378,
+            "nao": 8,
+            "compact_iterations": 0,
+            "wall_seconds": 0.04498339999554446,
+            "iterations": 6,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\water_gas\\run.log"
+          },
+          {
+            "name": "water_alpb",
+            "energy_Eh": -5.787247944321,
+            "gradient_norm_Eh_bohr": 0.075935279788,
+            "nao": 8,
+            "compact_iterations": 0,
+            "wall_seconds": 0.03144099999917671,
+            "iterations": 6,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\water_alpb\\run.log"
+          },
+          {
+            "name": "taxol_fast",
+            "energy_Eh": -195.911950900123,
+            "gradient_norm_Eh_bohr": 0.149903893916,
+            "nao": 350,
+            "compact_iterations": 10,
+            "wall_seconds": 0.22069599999667844,
+            "iterations": 11,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_fast\\run.log"
+          },
+          {
+            "name": "taxol_legacy_density",
+            "energy_Eh": -195.911950900123,
+            "gradient_norm_Eh_bohr": 0.149903893916,
+            "nao": 350,
+            "compact_iterations": 0,
+            "wall_seconds": 0.22213199999532662,
+            "iterations": 11,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_legacy_density\\run.log"
+          },
+          {
+            "name": "taxol_generic_gradient",
+            "energy_Eh": -195.911950900123,
+            "gradient_norm_Eh_bohr": 0.149903893916,
+            "nao": 350,
+            "compact_iterations": 10,
+            "wall_seconds": 0.2721767000039108,
+            "iterations": 11,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_generic_gradient\\run.log"
+          },
+          {
+            "name": "taxol_alpb_fast",
+            "energy_Eh": -195.958435141829,
+            "gradient_norm_Eh_bohr": 0.136167479182,
+            "nao": 350,
+            "compact_iterations": 10,
+            "wall_seconds": 0.21996219999709865,
+            "iterations": 11,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_alpb_fast\\run.log"
+          },
+          {
+            "name": "taxol_alpb_legacy_density",
+            "energy_Eh": -195.958435141829,
+            "gradient_norm_Eh_bohr": 0.136167479182,
+            "nao": 350,
+            "compact_iterations": 0,
+            "wall_seconds": 0.22361369999998715,
+            "iterations": 11,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\smoke\\taxol_alpb_legacy_density\\run.log"
+          }
+        ],
+        "comparisons": [
+          {
+            "fast": "taxol_fast",
+            "reference": "taxol_legacy_density",
+            "abs_delta_energy_Eh": 0.0,
+            "max_abs_delta_gradient_Eh_bohr": 2.005340338229189e-15
+          },
+          {
+            "fast": "taxol_fast",
+            "reference": "taxol_generic_gradient",
+            "abs_delta_energy_Eh": 0.0,
+            "max_abs_delta_gradient_Eh_bohr": 9.992007221626409e-16
+          },
+          {
+            "fast": "taxol_alpb_fast",
+            "reference": "taxol_alpb_legacy_density",
+            "abs_delta_energy_Eh": 0.0,
+            "max_abs_delta_gradient_Eh_bohr": 1.9984014443252818e-15
+          }
+        ],
+        "threads": 1
+      },
+      "nodal_cli": {
+        "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+        "exe_sha256": "1271b860ded6e01ddbba176e5dbceddf41f724faf465dd446c1d1391a158fa20",
+        "cases": [
+          {
+            "case": "nodal_hessian",
+            "max_abs_H_difference_Eh_bohr2": 1.1759999996030501e-07
+          },
+          {
+            "case": "legacy_fallback",
+            "max_abs_H_difference_Eh_bohr2": 0.0
+          },
+          {
+            "case": "generic_fallback",
+            "max_abs_H_difference_Eh_bohr2": 0.0
+          },
+          {
+            "case": "nodal_gas_energy_fd",
+            "accuracy": 0.0001,
+            "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+            "max_abs_G_difference_Eh_bohr": 1.0759949528593715e-08
+          },
+          {
+            "case": "nodal_alpb_energy_fd",
+            "accuracy": 0.0001,
+            "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+            "max_abs_G_difference_Eh_bohr": 9.546317264463866e-09
+          },
+          {
+            "case": "nodal_gbsa_energy_fd",
+            "accuracy": 0.0001,
+            "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .67 .62\n",
+            "max_abs_G_difference_Eh_bohr": 9.262179169466922e-09
+          }
+        ],
+        "benchmarks": []
+      }
+    },
+    "debug": {
+      "born": {
+        "model_pair_geometries": 32,
+        "FD_steps_per_case": 4,
+        "smallest_step_bohr": 5e-05,
+        "max_smallest_step_error": 5.38187527876488e-09,
+        "directed_branches": {
+          "buried": 16,
+          "partial": 16,
+          "nonoverlap": 32
+        }
+      },
+      "cm5": {
+        "distinct_pair_geometries": 16,
+        "executions": 32,
+        "FD_steps_per_case": 4,
+        "smallest_step_bohr": 2.5e-05,
+        "max_smallest_step_error": 2.695067280455987e-08
+      },
+      "surface": {
+        "model_cases": 2,
+        "max_smaller_step_error": 1.492587964335712e-08
+      },
+      "exe_sha256": "9bff65b7bf9501c4dc264d356679852f70f71276a90bc6fa3f373c112ba2025d",
+      "ordinary_smoke": {
+        "executable": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+        "cases": [
+          {
+            "name": "water_gas",
+            "energy_Eh": -5.764209595203,
+            "gradient_norm_Eh_bohr": 0.094423990378,
+            "nao": 8,
+            "compact_iterations": 0,
+            "wall_seconds": 0.04957999999896856,
+            "iterations": 6,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\smoke\\water_gas\\run.log"
+          },
+          {
+            "name": "water_alpb",
+            "energy_Eh": -5.787247944321,
+            "gradient_norm_Eh_bohr": 0.075935279788,
+            "nao": 8,
+            "compact_iterations": 0,
+            "wall_seconds": 0.04663330000039423,
+            "iterations": 6,
+            "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\smoke\\water_alpb\\run.log"
+          }
+        ],
+        "comparisons": [],
+        "threads": 1,
+        "scope": "water startup and ALPB"
+      },
+      "nodal_cli": {
+        "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+        "exe_sha256": "9bff65b7bf9501c4dc264d356679852f70f71276a90bc6fa3f373c112ba2025d",
+        "cases": [
+          {
+            "case": "nodal_hessian",
+            "max_abs_H_difference_Eh_bohr2": 1.1759999996030501e-07
+          },
+          {
+            "case": "legacy_fallback",
+            "max_abs_H_difference_Eh_bohr2": 0.0
+          },
+          {
+            "case": "generic_fallback",
+            "max_abs_H_difference_Eh_bohr2": 0.0
+          },
+          {
+            "case": "nodal_gas_energy_fd",
+            "accuracy": 0.0001,
+            "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+            "max_abs_G_difference_Eh_bohr": 1.0759950527794437e-08
+          },
+          {
+            "case": "nodal_alpb_energy_fd",
+            "accuracy": 0.0001,
+            "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+            "max_abs_G_difference_Eh_bohr": 9.546317264463866e-09
+          },
+          {
+            "case": "nodal_gbsa_energy_fd",
+            "accuracy": 0.0001,
+            "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .67 .62\n",
+            "max_abs_G_difference_Eh_bohr": 9.262179169466922e-09
+          }
+        ],
+        "benchmarks": []
+      }
+    }
+  }
+}

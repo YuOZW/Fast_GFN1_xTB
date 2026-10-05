@@ -1,0 +1,134 @@
+{
+  "release": {
+    "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+    "exe_sha256": "74fb95ccbe318cbef1d0a83fdbfdbf8ef2c11d6ef12bac74f5186bf8f5be41e1",
+    "cases": [
+      {
+        "case": "cl",
+        "halogen_terms": 0,
+        "max_abs_H_difference_Eh_bohr2": 6.949999997729606e-08,
+        "energy_Eh": -13.744470766363,
+        "gradient_norm_Eh_bohr": 0.026702825045
+      },
+      {
+        "case": "br",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.950000003280721e-08,
+        "energy_Eh": -13.373263233272,
+        "gradient_norm_Eh_bohr": 0.02618322642
+      },
+      {
+        "case": "i",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.940000002453317e-08,
+        "energy_Eh": -13.440266165969,
+        "gradient_norm_Eh_bohr": 0.025500745912
+      },
+      {
+        "case": "at",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.949999997729606e-08,
+        "energy_Eh": -12.986507621609,
+        "gradient_norm_Eh_bohr": 0.024840648835
+      },
+      {
+        "case": "br_zero",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.950000003280721e-08,
+        "energy_Eh": -13.373263233272,
+        "gradient_norm_Eh_bohr": 0.02618322642
+      },
+      {
+        "case": "br_highT",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.260000001701016e-08,
+        "energy_Eh": -13.815016962883,
+        "gradient_norm_Eh_bohr": 0.118482666973
+      },
+      {
+        "case": "i_open",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.950000003280721e-08,
+        "energy_Eh": -12.903952158708,
+        "gradient_norm_Eh_bohr": 0.035953831887
+      },
+      {
+        "case": "tie_fallback",
+        "dispatch_reason": "reference or response rejected",
+        "max_abs_H_difference_Eh_bohr2": 0.0
+      },
+      {
+        "case": "cutoff_fallback",
+        "dispatch_reason": "reference or response rejected",
+        "max_abs_H_difference_Eh_bohr2": 0.0
+      }
+    ],
+    "benchmarks": []
+  },
+  "debug": {
+    "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+    "exe_sha256": "a3ba4758b6aa83244c002e3ea75fa61c4ec354bcdd91998232c41e4395b085f7",
+    "cases": [
+      {
+        "case": "cl",
+        "halogen_terms": 0,
+        "max_abs_H_difference_Eh_bohr2": 6.949999997729606e-08,
+        "energy_Eh": -13.744470766363,
+        "gradient_norm_Eh_bohr": 0.026702825045
+      },
+      {
+        "case": "br",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.950000003280721e-08,
+        "energy_Eh": -13.373263233272,
+        "gradient_norm_Eh_bohr": 0.02618322642
+      },
+      {
+        "case": "i",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.940000002453317e-08,
+        "energy_Eh": -13.440266165969,
+        "gradient_norm_Eh_bohr": 0.025500745912
+      },
+      {
+        "case": "at",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.949999997729606e-08,
+        "energy_Eh": -12.986507621609,
+        "gradient_norm_Eh_bohr": 0.024840648835
+      },
+      {
+        "case": "br_zero",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.950000003280721e-08,
+        "energy_Eh": -13.373263233272,
+        "gradient_norm_Eh_bohr": 0.02618322642
+      },
+      {
+        "case": "br_highT",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.260000001701016e-08,
+        "energy_Eh": -13.815016962883,
+        "gradient_norm_Eh_bohr": 0.118482666973
+      },
+      {
+        "case": "i_open",
+        "halogen_terms": 1,
+        "max_abs_H_difference_Eh_bohr2": 6.950000003280721e-08,
+        "energy_Eh": -12.903952158708,
+        "gradient_norm_Eh_bohr": 0.035953831887
+      },
+      {
+        "case": "tie_fallback",
+        "dispatch_reason": "reference or response rejected",
+        "max_abs_H_difference_Eh_bohr2": 0.0
+      },
+      {
+        "case": "cutoff_fallback",
+        "dispatch_reason": "reference or response rejected",
+        "max_abs_H_difference_Eh_bohr2": 0.0
+      }
+    ],
+    "benchmarks": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+  "exe_sha256": "193cae00930589ac20108c184d65d6377a2366f77ba8527ee945e31fac7dab78",
+  "cases": [
+    {
+      "case": "water",
+      "max_abs_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "hcl",
+      "max_abs_H_difference_Eh_bohr2": 1.1859999998753423e-07
+    },
+    {
+      "case": "water_zero",
+      "max_abs_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "water_highT",
+      "max_abs_H_difference_Eh_bohr2": 9.420000002258178e-08
+    },
+    {
+      "case": "water_open",
+      "max_abs_H_difference_Eh_bohr2": 1.2979999997053682e-07
+    },
+    {
+      "case": "disilane",
+      "max_abs_H_difference_Eh_bohr2": 1.486999999800176e-07
+    },
+    {
+      "case": "benzene",
+      "max_abs_H_difference_Eh_bohr2": 1.669999999953653e-07
+    },
+    {
+      "case": "water_defaults",
+      "step_bohr": 0.005,
+      "max_abs_H_difference_Eh_bohr2": 1.2477600000004863e-05
+    },
+    {
+      "case": "disilane_defaults",
+      "step_bohr": 0.005,
+      "max_abs_H_difference_Eh_bohr2": 2.7513500000075908e-05
+    },
+    {
+      "case": "salt_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "solvation model"
+    },
+    {
+      "case": "disable_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "disabled"
+    },
+    {
+      "case": "constraint_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "constraints"
+    },
+    {
+      "case": "memory_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "memory budget"
+    },
+    {
+      "case": "parallel_numerical",
+      "max_abs_H_difference_Eh_bohr2": 0.0
+    }
+  ],
+  "benchmarks": []
+}

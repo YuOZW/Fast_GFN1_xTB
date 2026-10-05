@@ -1,0 +1,3 @@
+ PASS halogen triplets=          96  max Energy=  4.336808689942018E-018 
+  max Gradient=  1.040834085586084E-017  max Hessian FD=  1.405063177785382E-008
+ PASS halogen neighbour identity and branch/invalid-input fallback guards

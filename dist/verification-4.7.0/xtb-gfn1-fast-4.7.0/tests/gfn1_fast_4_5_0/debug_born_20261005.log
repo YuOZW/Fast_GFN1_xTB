@@ -1,0 +1,514 @@
+ Born model/pair/geometry/step/error:           1           1           1
+  4.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           1           1
+  2.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           1           1
+  1.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           1           1
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  2.000000000000000E-004  3.774353407592912E-007
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  1.000000000000000E-004  9.435927816880962E-008
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  5.000000000000000E-005  2.358922168710365E-008
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  2.500000000000000E-005  5.905034239361839E-009
+ Born model/pair/geometry/step/error:           1           1           2
+  4.000000000000000E-004  1.905126625900699E-009
+ Born model/pair/geometry/step/error:           1           1           2
+  2.000000000000000E-004  4.764387287470306E-010
+ Born model/pair/geometry/step/error:           1           1           2
+  1.000000000000000E-004  1.190336509915291E-010
+ Born model/pair/geometry/step/error:           1           1           2
+  5.000000000000000E-005  3.000764220439933E-011
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  2.000000000000000E-004  5.417625098536050E-010
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  1.000000000000000E-004  1.351693479367810E-010
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  5.000000000000000E-005  3.398292758305388E-011
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  2.500000000000000E-005  8.725353772831568E-012
+ Born model/pair/geometry/step/error:           1           1           3
+  4.000000000000000E-004  3.159217744179432E-011
+ Born model/pair/geometry/step/error:           1           1           3
+  2.000000000000000E-004  7.882031182251947E-012
+ Born model/pair/geometry/step/error:           1           1           3
+  1.000000000000000E-004  1.963371522653579E-012
+ Born model/pair/geometry/step/error:           1           1           3
+  5.000000000000000E-005  5.202984310753722E-013
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  2.000000000000000E-004  3.916096505234001E-012
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  1.000000000000000E-004  9.804835979579374E-013
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  5.000000000000000E-005  2.401090394218985E-013
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  2.500000000000000E-005  6.473933802236820E-014
+ Born model/pair/geometry/step/error:           1           1           4
+  4.000000000000000E-004  3.107335149279446E-013
+ Born model/pair/geometry/step/error:           1           1           4
+  2.000000000000000E-004  7.593598194905252E-014
+ Born model/pair/geometry/step/error:           1           1           4
+  1.000000000000000E-004  1.298560631040561E-014
+ Born model/pair/geometry/step/error:           1           1           4
+  5.000000000000000E-005  2.509810799944043E-014
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  2.000000000000000E-004  1.383331434291887E-014
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  1.000000000000000E-004  3.469336837670471E-015
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  5.000000000000000E-005  8.350643717095971E-016
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  2.500000000000000E-005  1.811714535717487E-016
+ Born model/pair/geometry/step/error:           1           2           1
+  4.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           2           1
+  2.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           2           1
+  1.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           2           1
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           2           2
+  4.000000000000000E-004  1.832277204960597E-009
+ Born model/pair/geometry/step/error:           1           2           2
+  2.000000000000000E-004  4.579685519701115E-010
+ Born model/pair/geometry/step/error:           1           2           2
+  1.000000000000000E-004  1.139381922143912E-010
+ Born model/pair/geometry/step/error:           1           2           2
+  5.000000000000000E-005  2.741018523266803E-011
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           2           3
+  4.000000000000000E-004  3.376762619522466E-010
+ Born model/pair/geometry/step/error:           1           2           3
+  2.000000000000000E-004  8.441313967266773E-011
+ Born model/pair/geometry/step/error:           1           2           3
+  1.000000000000000E-004  2.105670152130479E-011
+ Born model/pair/geometry/step/error:           1           2           3
+  5.000000000000000E-005  5.530926411312365E-012
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           2           4
+  4.000000000000000E-004  2.508102666526346E-012
+ Born model/pair/geometry/step/error:           1           2           4
+  2.000000000000000E-004  6.188803809703547E-013
+ Born model/pair/geometry/step/error:           1           2           4
+  1.000000000000000E-004  1.377656669299121E-013
+ Born model/pair/geometry/step/error:           1           2           4
+  5.000000000000000E-005  1.148534392592104E-013
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           3           1
+  4.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           3           1
+  2.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           3           1
+  1.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           1           3           1
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  2.000000000000000E-004  9.071095612434021E-007
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  1.000000000000000E-004  2.267796022081825E-007
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  5.000000000000000E-005  5.669343483560851E-008
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  2.500000000000000E-005  1.419409745295752E-008
+ Born model/pair/geometry/step/error:           1           3           2
+  4.000000000000000E-004  2.003709854286884E-009
+ Born model/pair/geometry/step/error:           1           3           2
+  2.000000000000000E-004  5.005979832051199E-010
+ Born model/pair/geometry/step/error:           1           3           2
+  1.000000000000000E-004  1.255507676989343E-010
+ Born model/pair/geometry/step/error:           1           3           2
+  5.000000000000000E-005  3.107772719723734E-011
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  2.000000000000000E-004  1.302138591396940E-009
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  1.000000000000000E-004  3.248647739706456E-010
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  5.000000000000000E-005  8.151776476061912E-011
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  2.500000000000000E-005  2.052015501963211E-011
+ Born model/pair/geometry/step/error:           1           3           3
+  4.000000000000000E-004  1.916044978927944E-010
+ Born model/pair/geometry/step/error:           1           3           3
+  2.000000000000000E-004  4.787398429073608E-011
+ Born model/pair/geometry/step/error:           1           3           3
+  1.000000000000000E-004  1.204327089443513E-011
+ Born model/pair/geometry/step/error:           1           3           3
+  5.000000000000000E-005  3.152813080053996E-012
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  2.000000000000000E-004  9.412890822693698E-012
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  1.000000000000000E-004  2.353786002912139E-012
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  5.000000000000000E-005  5.889759166488595E-013
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  2.500000000000000E-005  1.645107661207845E-013
+ Born model/pair/geometry/step/error:           1           3           4
+  4.000000000000000E-004  1.617287982138768E-012
+ Born model/pair/geometry/step/error:           1           3           4
+  2.000000000000000E-004  3.946467447540208E-013
+ Born model/pair/geometry/step/error:           1           3           4
+  1.000000000000000E-004  7.843739221503887E-014
+ Born model/pair/geometry/step/error:           1           3           4
+  5.000000000000000E-005  6.204241222336482E-014
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  2.000000000000000E-004  3.324560187556577E-014
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  1.000000000000000E-004  8.349185973393746E-015
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  5.000000000000000E-005  2.007026780827172E-015
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  2.500000000000000E-005  3.027507511723683E-016
+ Born model/pair/geometry/step/error:           1           4           1
+  4.000000000000000E-004  3.457209863388933E-007
+ Born model/pair/geometry/step/error:           1           4           1
+  2.000000000000000E-004  8.643613580439080E-008
+ Born model/pair/geometry/step/error:           1           4           1
+  1.000000000000000E-004  2.160889500668617E-008
+ Born model/pair/geometry/step/error:           1           4           1
+  5.000000000000000E-005  5.381875278764880E-009
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  2.000000000000000E-004  1.722710871732147E-006
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  1.000000000000000E-004  4.306799450404242E-007
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  5.000000000000000E-005  1.076772093711043E-007
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  2.500000000000000E-005  2.695067280455987E-008
+ Born model/pair/geometry/step/error:           1           4           2
+  4.000000000000000E-004  1.149168100955666E-009
+ Born model/pair/geometry/step/error:           1           4           2
+  2.000000000000000E-004  2.873054363861094E-010
+ Born model/pair/geometry/step/error:           1           4           2
+  1.000000000000000E-004  7.147114150507505E-011
+ Born model/pair/geometry/step/error:           1           4           2
+  5.000000000000000E-005  1.786818609739171E-011
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  2.000000000000000E-004  2.472811955200882E-009
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  1.000000000000000E-004  6.170394750704133E-010
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  5.000000000000000E-005  1.546315853140356E-010
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  2.500000000000000E-005  4.125005892419153E-011
+ Born model/pair/geometry/step/error:           1           4           3
+  4.000000000000000E-004  5.541553778354302E-010
+ Born model/pair/geometry/step/error:           1           4           3
+  2.000000000000000E-004  1.386240532086358E-010
+ Born model/pair/geometry/step/error:           1           4           3
+  1.000000000000000E-004  3.464472805858598E-011
+ Born model/pair/geometry/step/error:           1           4           3
+  5.000000000000000E-005  9.144292961726919E-012
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  2.000000000000000E-004  1.787940108466390E-011
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  1.000000000000000E-004  4.472970171337520E-012
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  5.000000000000000E-005  1.107064526856272E-012
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  2.500000000000000E-005  3.025865148720275E-013
+ Born model/pair/geometry/step/error:           1           4           4
+  4.000000000000000E-004  3.330320936557885E-012
+ Born model/pair/geometry/step/error:           1           4           4
+  2.000000000000000E-004  8.245941906723231E-013
+ Born model/pair/geometry/step/error:           1           4           4
+  1.000000000000000E-004  2.047015985537359E-013
+ Born model/pair/geometry/step/error:           1           4           4
+  5.000000000000000E-005  5.674161566494342E-014
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  2.000000000000000E-004  6.309211982610634E-014
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  1.000000000000000E-004  1.583403411642079E-014
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  5.000000000000000E-005  3.814636594882265E-015
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  2.500000000000000E-005  5.806207565520888E-016
+ Born model/pair/geometry/step/error:           2           1           1
+  4.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           1           1
+  2.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           1           1
+  1.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           1           1
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  2.000000000000000E-004  3.774353407592912E-007
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  1.000000000000000E-004  9.435927816880962E-008
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  5.000000000000000E-005  2.358922168710365E-008
+ CM5 pair/distance/step/error:           1  0.400000000000000     
+  2.500000000000000E-005  5.905034239361839E-009
+ Born model/pair/geometry/step/error:           2           1           2
+  4.000000000000000E-004  1.905126625900699E-009
+ Born model/pair/geometry/step/error:           2           1           2
+  2.000000000000000E-004  4.764387287470306E-010
+ Born model/pair/geometry/step/error:           2           1           2
+  1.000000000000000E-004  1.190336509915291E-010
+ Born model/pair/geometry/step/error:           2           1           2
+  5.000000000000000E-005  3.000764220439933E-011
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  2.000000000000000E-004  5.417625098536050E-010
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  1.000000000000000E-004  1.351693479367810E-010
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  5.000000000000000E-005  3.398292758305388E-011
+ CM5 pair/distance/step/error:           1   2.30000000000000     
+  2.500000000000000E-005  8.725353772831568E-012
+ Born model/pair/geometry/step/error:           2           1           3
+  4.000000000000000E-004  3.159217744179432E-011
+ Born model/pair/geometry/step/error:           2           1           3
+  2.000000000000000E-004  7.882031182251947E-012
+ Born model/pair/geometry/step/error:           2           1           3
+  1.000000000000000E-004  1.963371522653579E-012
+ Born model/pair/geometry/step/error:           2           1           3
+  5.000000000000000E-005  5.202984310753722E-013
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  2.000000000000000E-004  3.916096505234001E-012
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  1.000000000000000E-004  9.804835979579374E-013
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  5.000000000000000E-005  2.401090394218985E-013
+ CM5 pair/distance/step/error:           1   5.70000000000000     
+  2.500000000000000E-005  6.473933802236820E-014
+ Born model/pair/geometry/step/error:           2           1           4
+  4.000000000000000E-004  3.107335149279446E-013
+ Born model/pair/geometry/step/error:           2           1           4
+  2.000000000000000E-004  7.593598194905252E-014
+ Born model/pair/geometry/step/error:           2           1           4
+  1.000000000000000E-004  1.298560631040561E-014
+ Born model/pair/geometry/step/error:           2           1           4
+  5.000000000000000E-005  2.509810799944043E-014
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  2.000000000000000E-004  1.383331434291887E-014
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  1.000000000000000E-004  3.469336837670471E-015
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  5.000000000000000E-005  8.350643717095971E-016
+ CM5 pair/distance/step/error:           1   10.0000000000000     
+  2.500000000000000E-005  1.811714535717487E-016
+ Born model/pair/geometry/step/error:           2           2           1
+  4.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           2           1
+  2.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           2           1
+  1.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           2           1
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2  0.400000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           2           2
+  4.000000000000000E-004  1.832277204960597E-009
+ Born model/pair/geometry/step/error:           2           2           2
+  2.000000000000000E-004  4.579685519701115E-010
+ Born model/pair/geometry/step/error:           2           2           2
+  1.000000000000000E-004  1.139381922143912E-010
+ Born model/pair/geometry/step/error:           2           2           2
+  5.000000000000000E-005  2.741018523266803E-011
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   2.30000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           2           3
+  4.000000000000000E-004  3.376762619522466E-010
+ Born model/pair/geometry/step/error:           2           2           3
+  2.000000000000000E-004  8.441313967266773E-011
+ Born model/pair/geometry/step/error:           2           2           3
+  1.000000000000000E-004  2.105670152130479E-011
+ Born model/pair/geometry/step/error:           2           2           3
+  5.000000000000000E-005  5.530926411312365E-012
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   5.70000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           2           4
+  4.000000000000000E-004  2.508102666526346E-012
+ Born model/pair/geometry/step/error:           2           2           4
+  2.000000000000000E-004  6.188803809703547E-013
+ Born model/pair/geometry/step/error:           2           2           4
+  1.000000000000000E-004  1.377656669299121E-013
+ Born model/pair/geometry/step/error:           2           2           4
+  5.000000000000000E-005  1.148534392592104E-013
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  2.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  1.000000000000000E-004  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           2   10.0000000000000     
+  2.500000000000000E-005  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           3           1
+  4.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           3           1
+  2.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           3           1
+  1.000000000000000E-004  0.000000000000000E+000
+ Born model/pair/geometry/step/error:           2           3           1
+  5.000000000000000E-005  0.000000000000000E+000
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  2.000000000000000E-004  9.071095612434021E-007
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  1.000000000000000E-004  2.267796022081825E-007
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  5.000000000000000E-005  5.669343483560851E-008
+ CM5 pair/distance/step/error:           3  0.400000000000000     
+  2.500000000000000E-005  1.419409745295752E-008
+ Born model/pair/geometry/step/error:           2           3           2
+  4.000000000000000E-004  2.003709854286884E-009
+ Born model/pair/geometry/step/error:           2           3           2
+  2.000000000000000E-004  5.005979832051199E-010
+ Born model/pair/geometry/step/error:           2           3           2
+  1.000000000000000E-004  1.255507676989343E-010
+ Born model/pair/geometry/step/error:           2           3           2
+  5.000000000000000E-005  3.107772719723734E-011
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  2.000000000000000E-004  1.302138591396940E-009
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  1.000000000000000E-004  3.248647739706456E-010
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  5.000000000000000E-005  8.151776476061912E-011
+ CM5 pair/distance/step/error:           3   2.30000000000000     
+  2.500000000000000E-005  2.052015501963211E-011
+ Born model/pair/geometry/step/error:           2           3           3
+  4.000000000000000E-004  1.916044978927944E-010
+ Born model/pair/geometry/step/error:           2           3           3
+  2.000000000000000E-004  4.787398429073608E-011
+ Born model/pair/geometry/step/error:           2           3           3
+  1.000000000000000E-004  1.204327089443513E-011
+ Born model/pair/geometry/step/error:           2           3           3
+  5.000000000000000E-005  3.152813080053996E-012
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  2.000000000000000E-004  9.412890822693698E-012
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  1.000000000000000E-004  2.353786002912139E-012
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  5.000000000000000E-005  5.889759166488595E-013
+ CM5 pair/distance/step/error:           3   5.70000000000000     
+  2.500000000000000E-005  1.645107661207845E-013
+ Born model/pair/geometry/step/error:           2           3           4
+  4.000000000000000E-004  1.617287982138768E-012
+ Born model/pair/geometry/step/error:           2           3           4
+  2.000000000000000E-004  3.946467447540208E-013
+ Born model/pair/geometry/step/error:           2           3           4
+  1.000000000000000E-004  7.843739221503887E-014
+ Born model/pair/geometry/step/error:           2           3           4
+  5.000000000000000E-005  6.204241222336482E-014
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  2.000000000000000E-004  3.324560187556577E-014
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  1.000000000000000E-004  8.349185973393746E-015
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  5.000000000000000E-005  2.007026780827172E-015
+ CM5 pair/distance/step/error:           3   10.0000000000000     
+  2.500000000000000E-005  3.027507511723683E-016
+ Born model/pair/geometry/step/error:           2           4           1
+  4.000000000000000E-004  3.457209863388933E-007
+ Born model/pair/geometry/step/error:           2           4           1
+  2.000000000000000E-004  8.643613580439080E-008
+ Born model/pair/geometry/step/error:           2           4           1
+  1.000000000000000E-004  2.160889500668617E-008
+ Born model/pair/geometry/step/error:           2           4           1
+  5.000000000000000E-005  5.381875278764880E-009
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  2.000000000000000E-004  1.722710871732147E-006
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  1.000000000000000E-004  4.306799450404242E-007
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  5.000000000000000E-005  1.076772093711043E-007
+ CM5 pair/distance/step/error:           4  0.400000000000000     
+  2.500000000000000E-005  2.695067280455987E-008
+ Born model/pair/geometry/step/error:           2           4           2
+  4.000000000000000E-004  1.149168100955666E-009
+ Born model/pair/geometry/step/error:           2           4           2
+  2.000000000000000E-004  2.873054363861094E-010
+ Born model/pair/geometry/step/error:           2           4           2
+  1.000000000000000E-004  7.147114150507505E-011
+ Born model/pair/geometry/step/error:           2           4           2
+  5.000000000000000E-005  1.786818609739171E-011
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  2.000000000000000E-004  2.472811955200882E-009
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  1.000000000000000E-004  6.170394750704133E-010
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  5.000000000000000E-005  1.546315853140356E-010
+ CM5 pair/distance/step/error:           4   2.30000000000000     
+  2.500000000000000E-005  4.125005892419153E-011
+ Born model/pair/geometry/step/error:           2           4           3
+  4.000000000000000E-004  5.541553778354302E-010
+ Born model/pair/geometry/step/error:           2           4           3
+  2.000000000000000E-004  1.386240532086358E-010
+ Born model/pair/geometry/step/error:           2           4           3
+  1.000000000000000E-004  3.464472805858598E-011
+ Born model/pair/geometry/step/error:           2           4           3
+  5.000000000000000E-005  9.144292961726919E-012
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  2.000000000000000E-004  1.787940108466390E-011
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  1.000000000000000E-004  4.472970171337520E-012
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  5.000000000000000E-005  1.107064526856272E-012
+ CM5 pair/distance/step/error:           4   5.70000000000000     
+  2.500000000000000E-005  3.025865148720275E-013
+ Born model/pair/geometry/step/error:           2           4           4
+  4.000000000000000E-004  3.330320936557885E-012
+ Born model/pair/geometry/step/error:           2           4           4
+  2.000000000000000E-004  8.245941906723231E-013
+ Born model/pair/geometry/step/error:           2           4           4
+  1.000000000000000E-004  2.047015985537359E-013
+ Born model/pair/geometry/step/error:           2           4           4
+  5.000000000000000E-005  5.674161566494342E-014
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  2.000000000000000E-004  6.309211982610634E-014
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  1.000000000000000E-004  1.583403411642079E-014
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  5.000000000000000E-005  3.814636594882265E-015
+ CM5 pair/distance/step/error:           4   10.0000000000000     
+  2.500000000000000E-005  5.806207565520888E-016
+ PASS Born and CM5 component response; buried/partial/nonoverlap=          16
+          16          32

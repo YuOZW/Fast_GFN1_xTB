@@ -1,0 +1,77 @@
+{
+  "molecule": "taxol",
+  "atoms": 113,
+  "nao": 350,
+  "n3": 339,
+  "exe_sha256": {
+    "fast": "74fb95ccbe318cbef1d0a83fdbfdbf8ef2c11d6ef12bac74f5186bf8f5be41e1",
+    "stock": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "threads": 1,
+  "profile": false,
+  "warmups": 1,
+  "scc_accuracy": 1e-07,
+  "step_bohr": 0.0005,
+  "trials": [
+    {
+      "order": [
+        "stock",
+        "analytic"
+      ],
+      "results": {
+        "stock": {
+          "name": "taxol_0_stock",
+          "process_wall_seconds": 249.19413359999453,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark\\taxol_0_stock\\run.log"
+        },
+        "analytic": {
+          "name": "taxol_0_analytic",
+          "process_wall_seconds": 30.82645049999701,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark\\taxol_0_analytic\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    },
+    {
+      "order": [
+        "stock",
+        "analytic"
+      ],
+      "results": {
+        "stock": {
+          "name": "taxol_1_stock",
+          "process_wall_seconds": 251.70491650000622,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark\\taxol_1_stock\\run.log"
+        },
+        "analytic": {
+          "name": "taxol_1_analytic",
+          "process_wall_seconds": 30.13762599999609,
+          "analytic_used": null,
+          "reason": null,
+          "step_bohr": 0.0005,
+          "n3": 339,
+          "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-hessian-benchmark\\taxol_1_analytic\\run.log"
+        }
+      },
+      "max_abs_H_difference_Eh_bohr2": 2.990999999896715e-07
+    }
+  ],
+  "stock_hessian_compatibility": "Original numerical formula; only Hessian OpenMP directives suppressed for Windows ifx; one thread",
+  "status": "Interrupted; not a completed benchmark",
+  "reason": "Actual SCC nodal-overlap Gradient error reproduced; repair before adoption/rebenchmark",
+  "nodal_legacy_gradient_error_Eh_bohr": 0.04680185420716915,
+  "source_snapshot": "C:\\GitHub_repository\\Fast_GFN1_xTB\\_reference\\gfn1-fast-4.3.0-source-snapshot"
+}

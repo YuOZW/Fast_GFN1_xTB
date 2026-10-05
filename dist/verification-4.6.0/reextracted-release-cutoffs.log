@@ -1,0 +1,15 @@
+   59.9000000000000      T  1.398128069157600E-009  0.000000000000000E+000
+  1.039999191514319E-019
+ D3 distance/accepted/original G norm/G difference/H FD difference:
+   59.9998000000000      F  1.381593752582641E-009  9.769343112961544E-010
+  9.769924900749728E-007
+ D3 distance/accepted/original G norm/G difference/H FD difference:
+   60.0000000000000      F  1.381560843266501E-009  9.769110408955479E-010
+  9.769692180873245E-007
+ D3 distance/accepted/original G norm/G difference/H FD difference:
+   60.0002000000000      F  0.000000000000000E+000  0.000000000000000E+000
+  9.769459467345075E-007
+ D3 distance/accepted/original G norm/G difference/H FD difference:
+   60.1000000000000      T  0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000
+ PASS smooth D3 responses and actual hard-cutoff rejection

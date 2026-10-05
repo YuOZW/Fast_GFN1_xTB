@@ -1,0 +1,37 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+  "exe_sha256": "df26018d4826156a8564813c0bd795935b67c255c7f5c39c57b00c331a4674da",
+  "cases": [
+    {
+      "case": "nodal_hessian",
+      "max_abs_H_difference_Eh_bohr2": 1.1759999996030501e-07
+    },
+    {
+      "case": "legacy_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "generic_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0
+    },
+    {
+      "case": "nodal_gas_energy_fd",
+      "accuracy": 0.0001,
+      "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+      "max_abs_G_difference_Eh_bohr": 1.0759950527794437e-08
+    },
+    {
+      "case": "nodal_alpb_energy_fd",
+      "accuracy": 0.0001,
+      "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .65 .62\n",
+      "max_abs_G_difference_Eh_bohr": 9.546317264463866e-09
+    },
+    {
+      "case": "nodal_gbsa_energy_fd",
+      "accuracy": 0.0001,
+      "xyz": "3\nnodal asymmetric water\nO 0 0 0\nH .758602 0 .504284\nH -.3 .67 .62\n",
+      "max_abs_G_difference_Eh_bohr": 9.262179169466922e-09
+    }
+  ],
+  "benchmarks": []
+}

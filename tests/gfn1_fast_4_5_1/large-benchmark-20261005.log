@@ -1,0 +1,41 @@
+PASS large solvent CLI gbsa_profile_audit 34.6053s {'peak_working_set_bytes': 836857856, 'peak_pagefile_usage_bytes': 858341376, 'maximum_sampled_private_bytes': 858308608, 'samples': 686, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_-1_analytic 34.6849s {'peak_working_set_bytes': 837427200, 'peak_pagefile_usage_bytes': 857833472, 'maximum_sampled_private_bytes': 857559040, 'samples': 688, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_-1_stock 228.9799s {'peak_working_set_bytes': 53239808, 'peak_pagefile_usage_bytes': 73572352, 'maximum_sampled_private_bytes': 73490432, 'samples': 4536, 'sample_interval_seconds': 0.05}
+PASS Hessian parity gbsa trial -1: 6.600e-09 Eh/bohr^2
+PASS large solvent CLI gbsa_0_analytic 34.8848s {'peak_working_set_bytes': 836812800, 'peak_pagefile_usage_bytes': 857919488, 'maximum_sampled_private_bytes': 857542656, 'samples': 692, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_0_stock 229.8632s {'peak_working_set_bytes': 52297728, 'peak_pagefile_usage_bytes': 73289728, 'maximum_sampled_private_bytes': 72876032, 'samples': 4555, 'sample_interval_seconds': 0.05}
+PASS Hessian parity gbsa trial 0: 7.200e-09 Eh/bohr^2
+PASS large solvent CLI gbsa_1_analytic 35.3418s {'peak_working_set_bytes': 836927488, 'peak_pagefile_usage_bytes': 857784320, 'maximum_sampled_private_bytes': 857747456, 'samples': 701, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_1_stock 232.3118s {'peak_working_set_bytes': 54022144, 'peak_pagefile_usage_bytes': 74592256, 'maximum_sampled_private_bytes': 74592256, 'samples': 4603, 'sample_interval_seconds': 0.05}
+PASS Hessian parity gbsa trial 1: 5.400e-09 Eh/bohr^2
+PASS large solvent CLI gbsa_2_stock 228.8058s {'peak_working_set_bytes': 52723712, 'peak_pagefile_usage_bytes': 73940992, 'maximum_sampled_private_bytes': 73932800, 'samples': 4534, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_2_analytic 35.1596s {'peak_working_set_bytes': 836997120, 'peak_pagefile_usage_bytes': 857829376, 'maximum_sampled_private_bytes': 857509888, 'samples': 697, 'sample_interval_seconds': 0.05}
+PASS Hessian parity gbsa trial 2: 7.200e-09 Eh/bohr^2
+PASS large solvent CLI gbsa_3_stock 229.7759s {'peak_working_set_bytes': 52899840, 'peak_pagefile_usage_bytes': 73916416, 'maximum_sampled_private_bytes': 73908224, 'samples': 4554, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_3_analytic 35.4137s {'peak_working_set_bytes': 836808704, 'peak_pagefile_usage_bytes': 858259456, 'maximum_sampled_private_bytes': 858259456, 'samples': 703, 'sample_interval_seconds': 0.05}
+PASS Hessian parity gbsa trial 3: 7.200e-09 Eh/bohr^2
+PASS large solvent CLI gbsa_4_stock 228.8537s {'peak_working_set_bytes': 53694464, 'peak_pagefile_usage_bytes': 74858496, 'maximum_sampled_private_bytes': 74854400, 'samples': 4535, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI gbsa_4_analytic 35.1673s {'peak_working_set_bytes': 836997120, 'peak_pagefile_usage_bytes': 857890816, 'maximum_sampled_private_bytes': 857890816, 'samples': 697, 'sample_interval_seconds': 0.05}
+PASS Hessian parity gbsa trial 4: 7.200e-09 Eh/bohr^2
+BENCH large solvent Hessian gbsa {'analytic': 35.167327100003604, 'stock': 229.7759001999948} 6.533789148848086
+PASS large solvent CLI alpb_profile_audit 34.2439s {'peak_working_set_bytes': 837103616, 'peak_pagefile_usage_bytes': 857841664, 'maximum_sampled_private_bytes': 857841664, 'samples': 679, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_-1_stock 229.8057s {'peak_working_set_bytes': 53714944, 'peak_pagefile_usage_bytes': 74145792, 'maximum_sampled_private_bytes': 74104832, 'samples': 4554, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_-1_analytic 33.8855s {'peak_working_set_bytes': 837066752, 'peak_pagefile_usage_bytes': 858181632, 'maximum_sampled_private_bytes': 857595904, 'samples': 672, 'sample_interval_seconds': 0.05}
+PASS Hessian parity alpb trial -1: 1.000e-08 Eh/bohr^2
+PASS large solvent CLI alpb_0_stock 230.8063s {'peak_working_set_bytes': 54149120, 'peak_pagefile_usage_bytes': 74432512, 'maximum_sampled_private_bytes': 74153984, 'samples': 4573, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_0_analytic 33.6927s {'peak_working_set_bytes': 837021696, 'peak_pagefile_usage_bytes': 857849856, 'maximum_sampled_private_bytes': 857509888, 'samples': 669, 'sample_interval_seconds': 0.05}
+PASS Hessian parity alpb trial 0: 8.400e-09 Eh/bohr^2
+PASS large solvent CLI alpb_1_analytic 33.7346s {'peak_working_set_bytes': 836759552, 'peak_pagefile_usage_bytes': 857849856, 'maximum_sampled_private_bytes': 857518080, 'samples': 670, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_1_stock 229.9522s {'peak_working_set_bytes': 53424128, 'peak_pagefile_usage_bytes': 74735616, 'maximum_sampled_private_bytes': 74190848, 'samples': 4556, 'sample_interval_seconds': 0.05}
+PASS Hessian parity alpb trial 1: 1.000e-08 Eh/bohr^2
+PASS large solvent CLI alpb_2_analytic 33.7560s {'peak_working_set_bytes': 837128192, 'peak_pagefile_usage_bytes': 857780224, 'maximum_sampled_private_bytes': 857772032, 'samples': 669, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_2_stock 229.8219s {'peak_working_set_bytes': 52891648, 'peak_pagefile_usage_bytes': 73998336, 'maximum_sampled_private_bytes': 73863168, 'samples': 4553, 'sample_interval_seconds': 0.05}
+PASS Hessian parity alpb trial 2: 1.000e-08 Eh/bohr^2
+PASS large solvent CLI alpb_3_analytic 33.6298s {'peak_working_set_bytes': 837128192, 'peak_pagefile_usage_bytes': 857849856, 'maximum_sampled_private_bytes': 857518080, 'samples': 666, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_3_stock 228.9191s {'peak_working_set_bytes': 52453376, 'peak_pagefile_usage_bytes': 73584640, 'maximum_sampled_private_bytes': 73474048, 'samples': 4535, 'sample_interval_seconds': 0.05}
+PASS Hessian parity alpb trial 3: 1.000e-08 Eh/bohr^2
+PASS large solvent CLI alpb_4_analytic 33.2676s {'peak_working_set_bytes': 837021696, 'peak_pagefile_usage_bytes': 857772032, 'maximum_sampled_private_bytes': 857772032, 'samples': 660, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_4_stock 232.7467s {'peak_working_set_bytes': 54870016, 'peak_pagefile_usage_bytes': 74792960, 'maximum_sampled_private_bytes': 74117120, 'samples': 4612, 'sample_interval_seconds': 0.05}
+PASS Hessian parity alpb trial 4: 6.700e-09 Eh/bohr^2
+BENCH large solvent Hessian alpb {'analytic': 33.69274549999682, 'stock': 229.9522055999987} 6.824976777271547
+PASS complete large solvent Hessian comparison

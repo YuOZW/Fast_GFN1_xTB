@@ -1,0 +1,3 @@
+PASS large solvent CLI gbsa_profile_audit 36.3000s {'peak_working_set_bytes': 837627904, 'peak_pagefile_usage_bytes': 857718784, 'maximum_sampled_private_bytes': 857575424, 'samples': 720, 'sample_interval_seconds': 0.05}
+PASS large solvent CLI alpb_profile_audit 34.0003s {'peak_working_set_bytes': 837058560, 'peak_pagefile_usage_bytes': 857808896, 'maximum_sampled_private_bytes': 857808896, 'samples': 675, 'sample_interval_seconds': 0.05}
+PASS complete large solvent Hessian resource audit

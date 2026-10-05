@@ -1,0 +1,22 @@
+
+ GFN1-fast 4.4.0 analytic Hessian: used=T
+   dispatch reason = analytic gas GFN1
+   analytic halogen terms = 0
+   estimated workspace bytes = 73304
+   analytic attempt wall =     0.000000 s
+ PASS partial additive analytic calculator Hessian
+
+ GFN1-fast 4.4.0 analytic Hessian: used=F
+   dispatch reason = polarizability derivatives
+   analytic halogen terms = 0
+   estimated workspace bytes = 0
+   analytic attempt wall =     0.000000 s
+
+ GFN1-fast 2.0.3 Hessian profile
+   NAO                 = 8
+   Cartesian jobs       = 3
+   outer OpenMP         = F, max threads=1
+   OpenMP schedule       = static,1
+   static NAO threshold = 128
+   finite-diff wall     =   0.002000 s
+ PASS requested polarizability numerical fallback

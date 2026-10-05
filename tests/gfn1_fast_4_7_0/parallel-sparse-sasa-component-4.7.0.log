@@ -1,0 +1,9 @@
+  1.526234694182449E-011
+ model/kernel/charge/step/H/V/G:           2           2           2
+  5.000000000000000E-005  1.185030242337182E-011  1.415709389995801E-011
+  6.144381010930733E-012
+ model/kernel/charge/step/H/V/G:           2           2           2
+  2.500000000000000E-005  6.956286241477372E-012  8.947020208038836E-012
+  5.406388444567645E-012
+ PASS fixed-bare-charge GBSA/ALPB Still/P16 response, CM5, mixed derivatives and
+  guards

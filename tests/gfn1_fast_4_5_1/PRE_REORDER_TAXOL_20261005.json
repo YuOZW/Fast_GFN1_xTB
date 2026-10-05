@@ -1,0 +1,13 @@
+{
+  "stage": "4.5.1 deep burial guard, before response allocation reorder",
+  "at": "2026-10-05T12:53:23.543990",
+  "exe_sha256": "e43d1680f4c54d28c12f8ad843ebcdf534638c9387f72308f2fecef781cf64b6",
+  "library_sha256": "2f5a7f9853c3e653f9620d00e3685cf87f63ff0810cb8ca7d7c9f94f8715d8bc",
+  "native_driver_sha256": "03d8f603d8094d6dd75910a539fbfac06cebe596141ab8722541457c9eb033a6",
+  "source_sha256": {
+    "src/solv/response.f90": "2128b39732282ff8d410be60e6640e9322cce955645924c6d066983dc7090216",
+    "src/xtb/hessian_response.f90": "0e923d13099e5a2cc6f904c4474da4bad7b65a956e5ea3d7d39256b3b4bcce9f",
+    "src/xtb/calculator.f90": "faec06563ef407b7dd7f7234d0d9ca36bbeafc46470e8cfe9757f3359c587e87",
+    "tests/gfn1_fast_4_5_0/test_large_molecular_solvent.f90": "a21adbf1403bc8547aab9f5ec2c74238e863881954a7713933a5d2ed59809232"
+  }
+}

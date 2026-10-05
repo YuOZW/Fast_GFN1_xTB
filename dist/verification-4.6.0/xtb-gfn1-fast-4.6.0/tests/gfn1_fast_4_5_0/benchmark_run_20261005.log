@@ -1,0 +1,214 @@
+PASS --hess gbsa_neutral_numerical: analytic=False, 0.0402s
+PASS --hess gbsa_neutral_analytic: analytic=True, 0.0350s
+PASS Hessian parity gbsa_neutral: 1.880e-08 Eh/bohr^2
+PASS --hess gbsa_open_numerical: analytic=False, 0.0379s
+PASS --hess gbsa_open_analytic: analytic=True, 0.0334s
+PASS Hessian parity gbsa_open: 1.940e-08 Eh/bohr^2
+PASS --hess gbsa_highT_numerical: analytic=False, 0.0391s
+PASS --hess gbsa_highT_analytic: analytic=True, 0.0343s
+PASS Hessian parity gbsa_highT: 1.630e-08 Eh/bohr^2
+PASS --hess alpb_neutral_numerical: analytic=False, 0.0669s
+PASS --hess alpb_neutral_analytic: analytic=True, 0.0334s
+PASS Hessian parity alpb_neutral: 1.890e-08 Eh/bohr^2
+PASS --hess alpb_open_numerical: analytic=False, 0.0390s
+PASS --hess alpb_open_analytic: analytic=True, 0.0355s
+PASS Hessian parity alpb_open: 1.940e-08 Eh/bohr^2
+PASS --hess alpb_highT_numerical: analytic=False, 0.0432s
+PASS --hess alpb_highT_analytic: analytic=True, 0.0400s
+PASS Hessian parity alpb_highT: 1.620e-08 Eh/bohr^2
+PASS --hess disilane_gbsa_numerical: analytic=False, 0.1544s
+PASS --hess disilane_gbsa_analytic: analytic=True, 0.0463s
+PASS Hessian parity disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess disilane_alpb_numerical: analytic=False, 0.1531s
+PASS --hess disilane_alpb_analytic: analytic=True, 0.0461s
+PASS Hessian parity disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess smooth_halogen_gbsa_numerical: analytic=False, 0.1381s
+PASS --hess smooth_halogen_gbsa_analytic: analytic=True, 0.0438s
+PASS Hessian parity smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess smooth_halogen_alpb_numerical: analytic=False, 0.1405s
+PASS --hess smooth_halogen_alpb_analytic: analytic=True, 0.0441s
+PASS Hessian parity smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess screened_surface_numerical: analytic=False, 0.0795s
+PASS --hess screened_surface_fallback: analytic=False, 0.0397s
+PASS Hessian parity screened_surface: 0.000e+00 Eh/bohr^2
+PASS --hess conservative_disilane_window_numerical: analytic=False, 0.1515s
+PASS --hess conservative_disilane_window_fallback: analytic=False, 0.1528s
+PASS Hessian parity conservative_disilane_window: 0.000e+00 Eh/bohr^2
+PASS --hess solvent_memory_numerical: analytic=False, 0.1570s
+PASS --hess solvent_memory_fallback: analytic=False, 0.2247s
+PASS Hessian parity solvent_memory: 0.000e+00 Eh/bohr^2
+PASS --hess solvent_legacy_numerical: analytic=False, 0.0525s
+PASS --hess solvent_legacy_fallback: analytic=False, 0.0436s
+PASS Hessian parity solvent_legacy: 0.000e+00 Eh/bohr^2
+PASS --hess solvent_salt_numerical: analytic=False, 0.0398s
+PASS --hess solvent_salt_fallback: analytic=False, 0.0388s
+PASS Hessian parity solvent_salt: 0.000e+00 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_-1_stock: analytic=None, 0.2044s
+PASS --hess bench_disilane_gbsa_-1_fast_analytic: analytic=None, 0.0473s
+PASS --hess bench_disilane_gbsa_-1_fast_numerical: analytic=None, 0.1553s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_0_fast_analytic: analytic=None, 0.0448s
+PASS --hess bench_disilane_gbsa_0_stock: analytic=None, 0.1967s
+PASS --hess bench_disilane_gbsa_0_fast_numerical: analytic=None, 0.1587s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_1_fast_numerical: analytic=None, 0.1618s
+PASS --hess bench_disilane_gbsa_1_fast_analytic: analytic=None, 0.0456s
+PASS --hess bench_disilane_gbsa_1_stock: analytic=None, 0.1985s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_2_fast_numerical: analytic=None, 0.1653s
+PASS --hess bench_disilane_gbsa_2_fast_analytic: analytic=None, 0.0485s
+PASS --hess bench_disilane_gbsa_2_stock: analytic=None, 0.2019s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_3_stock: analytic=None, 0.2005s
+PASS --hess bench_disilane_gbsa_3_fast_numerical: analytic=None, 0.1497s
+PASS --hess bench_disilane_gbsa_3_fast_analytic: analytic=None, 0.0451s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_4_stock: analytic=None, 0.2139s
+PASS --hess bench_disilane_gbsa_4_fast_numerical: analytic=None, 0.1562s
+PASS --hess bench_disilane_gbsa_4_fast_analytic: analytic=None, 0.0460s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_5_stock: analytic=None, 0.2002s
+PASS --hess bench_disilane_gbsa_5_fast_numerical: analytic=None, 0.1550s
+PASS --hess bench_disilane_gbsa_5_fast_analytic: analytic=None, 0.0466s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess bench_disilane_gbsa_6_stock: analytic=None, 0.2082s
+PASS --hess bench_disilane_gbsa_6_fast_numerical: analytic=None, 0.1695s
+PASS --hess bench_disilane_gbsa_6_fast_analytic: analytic=None, 0.0472s
+PASS Hessian parity stock numerical disilane_gbsa: 0.000e+00 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_gbsa: 5.900e-09 Eh/bohr^2
+PASS --hess disilane_gbsa_profile_audit: analytic=True, 0.0464s
+BENCH solvent Hessian disilane_gbsa {'stock': 0.20049529999960214, 'fast_numerical': 0.15872500000114087, 'fast_analytic': 0.04601120000006631}
+PASS --hess bench_disilane_alpb_-1_stock: analytic=None, 0.1992s
+PASS --hess bench_disilane_alpb_-1_fast_numerical: analytic=None, 0.1551s
+PASS --hess bench_disilane_alpb_-1_fast_analytic: analytic=None, 0.0553s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_0_fast_numerical: analytic=None, 0.1502s
+PASS --hess bench_disilane_alpb_0_fast_analytic: analytic=None, 0.0454s
+PASS --hess bench_disilane_alpb_0_stock: analytic=None, 0.2115s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_1_fast_analytic: analytic=None, 0.0494s
+PASS --hess bench_disilane_alpb_1_fast_numerical: analytic=None, 0.1542s
+PASS --hess bench_disilane_alpb_1_stock: analytic=None, 0.1984s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_2_stock: analytic=None, 0.2021s
+PASS --hess bench_disilane_alpb_2_fast_analytic: analytic=None, 0.0464s
+PASS --hess bench_disilane_alpb_2_fast_numerical: analytic=None, 0.1533s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_3_stock: analytic=None, 0.2054s
+PASS --hess bench_disilane_alpb_3_fast_analytic: analytic=None, 0.0451s
+PASS --hess bench_disilane_alpb_3_fast_numerical: analytic=None, 0.1544s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_4_stock: analytic=None, 0.2019s
+PASS --hess bench_disilane_alpb_4_fast_analytic: analytic=None, 0.0459s
+PASS --hess bench_disilane_alpb_4_fast_numerical: analytic=None, 0.1542s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_5_fast_numerical: analytic=None, 0.1567s
+PASS --hess bench_disilane_alpb_5_fast_analytic: analytic=None, 0.0640s
+PASS --hess bench_disilane_alpb_5_stock: analytic=None, 0.2029s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess bench_disilane_alpb_6_fast_numerical: analytic=None, 0.1600s
+PASS --hess bench_disilane_alpb_6_fast_analytic: analytic=None, 0.0930s
+PASS --hess bench_disilane_alpb_6_stock: analytic=None, 0.2285s
+PASS Hessian parity stock numerical disilane_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess disilane_alpb_profile_audit: analytic=True, 0.0493s
+BENCH solvent Hessian disilane_alpb {'stock': 0.20287809999717865, 'fast_numerical': 0.15423759999976028, 'fast_analytic': 0.046431399998255074}
+PASS --hess bench_smooth_halogen_gbsa_-1_stock: analytic=None, 0.1688s
+PASS --hess bench_smooth_halogen_gbsa_-1_fast_analytic: analytic=None, 0.0460s
+PASS --hess bench_smooth_halogen_gbsa_-1_fast_numerical: analytic=None, 0.1299s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_0_stock: analytic=None, 0.1689s
+PASS --hess bench_smooth_halogen_gbsa_0_fast_numerical: analytic=None, 0.1291s
+PASS --hess bench_smooth_halogen_gbsa_0_fast_analytic: analytic=None, 0.0429s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_1_fast_numerical: analytic=None, 0.1305s
+PASS --hess bench_smooth_halogen_gbsa_1_fast_analytic: analytic=None, 0.0525s
+PASS --hess bench_smooth_halogen_gbsa_1_stock: analytic=None, 0.1690s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_2_fast_numerical: analytic=None, 0.1317s
+PASS --hess bench_smooth_halogen_gbsa_2_stock: analytic=None, 0.1693s
+PASS --hess bench_smooth_halogen_gbsa_2_fast_analytic: analytic=None, 0.0427s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_3_stock: analytic=None, 0.1660s
+PASS --hess bench_smooth_halogen_gbsa_3_fast_numerical: analytic=None, 0.1382s
+PASS --hess bench_smooth_halogen_gbsa_3_fast_analytic: analytic=None, 0.0423s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_4_fast_numerical: analytic=None, 0.1284s
+PASS --hess bench_smooth_halogen_gbsa_4_stock: analytic=None, 0.1895s
+PASS --hess bench_smooth_halogen_gbsa_4_fast_analytic: analytic=None, 0.0451s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_5_stock: analytic=None, 0.1686s
+PASS --hess bench_smooth_halogen_gbsa_5_fast_analytic: analytic=None, 0.0439s
+PASS --hess bench_smooth_halogen_gbsa_5_fast_numerical: analytic=None, 0.1314s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_gbsa_6_fast_analytic: analytic=None, 0.0439s
+PASS --hess bench_smooth_halogen_gbsa_6_stock: analytic=None, 0.1727s
+PASS --hess bench_smooth_halogen_gbsa_6_fast_numerical: analytic=None, 0.1355s
+PASS Hessian parity stock numerical smooth_halogen_gbsa: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess smooth_halogen_gbsa_profile_audit: analytic=True, 0.0438s
+BENCH solvent Hessian smooth_halogen_gbsa {'stock': 0.16898679999576416, 'fast_numerical': 0.13143700000364333, 'fast_analytic': 0.04394309999770485}
+PASS --hess bench_smooth_halogen_alpb_-1_fast_analytic: analytic=None, 0.0435s
+PASS --hess bench_smooth_halogen_alpb_-1_stock: analytic=None, 0.1740s
+PASS --hess bench_smooth_halogen_alpb_-1_fast_numerical: analytic=None, 0.1496s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_0_fast_numerical: analytic=None, 0.1321s
+PASS --hess bench_smooth_halogen_alpb_0_stock: analytic=None, 0.1710s
+PASS --hess bench_smooth_halogen_alpb_0_fast_analytic: analytic=None, 0.0433s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_1_fast_numerical: analytic=None, 0.1331s
+PASS --hess bench_smooth_halogen_alpb_1_stock: analytic=None, 0.1690s
+PASS --hess bench_smooth_halogen_alpb_1_fast_analytic: analytic=None, 0.0456s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_2_fast_analytic: analytic=None, 0.0466s
+PASS --hess bench_smooth_halogen_alpb_2_stock: analytic=None, 0.1793s
+PASS --hess bench_smooth_halogen_alpb_2_fast_numerical: analytic=None, 0.2005s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_3_fast_analytic: analytic=None, 0.0460s
+PASS --hess bench_smooth_halogen_alpb_3_fast_numerical: analytic=None, 0.1328s
+PASS --hess bench_smooth_halogen_alpb_3_stock: analytic=None, 0.1744s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_4_fast_numerical: analytic=None, 0.1392s
+PASS --hess bench_smooth_halogen_alpb_4_fast_analytic: analytic=None, 0.0452s
+PASS --hess bench_smooth_halogen_alpb_4_stock: analytic=None, 0.1802s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_5_stock: analytic=None, 0.1708s
+PASS --hess bench_smooth_halogen_alpb_5_fast_numerical: analytic=None, 0.1316s
+PASS --hess bench_smooth_halogen_alpb_5_fast_analytic: analytic=None, 0.0499s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess bench_smooth_halogen_alpb_6_fast_numerical: analytic=None, 0.1315s
+PASS --hess bench_smooth_halogen_alpb_6_stock: analytic=None, 0.1723s
+PASS --hess bench_smooth_halogen_alpb_6_fast_analytic: analytic=None, 0.0463s
+PASS Hessian parity stock numerical smooth_halogen_alpb: 1.000e-10 Eh/bohr^2
+PASS Hessian parity stock analytic smooth_halogen_alpb: 6.600e-09 Eh/bohr^2
+PASS --hess smooth_halogen_alpb_profile_audit: analytic=True, 0.0444s
+BENCH solvent Hessian smooth_halogen_alpb {'stock': 0.17234889999963343, 'fast_numerical': 0.132787599999574, 'fast_analytic': 0.04595300000801217}
+PASS actual solvent CLI analytic Hessian/fallback regression

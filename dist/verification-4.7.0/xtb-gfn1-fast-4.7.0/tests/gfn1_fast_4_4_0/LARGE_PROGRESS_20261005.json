@@ -1,0 +1,27 @@
+{
+  "molecule": "taxol",
+  "atoms": 113,
+  "nao": 350,
+  "n3": 339,
+  "exe_sha256": {
+    "fast": "dd0f95b2e58758bad5be1e9a0987b66c039b27b7822af7086647febff21c74d5",
+    "stock": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "threads": 1,
+  "profile": false,
+  "warmups": 1,
+  "scc_accuracy": 1e-07,
+  "step_bohr": 0.0005,
+  "trials": [],
+  "stock_hessian_compatibility": "Original numerical formula; only Hessian OpenMP directives suppressed for Windows ifx; one thread",
+  "status": "running",
+  "observed_at": "2026-10-05T07:31:09.413016+09:00",
+  "exec_session_id": 70722,
+  "warmup": {
+    "stock_seconds": 254.8799,
+    "analytic_seconds": 29.8699,
+    "max_abs_H_difference_Eh_bohr2": 2.991e-07
+  },
+  "note": "Warmup only; five-repeat measurement and separate profile audit still required; no median speedup claimed"
+}

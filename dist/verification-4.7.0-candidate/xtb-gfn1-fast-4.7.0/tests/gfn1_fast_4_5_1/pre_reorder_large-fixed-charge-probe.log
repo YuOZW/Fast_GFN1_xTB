@@ -1,0 +1,22 @@
+ large solvent model/local CPU/Gradient parity:           1
+   8.68750000000000       1.076070656191863E-017
+ model/step/full fixed-q Hessian error/column/CPU:           1
+  5.000000000000000E-004  5.388041725135707E-005         193
+   1.45312500000000     
+ model/step/full fixed-q Hessian error/column/CPU:           1
+  1.000000000000000E-004  1.931446022690978E-004         193
+   1.40625000000000     
+ model/step/full fixed-q Hessian error/column/CPU:           1
+  2.000000000000000E-005  3.886566415922665E-012         262
+   1.45312500000000     
+ large solvent model/local CPU/Gradient parity:           2
+   7.45312500000000       7.535205098774256E-017
+ model/step/full fixed-q Hessian error/column/CPU:           2
+  5.000000000000000E-004  3.459931863231803E-005         224
+   1.29687500000000     
+ model/step/full fixed-q Hessian error/column/CPU:           2
+  1.000000000000000E-004  1.487398885005492E-004         225
+   1.28125000000000     
+ model/step/full fixed-q Hessian error/column/CPU:           2
+  2.000000000000000E-005  4.843706165325035E-012         154
+   1.31250000000000     

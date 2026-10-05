@@ -1,0 +1,85 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a46052a..878a082 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -54,7 +54,7 @@ if(NOT TARGET "cpcmx::cpcmx" AND WITH_CPCMX)
+    add_compile_definitions(WITH_CPCMX)
+ endif()
+ 
+-if(NOT TARGET "test-drive::test-drive")
++if(WITH_TESTS AND NOT TARGET "test-drive::test-drive")
+   find_package("test-drive" REQUIRED)
+ endif()
+ 
+@@ -339,4 +339,6 @@ install(
+ )
+    
+ # Tests
+-add_subdirectory("test")
++if(WITH_TESTS)
++  add_subdirectory("test")
++endif()
+diff --git a/cmake/CMakeLists.txt b/cmake/CMakeLists.txt
+index 9a48db3..3d03b47 100644
+--- a/cmake/CMakeLists.txt
++++ b/cmake/CMakeLists.txt
+@@ -49,8 +49,8 @@ if(CMAKE_Fortran_COMPILER_ID MATCHES "GNU")
+   set(dialects "-fdefault-real-8 -fdefault-double-8 -ffree-line-length-none -fbacktrace")
+   set(bounds "-fbounds-check -ffpe-trap=invalid,zero,overflow")
+ elseif(CMAKE_Fortran_COMPILER_ID MATCHES "Intel")
+-  set(dialects "-axAVX2 -r8 -traceback")
+-  set(bounds "-check all -fpe0")
++  set(dialects "/QaxAVX2 /real-size:64 /traceback")
++  set(bounds "/check:all /fpe:0")
+ elseif(CMAKE_Fortran_COMPILER_ID MATCHES "PGI")
+   set(dialects "-Mbackslash -Mallocatable=03 -r8 -traceback")
+ endif()
+diff --git a/src/type/calculator.f90 b/src/type/calculator.f90
+index 58add5d..79e08b3 100644
+--- a/src/type/calculator.f90
++++ b/src/type/calculator.f90
+@@ -147,10 +147,11 @@ subroutine hessian(self, env, mol0, chk0, list, step, hess, dipgrad, polgrad)
+    step2 = 0.5_wp / step
+    allocate(gr(3, mol0%n), gl(3, mol0%n))
+ 
+-   !$omp parallel do if(self%threadsafe) schedule(runtime) collapse(2) default(none) &
+-   !$omp shared(self, env, mol0, chk0, list, step, hess, dipgrad, polgrad, egap, step2, t0, w0) &
+-   !$omp private(kat, iat, jat, jc, jj, ii, er, el, gr, gl, sr, sl, rr, rl, dr, dl, alphar, alphal, &
+-   !$omp& mol, chk, t1, w1)
++   ! Windows reference: serial numerical Hessian (ifx OpenMP descriptor workaround).
++   ! reference-omp parallel do if(self%threadsafe) schedule(runtime) collapse(2) default(none) &
++   ! reference-omp shared(self, env, mol0, chk0, list, step, hess, dipgrad, polgrad, egap, step2, t0, w0) &
++   ! reference-omp private(kat, iat, jat, jc, jj, ii, er, el, gr, gl, sr, sl, rr, rl, dr, dl, alphar, alphal, &
++   ! reference-omp& mol, chk, t1, w1)
+    do kat = 1, size(list)
+       do ic = 1, 3
+          iat = list(kat)
+@@ -193,13 +194,13 @@ subroutine hessian(self, env, mol0, chk0, list, step, hess, dipgrad, polgrad)
+          end do
+ 
+          if (kat == 3 .and. ic == 3) then
+-            !$omp critical(xtb_numdiff2)
++            ! reference-omp critical(xtb_numdiff2)
+             call timing(t1, w1)
+             write(*,'("estimated CPU  time",F10.2," min")') &
+                & 0.3333333_wp*size(list)*(t1-t0)/60.0_wp
+             write(*,'("estimated wall time",F10.2," min")') &
+                & 0.3333333_wp*size(list)*(w1-w0)/60.0_wp
+-            !$omp end critical(xtb_numdiff2)
++            ! reference-omp end critical(xtb_numdiff2)
+          endif
+ 
+       end do
+diff --git a/src/type/environment.f90 b/src/type/environment.f90
+index 50fe16e..f17e1a4 100644
+--- a/src/type/environment.f90
++++ b/src/type/environment.f90
+@@ -136,6 +136,8 @@ subroutine initEnvironment(self, strict)
+    call rdarg(0, self%whoami, err)
+    call rdvar('HOSTNAME', self%hostname, err)
+    call rdvar('HOME', self%home, err)
++   if (.not.allocated(self%home)) call rdvar('USERPROFILE', self%home, err)
++   if (.not.allocated(self%home)) self%home = ''
+    call rdvar('PATH', self%path, err)
+    call rdvar('XTBHOME', self%xtbhome, err)
+    if (.not.allocated(self%xtbhome)) self%xtbhome = ''

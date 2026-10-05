@@ -1,0 +1,38 @@
+{
+  "stage": "Final 4.5.1 allocation order, complete native nonlinear SCC raw Hessians",
+  "exe_sha256": "bcb61b376e0612704901e51f44319db458b1656b4e077685ec29e4d40080048e",
+  "native_driver_sha256": "64088709cc2c20c40733a2ae532cec359b93bec6237902acc3a5365cf6d784f2",
+  "library_sha256": "3f99dabd294c6345cd5772272ccb1c05de7485e918f49e01e9565dc233617ebf",
+  "models": [
+    {
+      "model": "GBSA Still",
+      "energy_Eh": -195.95649316805,
+      "gradient_norm_Eh_bohr": 0.131832218853167,
+      "analytic_cpu_seconds_diagnostic_only": 33.9375,
+      "gradient_parity_Eh_bohr": 1.355252715606881e-15,
+      "columns": 339,
+      "step_bohr": 1e-05,
+      "max_raw_H_difference_Eh_bohr2": 2.853767649274586e-08,
+      "raw_energy_gradient_FD_error_Eh_bohr": 5.028835750424399e-08,
+      "numerical_cpu_seconds_diagnostic_only": 144.875
+    },
+    {
+      "model": "ALPB P16",
+      "energy_Eh": -195.958435141957,
+      "gradient_norm_Eh_bohr": 0.136167696458973,
+      "analytic_cpu_seconds_diagnostic_only": 32.78125,
+      "gradient_parity_Eh_bohr": 1.012211148232467e-15,
+      "columns": 339,
+      "step_bohr": 1e-05,
+      "max_raw_H_difference_Eh_bohr2": 1.591936913010721e-08,
+      "raw_energy_gradient_FD_error_Eh_bohr": 5.400349993469993e-08,
+      "numerical_cpu_seconds_diagnostic_only": 144.1875
+    }
+  ],
+  "source_sha256": {
+    "src/solv/response.f90": "2128b39732282ff8d410be60e6640e9322cce955645924c6d066983dc7090216",
+    "src/xtb/hessian_response.f90": "eae716376fff98d9afc84f8ebc0d8f4eebad8eab1f8b12359d644bb7ae25f0e9",
+    "src/xtb/calculator.f90": "4531e7941c407083c6622dffa4ec379b72d82733178771e2986d574d093e08a6",
+    "tests/gfn1_fast_4_5_0/test_large_molecular_solvent.f90": "a21adbf1403bc8547aab9f5ec2c74238e863881954a7713933a5d2ed59809232"
+  }
+}

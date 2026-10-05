@@ -1,0 +1,645 @@
+{
+  "exe_sha256": {
+    "analytic": "bcb61b376e0612704901e51f44319db458b1656b4e077685ec29e4d40080048e",
+    "stock": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a"
+  },
+  "exe": {
+    "analytic": "C:\\GitHub_repository\\Fast_GFN1_xTB\\_reference\\gfn1-fast-4.5.1-source-snapshot\\binaries\\release\\xtb.exe",
+    "stock": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-reference-xtb-6.7.1-windows-ifx-release\\xtb.exe"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "molecule": "taxol",
+  "atoms": 113,
+  "nao": 350,
+  "n3": 339,
+  "step_bohr": 1e-05,
+  "scc_accuracy": 1e-07,
+  "threads": 1,
+  "profile_for_timings": false,
+  "warmups": 1,
+  "models": [
+    {
+      "model": "gbsa",
+      "profile_audit": {
+        "name": "gbsa_profile_audit",
+        "model": "gbsa",
+        "process_wall_seconds": 34.60528099999647,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 836857856,
+          "peak_pagefile_usage_bytes": 858341376,
+          "maximum_sampled_private_bytes": 858308608,
+          "samples": 686,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_profile_audit\\run.log",
+        "analytic_used": true,
+        "reason": "analytic solvated GFN1",
+        "estimated_workspace_bytes": 880428680,
+        "energy_Eh": -195.956493169214,
+        "gradient_norm_Eh_bohr": 0.13183221411
+      },
+      "trials": [
+        {
+          "order": [
+            "analytic",
+            "stock"
+          ],
+          "results": {
+            "analytic": {
+              "name": "gbsa_0_analytic",
+              "model": "gbsa",
+              "process_wall_seconds": 34.884837999998126,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 836812800,
+                "peak_pagefile_usage_bytes": 857919488,
+                "maximum_sampled_private_bytes": 857542656,
+                "samples": 692,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_0_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            },
+            "stock": {
+              "name": "gbsa_0_stock",
+              "model": "gbsa",
+              "process_wall_seconds": 229.8632282000035,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 52297728,
+                "peak_pagefile_usage_bytes": 73289728,
+                "maximum_sampled_private_bytes": 72876032,
+                "samples": 4555,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_0_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 7.1999999989857955e-09
+        },
+        {
+          "order": [
+            "analytic",
+            "stock"
+          ],
+          "results": {
+            "analytic": {
+              "name": "gbsa_1_analytic",
+              "model": "gbsa",
+              "process_wall_seconds": 35.34179679999943,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 836927488,
+                "peak_pagefile_usage_bytes": 857784320,
+                "maximum_sampled_private_bytes": 857747456,
+                "samples": 701,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_1_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            },
+            "stock": {
+              "name": "gbsa_1_stock",
+              "model": "gbsa",
+              "process_wall_seconds": 232.31180910000694,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 54022144,
+                "peak_pagefile_usage_bytes": 74592256,
+                "maximum_sampled_private_bytes": 74592256,
+                "samples": 4603,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_1_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 5.3999999957699e-09
+        },
+        {
+          "order": [
+            "stock",
+            "analytic"
+          ],
+          "results": {
+            "stock": {
+              "name": "gbsa_2_stock",
+              "model": "gbsa",
+              "process_wall_seconds": 228.80576210000436,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 52723712,
+                "peak_pagefile_usage_bytes": 73940992,
+                "maximum_sampled_private_bytes": 73932800,
+                "samples": 4534,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_2_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            },
+            "analytic": {
+              "name": "gbsa_2_analytic",
+              "model": "gbsa",
+              "process_wall_seconds": 35.15960949999862,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 836997120,
+                "peak_pagefile_usage_bytes": 857829376,
+                "maximum_sampled_private_bytes": 857509888,
+                "samples": 697,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_2_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 7.1999999989857955e-09
+        },
+        {
+          "order": [
+            "stock",
+            "analytic"
+          ],
+          "results": {
+            "stock": {
+              "name": "gbsa_3_stock",
+              "model": "gbsa",
+              "process_wall_seconds": 229.7759001999948,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 52899840,
+                "peak_pagefile_usage_bytes": 73916416,
+                "maximum_sampled_private_bytes": 73908224,
+                "samples": 4554,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_3_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            },
+            "analytic": {
+              "name": "gbsa_3_analytic",
+              "model": "gbsa",
+              "process_wall_seconds": 35.413731500011636,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 836808704,
+                "peak_pagefile_usage_bytes": 858259456,
+                "maximum_sampled_private_bytes": 858259456,
+                "samples": 703,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_3_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 7.1999999989857955e-09
+        },
+        {
+          "order": [
+            "stock",
+            "analytic"
+          ],
+          "results": {
+            "stock": {
+              "name": "gbsa_4_stock",
+              "model": "gbsa",
+              "process_wall_seconds": 228.85368279999238,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 53694464,
+                "peak_pagefile_usage_bytes": 74858496,
+                "maximum_sampled_private_bytes": 74854400,
+                "samples": 4535,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_4_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            },
+            "analytic": {
+              "name": "gbsa_4_analytic",
+              "model": "gbsa",
+              "process_wall_seconds": 35.167327100003604,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 836997120,
+                "peak_pagefile_usage_bytes": 857890816,
+                "maximum_sampled_private_bytes": 857890816,
+                "samples": 697,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_4_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.956493169214,
+              "gradient_norm_Eh_bohr": 0.13183221411
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 7.1999999989857955e-09
+        }
+      ],
+      "completed_process": {
+        "name": "gbsa_4_analytic",
+        "model": "gbsa",
+        "process_wall_seconds": 35.167327100003604,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 836997120,
+          "peak_pagefile_usage_bytes": 857890816,
+          "maximum_sampled_private_bytes": 857890816,
+          "samples": 697,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\gbsa_4_analytic\\run.log",
+        "analytic_used": null,
+        "reason": null,
+        "estimated_workspace_bytes": null,
+        "energy_Eh": -195.956493169214,
+        "gradient_norm_Eh_bohr": 0.13183221411
+      },
+      "samples_seconds": {
+        "analytic": [
+          34.884837999998126,
+          35.34179679999943,
+          35.15960949999862,
+          35.413731500011636,
+          35.167327100003604
+        ],
+        "stock": [
+          229.8632282000035,
+          232.31180910000694,
+          228.80576210000436,
+          229.7759001999948,
+          228.85368279999238
+        ]
+      },
+      "median_seconds": {
+        "analytic": 35.167327100003604,
+        "stock": 229.7759001999948
+      },
+      "speedup_over_stock": 6.533789148848086
+    },
+    {
+      "model": "alpb",
+      "profile_audit": {
+        "name": "alpb_profile_audit",
+        "model": "alpb",
+        "process_wall_seconds": 34.243861599999946,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 837103616,
+          "peak_pagefile_usage_bytes": 857841664,
+          "maximum_sampled_private_bytes": 857841664,
+          "samples": 679,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_profile_audit\\run.log",
+        "analytic_used": true,
+        "reason": "analytic solvated GFN1",
+        "estimated_workspace_bytes": 880428680,
+        "energy_Eh": -195.958435147873,
+        "gradient_norm_Eh_bohr": 0.136167697281
+      },
+      "trials": [
+        {
+          "order": [
+            "stock",
+            "analytic"
+          ],
+          "results": {
+            "stock": {
+              "name": "alpb_0_stock",
+              "model": "alpb",
+              "process_wall_seconds": 230.80626559999655,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 54149120,
+                "peak_pagefile_usage_bytes": 74432512,
+                "maximum_sampled_private_bytes": 74153984,
+                "samples": 4573,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_0_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            },
+            "analytic": {
+              "name": "alpb_0_analytic",
+              "model": "alpb",
+              "process_wall_seconds": 33.69274549999682,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837021696,
+                "peak_pagefile_usage_bytes": 857849856,
+                "maximum_sampled_private_bytes": 857509888,
+                "samples": 669,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_0_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 8.399999999395003e-09
+        },
+        {
+          "order": [
+            "analytic",
+            "stock"
+          ],
+          "results": {
+            "analytic": {
+              "name": "alpb_1_analytic",
+              "model": "alpb",
+              "process_wall_seconds": 33.734618599992245,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 836759552,
+                "peak_pagefile_usage_bytes": 857849856,
+                "maximum_sampled_private_bytes": 857518080,
+                "samples": 670,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_1_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            },
+            "stock": {
+              "name": "alpb_1_stock",
+              "model": "alpb",
+              "process_wall_seconds": 229.9522055999987,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 53424128,
+                "peak_pagefile_usage_bytes": 74735616,
+                "maximum_sampled_private_bytes": 74190848,
+                "samples": 4556,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_1_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 9.999999999940612e-09
+        },
+        {
+          "order": [
+            "analytic",
+            "stock"
+          ],
+          "results": {
+            "analytic": {
+              "name": "alpb_2_analytic",
+              "model": "alpb",
+              "process_wall_seconds": 33.7560278000019,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837128192,
+                "peak_pagefile_usage_bytes": 857780224,
+                "maximum_sampled_private_bytes": 857772032,
+                "samples": 669,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_2_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            },
+            "stock": {
+              "name": "alpb_2_stock",
+              "model": "alpb",
+              "process_wall_seconds": 229.82194419999723,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 52891648,
+                "peak_pagefile_usage_bytes": 73998336,
+                "maximum_sampled_private_bytes": 73863168,
+                "samples": 4553,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_2_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 9.999999999940612e-09
+        },
+        {
+          "order": [
+            "analytic",
+            "stock"
+          ],
+          "results": {
+            "analytic": {
+              "name": "alpb_3_analytic",
+              "model": "alpb",
+              "process_wall_seconds": 33.629768600003445,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837128192,
+                "peak_pagefile_usage_bytes": 857849856,
+                "maximum_sampled_private_bytes": 857518080,
+                "samples": 666,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_3_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            },
+            "stock": {
+              "name": "alpb_3_stock",
+              "model": "alpb",
+              "process_wall_seconds": 228.9190859000082,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 52453376,
+                "peak_pagefile_usage_bytes": 73584640,
+                "maximum_sampled_private_bytes": 73474048,
+                "samples": 4535,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_3_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 9.999999999940612e-09
+        },
+        {
+          "order": [
+            "analytic",
+            "stock"
+          ],
+          "results": {
+            "analytic": {
+              "name": "alpb_4_analytic",
+              "model": "alpb",
+              "process_wall_seconds": 33.26756940000632,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 837021696,
+                "peak_pagefile_usage_bytes": 857772032,
+                "maximum_sampled_private_bytes": 857772032,
+                "samples": 660,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_4_analytic\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            },
+            "stock": {
+              "name": "alpb_4_stock",
+              "model": "alpb",
+              "process_wall_seconds": 232.7466737000068,
+              "n3": 339,
+              "step_bohr": 1e-05,
+              "resources": {
+                "peak_working_set_bytes": 54870016,
+                "peak_pagefile_usage_bytes": 74792960,
+                "maximum_sampled_private_bytes": 74117120,
+                "samples": 4612,
+                "sample_interval_seconds": 0.05
+              },
+              "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_4_stock\\run.log",
+              "analytic_used": null,
+              "reason": null,
+              "estimated_workspace_bytes": null,
+              "energy_Eh": -195.958435147873,
+              "gradient_norm_Eh_bohr": 0.136167697281
+            }
+          },
+          "maximum_H_difference_Eh_bohr2": 6.699999999248973e-09
+        }
+      ],
+      "completed_process": {
+        "name": "alpb_4_stock",
+        "model": "alpb",
+        "process_wall_seconds": 232.7466737000068,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 54870016,
+          "peak_pagefile_usage_bytes": 74792960,
+          "maximum_sampled_private_bytes": 74117120,
+          "samples": 4612,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-hessian-benchmark-4.5.1\\alpb_4_stock\\run.log",
+        "analytic_used": null,
+        "reason": null,
+        "estimated_workspace_bytes": null,
+        "energy_Eh": -195.958435147873,
+        "gradient_norm_Eh_bohr": 0.136167697281
+      },
+      "samples_seconds": {
+        "analytic": [
+          33.69274549999682,
+          33.734618599992245,
+          33.7560278000019,
+          33.629768600003445,
+          33.26756940000632
+        ],
+        "stock": [
+          230.80626559999655,
+          229.9522055999987,
+          229.82194419999723,
+          228.9190859000082,
+          232.7466737000068
+        ]
+      },
+      "median_seconds": {
+        "analytic": 33.69274549999682,
+        "stock": 229.9522055999987
+      },
+      "speedup_over_stock": 6.824976777271547
+    }
+  ],
+  "stock_scope": "Original numerical formula; only Hessian OpenMP directives removed for Windows ifx; one thread"
+}

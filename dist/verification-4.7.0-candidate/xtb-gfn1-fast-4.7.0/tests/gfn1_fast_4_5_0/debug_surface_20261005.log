@@ -1,0 +1,9 @@
+ surface model/step/error:           1  1.000000000000000E-004
+  5.968174532355874E-008
+ surface model/step/error:           1  5.000000000000000E-005
+  1.492587964335712E-008
+ surface model/step/error:           2  1.000000000000000E-004
+  5.968174532355874E-008
+ surface model/step/error:           2  5.000000000000000E-005
+  1.492587964335712E-008
+ PASS angular surface Hessians and screened-branch guard

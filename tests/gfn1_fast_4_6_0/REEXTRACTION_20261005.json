@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-05T19:18:23.456650+09:00",
+  "zip": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\xtb-gfn1-fast-4.6.0.zip",
+  "zip_sha256": "47094abd1d849ea8be4f91ea3afb848ee43343102263669d5fdb8bca8b6ebce9",
+  "extracted_root": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\xtb-gfn1-fast-4.6.0",
+  "verified_source_files": 921,
+  "verified_mctc_source_files": 124,
+  "compiled_source_matches_frozen_manifest_files": 594,
+  "git_metadata": "No .git supplied; enclosing checkout discovery blocked with GIT_CEILING_DIRECTORIES; manifest-based dependency verification used",
+  "python": "C:/Users/f3r1i/mambaforge/envs/fastxtb/python.exe",
+  "python_version": "3.13.15",
+  "builds": {
+    "release": {
+      "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\xtb-gfn1-fast-4.6.0\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+      "sha256": "eea2a7be248a556ed81eece1ef7011b71fdc3e8252f3901c49d9a78a17df3937",
+      "native_build_steps": 786,
+      "default_cli_cases": 21,
+      "native_solvent_cases": 38,
+      "screening": "PASS",
+      "D3_cutoff_and_window": "PASS",
+      "PE_format": "AMD64 PE32+",
+      "stack_reserve_bytes": 67108864,
+      "smoke_summary": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\xtb-gfn1-fast-4.6.0\\build-gfn1-fast-current-windows-ifx-release\\smoke\\summary.json"
+    },
+    "debug": {
+      "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\xtb-gfn1-fast-4.6.0\\build-gfn1-fast-current-windows-ifx-debug\\xtb.exe",
+      "sha256": "a228e1691445a0d01a53180759caf9f7a5b6345478a910553d556b0b81ad9c36",
+      "native_build_steps": 786,
+      "default_cli_cases": 21,
+      "native_solvent_cases": 38,
+      "screening": "PASS",
+      "D3_cutoff_and_window": "PASS",
+      "PE_format": "AMD64 PE32+",
+      "stack_reserve_bytes": 67108864,
+      "smoke_summary": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\xtb-gfn1-fast-4.6.0\\build-gfn1-fast-current-windows-ifx-debug\\smoke\\summary.json"
+    }
+  },
+  "logs": {
+    "release_default": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-release-default.log",
+      "sha256": "500d5fdf6fab65b4ac9b1ebbf0e7da5397ffe7370ec96fd6d6fd832bb791dc37"
+    },
+    "release_screening": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-release-screening.log",
+      "sha256": "865deb2991a44570c2692897b8b811bc420efa5d135f6026bbf9f86c84c37bbf"
+    },
+    "release_cutoffs": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-release-cutoffs.log",
+      "sha256": "f8ab9cd1e8b60fd52ae67bc94d2cd920a15cd66664b7bf77640268d6e871f846"
+    },
+    "release_molecular": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-release-molecular.log",
+      "sha256": "52aacb1b0d10a447083663d7fef36b2d01ca43f3b55e9a59826fc6a12430083c"
+    },
+    "release_build": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-release-build.log",
+      "sha256": "39145e7c05b78770bb038d14c52583253c98487b673f700ba12a41e6933d19d9"
+    },
+    "debug_default": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-debug-default.log",
+      "sha256": "76c6c16b578f7a0f08e3b68f7f54e66920b6488bbda16de947151cef9d136b51"
+    },
+    "debug_screening": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-debug-screening.log",
+      "sha256": "592da91e4e5cc633d1ecb46b4896dd2eecceae60f10647af4f847f273e940cea"
+    },
+    "debug_cutoffs": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-debug-cutoffs.log",
+      "sha256": "8b21405341482a546bd35c60a0889f49948f45ccc1a78eaff1ac6c2a187e475c"
+    },
+    "debug_molecular": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-debug-molecular.log",
+      "sha256": "7cd9b1a6562926252242e746e1f30a88fb6096482bda22ee89e1082ca14afeaf"
+    },
+    "debug_build": {
+      "path": "C:\\GitHub_repository\\Fast_GFN1_xTB\\dist\\verification-4.6.0\\reextracted-debug-build.log",
+      "sha256": "4104a296b83f66110ee6cf73643654459f6db27b98580d95776b824e34ba151b"
+    }
+  }
+}

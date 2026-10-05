@@ -1,0 +1,37 @@
+-- Include mctc-lib from subprojects/mctc-lib
+-- Configuring done (1.5s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/GitHub_repository/Fast_GFN1_xTB/build-gfn1-fast-current-windows-ifx-release
+[1/7] Generating Fortran dyndep file subprojects\mctc-lib\CMakeFiles\mctc-lib-lib.dir\Fortran.dd
+[2/7] Building Fortran preprocessed CMakeFiles\lib-xtb-static.dir\src\solv\response.f90-pp.f90
+[3/7] Generating Fortran dyndep file CMakeFiles\lib-xtb-static.dir\Fortran.dd
+[4/28] Generating Fortran dyndep file CMakeFiles\xtb-exe.dir\Fortran.dd
+[5/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\solv\response.f90.obj
+[6/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\xtb\hessian_response.f90.obj
+[7/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\xtb\calculator.f90.obj
+[8/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\api\environment.f90.obj
+[9/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\api\molecule.f90.obj
+[10/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\api\results.f90.obj
+[11/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\oniom.f90.obj
+[12/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\main\setup.f90.obj
+[13/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\main\defaults.f90.obj
+[14/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\iff\iff_prepare.f90.obj
+[15/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\api\calculator.f90.obj
+[16/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\api\interface.f90.obj
+[17/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\relaxation_engine.f90.obj
+[18/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\geoopt_driver.f90.obj
+[19/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\getkopt.f90.obj
+[20/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\gfnff\struc_converter.f90.obj
+[21/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\mdoptim.f90.obj
+[22/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\scan_driver.f90.obj
+[23/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\screening.f90.obj
+[24/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\modef.f90.obj
+[25/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\bias_path.f90.obj
+[26/31] Building Fortran object CMakeFiles\lib-xtb-static.dir\src\docking\search_nci.f90.obj
+[27/31] Linking Fortran static library xtb.lib
+ifx: command line warning #10006: ignoring unknown option '/machine:x64'
+
+[28/31] Building Fortran object CMakeFiles\xtb-exe.dir\src\prog\dock.f90.obj
+[29/31] Building Fortran object CMakeFiles\xtb-exe.dir\src\prog\main.F90.obj
+[30/31] Building Fortran object CMakeFiles\xtb-exe.dir\src\prog\primary.f90.obj
+[31/31] Linking Fortran executable xtb.exe

@@ -1,0 +1,100 @@
+{
+  "exe_sha256": "eccf25cc2d63323ef9a42d43f930f26cf80b63ce68e0fbe9e0d314a1efa2390f",
+  "cases": [
+    {
+      "case": "water",
+      "threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water",
+      "threads": 4,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water_zero",
+      "threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water_zero",
+      "threads": 4,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water_open",
+      "threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water_open",
+      "threads": 4,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water_hot",
+      "threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "water_hot",
+      "threads": 4,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "disilane",
+      "threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "disilane",
+      "threads": 4,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "benzene",
+      "threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "benzene",
+      "threads": 4,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "eight_workers",
+      "actual_threads": 8,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "worker_limit",
+      "actual_threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "runtime_team_limit",
+      "actual_threads": 2,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "parallel_memory_fallback",
+      "fallback": true,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "parallel_surface_fallback",
+      "fallback": true,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "parallel_screening_fallback",
+      "fallback": true,
+      "maximum_H_difference": 0.0
+    },
+    {
+      "case": "parallel_constraint_fallback",
+      "fallback": true,
+      "maximum_H_difference": 0.0
+    }
+  ]
+}

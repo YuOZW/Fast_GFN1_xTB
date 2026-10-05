@@ -1,0 +1,156 @@
+{
+  "exe": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe",
+  "exe_sha256": "00bf2c21ed9a40f2516c31231a4998cc4a4952b5b737d6d562ac4c7afa344eb9",
+  "cases": [
+    {
+      "case": "water",
+      "max_abs_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "hcl",
+      "max_abs_H_difference_Eh_bohr2": 1.1859999998753423e-07
+    },
+    {
+      "case": "water_zero",
+      "max_abs_H_difference_Eh_bohr2": 1.2589999998091628e-07
+    },
+    {
+      "case": "water_highT",
+      "max_abs_H_difference_Eh_bohr2": 9.420000002258178e-08
+    },
+    {
+      "case": "water_open",
+      "max_abs_H_difference_Eh_bohr2": 1.2979999997053682e-07
+    },
+    {
+      "case": "disilane",
+      "max_abs_H_difference_Eh_bohr2": 1.486999999800176e-07
+    },
+    {
+      "case": "benzene",
+      "max_abs_H_difference_Eh_bohr2": 1.669999999953653e-07
+    },
+    {
+      "case": "water_defaults",
+      "step_bohr": 0.005,
+      "max_abs_H_difference_Eh_bohr2": 1.2477600000004863e-05
+    },
+    {
+      "case": "disilane_defaults",
+      "step_bohr": 0.005,
+      "max_abs_H_difference_Eh_bohr2": 2.7513500000075908e-05
+    },
+    {
+      "case": "salt_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "solvation model"
+    },
+    {
+      "case": "disable_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "disabled"
+    },
+    {
+      "case": "constraint_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "constraints"
+    },
+    {
+      "case": "memory_fallback",
+      "max_abs_H_difference_Eh_bohr2": 0.0,
+      "dispatch_reason": "memory budget"
+    },
+    {
+      "case": "parallel_numerical",
+      "max_abs_H_difference_Eh_bohr2": 0.0
+    }
+  ],
+  "benchmarks": [
+    {
+      "molecule": "disilane",
+      "profile": false,
+      "warmups": 1,
+      "threads": 1,
+      "samples_seconds": {
+        "stock": [
+          0.195723500000895,
+          0.19907709999824874,
+          0.1992296999960672,
+          0.1986938000045484,
+          0.26242240000283346,
+          0.21130469998752233,
+          0.1973322999983793
+        ],
+        "fast_numerical": [
+          0.14881650000461377,
+          0.1497388999996474,
+          0.15020519999961834,
+          0.14770599998882972,
+          0.151184899994405,
+          0.15162409999174997,
+          0.15075279999291524
+        ],
+        "fast_analytic": [
+          0.04374670000106562,
+          0.045886799998697825,
+          0.04472990000795107,
+          0.044230199986486696,
+          0.04674449999583885,
+          0.049262599990470335,
+          0.04511819999606814
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.19907709999824874,
+        "fast_numerical": 0.15020519999961834,
+        "fast_analytic": 0.04511819999606814
+      },
+      "speedup_over_stock": 4.412345794282517,
+      "speedup_over_fast_numerical": 3.329148769514477
+    },
+    {
+      "molecule": "benzene",
+      "profile": false,
+      "warmups": 1,
+      "threads": 1,
+      "samples_seconds": {
+        "stock": [
+          0.40758900000946596,
+          0.42133329999342095,
+          0.40213889999722596,
+          0.4050833999936003,
+          0.40734070001053624,
+          0.4031851000036113,
+          0.40256399998907
+        ],
+        "fast_numerical": [
+          0.32532800000626594,
+          0.29097439999168273,
+          0.2956142000039108,
+          0.2991568999859737,
+          0.2924730999948224,
+          0.2878026999969734,
+          0.29224430001340806
+        ],
+        "fast_analytic": [
+          0.050269499988644384,
+          0.05050820000178646,
+          0.04995240000425838,
+          0.060642700002063066,
+          0.05108699999982491,
+          0.049900400001206435,
+          0.051410999993095174
+        ]
+      },
+      "median_seconds": {
+        "stock": 0.4050833999936003,
+        "fast_numerical": 0.2924730999948224,
+        "fast_analytic": 0.05050820000178646
+      },
+      "speedup_over_stock": 8.020151182961829,
+      "speedup_over_fast_numerical": 5.790606277485194
+    }
+  ],
+  "stock_sha256": "4ee8e9e26109625e51398dcf1e6552cebbcc66ccc62fba667f5674d2af8a292a",
+  "stock_hessian_compatibility": "Stock numerical formula; OpenMP directives suppressed for Windows ifx descriptor crash; one thread only"
+}

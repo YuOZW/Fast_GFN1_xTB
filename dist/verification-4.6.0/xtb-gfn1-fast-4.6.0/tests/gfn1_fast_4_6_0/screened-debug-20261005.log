@@ -1,0 +1,10 @@
+ case/offset/raw overlap/response accepted/Gradient difference:           1
+  0.000000000000000E+000  0.000000000000000E+000 T  7.168744764474155E-016
+ case/offset/raw overlap/response accepted/Gradient difference:           2
+  1.000000000000000E-013  4.650856437957090E-014 F  0.112536297654509     
+ case/offset/raw overlap/response accepted/Gradient difference:           3
+ -1.000000000000000E-013 -4.650856437957090E-014 F  0.112536297654521     
+ case/offset/raw overlap/response accepted/Gradient difference:           4
+  1.000000000000000E-005  4.650856437498445E-006 T  7.910339050454240E-016
+ screened response accepted/rejected counts:           2           2
+ PASS exact/ordinary response and screened-node fallback

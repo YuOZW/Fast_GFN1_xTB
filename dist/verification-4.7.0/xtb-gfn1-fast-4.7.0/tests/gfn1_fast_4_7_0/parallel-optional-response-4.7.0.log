@@ -1,0 +1,50 @@
+ water 0K complete Gradient error=  8.612902058224847E-016
+ water 0K Gradient error=  8.743006318923108E-016  rcond=
+  0.262296800431971     
+ water 0K unsymmetrized Hessian reciprocity=  4.857225732735060E-017
+ water 0K step=  5.000000000000000E-004  Hessian error=  1.731683366146264E-008 
+  dq error=  1.580910663490087E-008  dP error=  4.320117502620846E-008
+ water 0K complete Hessian error=  1.642636235366091E-007
+ water 0K step=  2.500000000000000E-004  Hessian error=  4.329292063731671E-009 
+  dq error=  3.950703486577112E-009  dP error=  1.079722222740997E-008
+ water 0K complete Hessian error=  4.106604811759951E-008
+ PASS water 0K actual molecular coupled response
+ water 30000K complete Gradient error=  5.620504062164855E-016
+ water 30000K Gradient error=  5.551115123125783E-016  rcond=
+  0.191695592291596     
+ water 30000K unsymmetrized Hessian reciprocity=  1.179611963664229E-016
+ water 30000K step=  5.000000000000000E-004  Hessian error=
+  5.256286492172357E-008  dq error=  3.028520521863864E-008  dP error=
+  4.298459352347628E-008
+ water 30000K complete Hessian error=  1.565055984253938E-007
+ water 30000K step=  2.500000000000000E-004  Hessian error=
+  1.314047595735168E-008  dq error=  7.570319690564098E-009  dP error=
+  1.074615937901591E-008
+ water 30000K complete Hessian error=  3.912535401218165E-008
+ PASS water 30000K actual molecular coupled response
+ water open shell complete Gradient error=  4.302114220422482E-016
+ water open shell Gradient error=  4.232725281383409E-016  rcond=
+  0.298799177094243     
+ water open shell unsymmetrized Hessian reciprocity=  1.804112415015879E-016
+ water open shell step=  5.000000000000000E-004  Hessian error=
+  1.093097412585564E-008  dq error=  1.912548044935569E-008  dP error=
+  5.596177127253910E-008
+ water open shell complete Hessian error=  1.665720570365181E-007
+ water open shell step=  2.500000000000000E-004  Hessian error=
+  2.733434256718681E-009  dq error=  4.781954082710982E-009  dP error=
+  1.399423071868355E-008
+ water open shell complete Hessian error=  4.164286854235755E-008
+ PASS water open shell actual molecular coupled response
+ disilane 300K complete Gradient error=  1.720845688168993E-015
+ disilane 300K Gradient error=  1.705666857754196E-015  rcond=
+  0.151158981462423     
+ disilane 300K unsymmetrized Hessian reciprocity=  6.938893903907228E-017
+ disilane 300K step=  5.000000000000000E-004  Hessian error=
+  1.956130091240738E-009  dq error=  8.585761837598405E-009  dP error=
+  6.984323737413423E-009
+ disilane 300K complete Hessian error=  1.487064515970360E-007
+ disilane 300K step=  2.500000000000000E-004  Hessian error=
+  4.842519163439363E-010  dq error=  2.150326319783069E-009  dP error=
+  1.745948899345429E-009
+ disilane 300K complete Hessian error=  3.717147589732406E-008
+ PASS disilane 300K actual molecular coupled response

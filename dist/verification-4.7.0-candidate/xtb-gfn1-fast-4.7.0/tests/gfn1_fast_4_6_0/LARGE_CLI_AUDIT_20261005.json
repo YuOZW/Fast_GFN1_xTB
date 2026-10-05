@@ -1,0 +1,74 @@
+{
+  "exe_sha256": {
+    "analytic": "00bf2c21ed9a40f2516c31231a4998cc4a4952b5b737d6d562ac4c7afa344eb9"
+  },
+  "exe": {
+    "analytic": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\xtb.exe"
+  },
+  "input_sha256": "0b43744b42c2c306d1d26fc391ff4b0127576d08438000fb34b1340bc360a454",
+  "molecule": "taxol",
+  "atoms": 113,
+  "nao": 350,
+  "n3": 339,
+  "step_bohr": 1e-05,
+  "scc_accuracy": 1e-07,
+  "threads": 1,
+  "profile_for_timings": false,
+  "warmups": 1,
+  "models": [
+    {
+      "model": "gbsa",
+      "profile_audit": {
+        "name": "gbsa_profile_audit",
+        "model": "gbsa",
+        "process_wall_seconds": 35.454129700010526,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 837894144,
+          "peak_pagefile_usage_bytes": 858324992,
+          "maximum_sampled_private_bytes": 858288128,
+          "samples": 703,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-audit-4.6.0\\gbsa_profile_audit\\run.log",
+        "analytic_used": true,
+        "reason": "analytic solvated GFN1",
+        "estimated_workspace_bytes": 880428680,
+        "energy_Eh": -195.956493169214,
+        "gradient_norm_Eh_bohr": 0.13183221411
+      },
+      "trials": [],
+      "maximum_H_difference_from_frozen_stock_Eh_bohr2": 7.1999999989857955e-09,
+      "maximum_H_difference_from_frozen_4_5_1_Eh_bohr2": 0.0
+    },
+    {
+      "model": "alpb",
+      "profile_audit": {
+        "name": "alpb_profile_audit",
+        "model": "alpb",
+        "process_wall_seconds": 33.636840799998026,
+        "n3": 339,
+        "step_bohr": 1e-05,
+        "resources": {
+          "peak_working_set_bytes": 837431296,
+          "peak_pagefile_usage_bytes": 858542080,
+          "maximum_sampled_private_bytes": 858042368,
+          "samples": 667,
+          "sample_interval_seconds": 0.05
+        },
+        "log": "C:\\GitHub_repository\\Fast_GFN1_xTB\\build-gfn1-fast-current-windows-ifx-release\\large-solvent-audit-4.6.0\\alpb_profile_audit\\run.log",
+        "analytic_used": true,
+        "reason": "analytic solvated GFN1",
+        "estimated_workspace_bytes": 880428680,
+        "energy_Eh": -195.958435147873,
+        "gradient_norm_Eh_bohr": 0.136167697281
+      },
+      "trials": [],
+      "maximum_H_difference_from_frozen_stock_Eh_bohr2": 8.399999999395003e-09,
+      "maximum_H_difference_from_frozen_4_5_1_Eh_bohr2": 0.0
+    }
+  ],
+  "stock_scope": "Original numerical formula; only Hessian OpenMP directives removed for Windows ifx; one thread",
+  "scope": "4.6.0 CLI resource audit plus all-matrix comparison to saved frozen 4.5.1/stock matrices; individual profiled times are not repeated performance measurements"
+}

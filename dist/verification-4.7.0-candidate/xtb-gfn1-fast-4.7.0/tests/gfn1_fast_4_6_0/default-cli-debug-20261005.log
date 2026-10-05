@@ -1,0 +1,64 @@
+PASS --hess water_numerical: analytic=False, 0.0564s
+PASS --hess water_bare_default: analytic=True, 0.0839s
+PASS Hessian parity water: 1.259e-07 Eh/bohr^2
+PASS --hess disilane_numerical: analytic=False, 0.5519s
+PASS --hess disilane_bare_default: analytic=True, 0.1266s
+PASS Hessian parity disilane: 1.487e-07 Eh/bohr^2
+PASS --hess benzene_numerical: analytic=False, 1.0852s
+PASS --hess benzene_bare_default: analytic=True, 0.1550s
+PASS Hessian parity benzene: 1.670e-07 Eh/bohr^2
+PASS --hess water_defaults_numerical: analytic=False, 0.0471s
+PASS --hess water_defaults_bare_default: analytic=True, 0.0506s
+PASS Hessian parity water_defaults: 1.248e-05 Eh/bohr^2
+PASS --hess disilane_defaults_numerical: analytic=False, 0.4086s
+PASS --hess disilane_defaults_bare_default: analytic=True, 0.1334s
+PASS Hessian parity disilane_defaults: 2.751e-05 Eh/bohr^2
+PASS --hess water_zero_numerical: analytic=False, 0.0491s
+PASS --hess water_zero_bare_default: analytic=True, 0.1200s
+PASS Hessian parity water_zero: 1.259e-07 Eh/bohr^2
+PASS --hess water_open_numerical: analytic=False, 0.1071s
+PASS --hess water_open_bare_default: analytic=True, 0.0401s
+PASS Hessian parity water_open: 1.298e-07 Eh/bohr^2
+PASS --hess water_highT_numerical: analytic=False, 0.0869s
+PASS --hess water_highT_bare_default: analytic=True, 0.0516s
+PASS Hessian parity water_highT: 9.420e-08 Eh/bohr^2
+PASS --hess disilane_alpb_numerical: analytic=False, 0.4774s
+PASS --hess disilane_alpb_bare_default: analytic=True, 0.1502s
+PASS Hessian parity disilane_alpb: 6.000e-09 Eh/bohr^2
+PASS --hess smooth_halogen_gas_numerical: analytic=False, 0.4316s
+PASS --hess smooth_halogen_gas_bare_default: analytic=True, 0.1213s
+PASS Hessian parity smooth_halogen_gas: 2.660e-08 Eh/bohr^2
+PASS --hess smooth_halogen_gbsa_numerical: analytic=False, 0.4136s
+PASS --hess smooth_halogen_gbsa_bare_default: analytic=True, 0.1226s
+PASS Hessian parity smooth_halogen_gbsa: 6.700e-09 Eh/bohr^2
+PASS --hess explicit_disable_numerical: analytic=False, 0.0772s
+PASS --hess explicit_disable_bare_default: analytic=False, 0.0621s
+PASS Hessian parity explicit_disable: 0.000e+00 Eh/bohr^2
+PASS --hess explicit_enable_zero_numerical: analytic=False, 0.0632s
+PASS --hess explicit_enable_zero_bare_default: analytic=False, 0.1339s
+PASS Hessian parity explicit_enable_zero: 0.000e+00 Eh/bohr^2
+PASS --hess constraint_numerical: analytic=False, 0.0617s
+PASS --hess constraint_bare_default: analytic=False, 0.0918s
+PASS Hessian parity constraint: 0.000e+00 Eh/bohr^2
+PASS --hess memory_numerical: analytic=False, 0.5156s
+PASS --hess memory_bare_default: analytic=False, 0.4857s
+PASS Hessian parity memory: 0.000e+00 Eh/bohr^2
+PASS --hess legacy_numerical: analytic=False, 0.0895s
+PASS --hess legacy_bare_default: analytic=False, 0.0499s
+PASS Hessian parity legacy: 0.000e+00 Eh/bohr^2
+PASS --hess salt_numerical: analytic=False, 0.0794s
+PASS --hess salt_bare_default: analytic=False, 0.0947s
+PASS Hessian parity salt: 0.000e+00 Eh/bohr^2
+PASS --hess surface_branch_numerical: analytic=False, 0.0536s
+PASS --hess surface_branch_bare_default: analytic=False, 0.1034s
+PASS Hessian parity surface_branch: 0.000e+00 Eh/bohr^2
+PASS --hess d3_cutoff_numerical: analytic=False, 0.1062s
+PASS --hess d3_cutoff_bare_default: analytic=False, 0.1035s
+PASS Hessian parity d3_cutoff: 0.000e+00 Eh/bohr^2
+PASS --hess screened_overlap_numerical: analytic=False, 0.0668s
+PASS --hess screened_overlap_bare_default: analytic=False, 0.0645s
+PASS Hessian parity screened_overlap: 0.000e+00 Eh/bohr^2
+PASS --hess disilane_default_threads4: analytic=True, 0.0987s
+PASS --hess disilane_default_threads1: analytic=True, 0.1312s
+PASS Hessian parity default analytic thread parity: 0.000e+00 Eh/bohr^2
+PASS actual default analytic/fallback CLI policy
