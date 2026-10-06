@@ -1,0 +1,21 @@
+fast-gfn1-xtb is a modified xTB 6.7.1 distribution under LGPL-3.0-or-later.
+The corresponding source is included in source/ with its own copyright and
+license files. Intel and Microsoft runtime DLLs are unmodified redistributables;
+they are not covered by the xTB LGPL license.
+
+Intel Fortran 2025.2 / OpenMP runtimes:
+See licenses/intel-fortran/ (including the installed fredist.txt list),
+licenses/intel-c/ and licenses/intel-openmp/.
+https://www.intel.com/content/www/us/en/developer/articles/tool/redistributable-libraries-for-intel-c-and-fortran-2020-compilers-for-windows.html
+
+Intel oneMKL 2025.2 CPU runtimes:
+See licenses/intel-mkl/license.rtf and third-party notices.
+https://www.intel.com/content/www/us/en/developer/articles/tool/onemkl-license-faq.html
+
+Microsoft Visual C++ Runtime (app-local x64 CRT from Visual Studio REDIST):
+Copyright (c) Microsoft Corporation. All rights reserved.
+https://visualstudio.microsoft.com/license-terms/vs2022-cruntime/
+https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution
+https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files
+
+Windows operating-system DLLs are not included.

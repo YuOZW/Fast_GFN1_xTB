@@ -4,6 +4,28 @@
 
 生成される実行ファイルは、Windowsでは **`fast-gfn1-xtb.exe`**、Linuxでは **`fast-gfn1-xtb`** です。計算時には **`--gfn 1` を明示してください**。xTB由来のCLIの既定値はGFN2のままです。
 
+## Windowsへの簡単なインストール（oneAPI不要）
+
+配布用ZIP **`fast-gfn1-xtb-4.7.0-windows-x64-portable.zip`** を展開して、`install.cmd` をダブルクリックしてください。必要なIntel・MicrosoftランタイムDLLとパラメータを同梱しているため、利用するPCにoneAPI、Visual Studio、Python、Conda、WSLをインストールする必要はありません。管理者権限・インストール時のネット接続も不要です。Windows 10/11 x64を対象としています。
+
+インストール先は `%LOCALAPPDATA%\Programs\fast-gfn1-xtb` です。インストーラーは同梱ファイルのSHA-256を検証し、このフォルダをユーザーのPATHに追加します。新しいPowerShellまたはコマンドプロンプトを開いて使ってください。
+
+```powershell
+fast-gfn1-xtb input.xyz --gfn 1 --grad --norestart
+fast-gfn1-xtb input.xyz --gfn 1 --hess --alpb water --norestart
+```
+
+インストールせず、展開先からそのまま使うこともできます。
+
+```powershell
+.\fast-gfn1-xtb.cmd --version
+.\fast-gfn1-xtb.cmd .\examples\water.xyz --gfn 1 --grad --norestart
+```
+
+`bin`、`share`、`licenses` を含むフォルダ全体を保持してください。ランチャーがパラメータの場所を設定します。既存の `OMP_NUM_THREADS` を尊重し、未設定なら8スレッドを使用します。別の保存先にインストールする方法は同梱の `README.txt` に記載しています。
+
+この作業環境ではZIPとSHA-256を `dist/` に生成しています。配布パッケージの再作成・検証方法は [配布手順](tests/release/README.md) を参照してください。
+
 ## 現在の機能
 
 - SCC: SYEVDを既定の固有値ソルバーとし、中間反復ではcompact densityを使用。最終確認反復ではfull densityを構築します。
@@ -23,6 +45,8 @@ cd Fast_GFN1_xTB
 必要なライブラリはBLAS/LAPACKとmctc-libです。mctc-libは、検証済みのコミット **`77f65c6f2cf6330d05d0757ca173da097096780e`** を使用します。ソース配布ZIPにはこの依存ソースを同梱しています。以下の構成ではtblite、CPCMX、上流の単体テスト、JSONを無効にします。GBSA/ALPBは利用できます。
 
 ## Windowsでのコンパイル
+
+以下は開発PCで自分でコンパイルする手順です。配布ZIPを使うPCには、これらの開発ツールは不要です。
 
 必要なもの:
 
@@ -159,7 +183,7 @@ cmake --build build/windows-release --parallel 4
 cmake --install build/windows-release --prefix C:/fast-gfn1-xtb
 ```
 
-実行ファイルは `bin/fast-gfn1-xtb.exe`、パラメータは `share/xtb` に入ります。oneAPIの実行時DLL環境は引き続き必要です。
+実行ファイルは `bin/fast-gfn1-xtb.exe`、パラメータは `share/xtb` に入ります。このCMakeインストールはランタイムDLLを同梱しないため、開発PCのoneAPIのDLL環境が必要です。oneAPIのないPCへ渡す場合は、冒頭のWindows配布ZIPを使用してください。
 
 CMakeの実行ファイル用ターゲット名とMesonの実行ファイル名も `fast-gfn1-xtb` です。ライブラリ名、API、パラメータのファイル名はxTB由来の名称を維持しています。
 

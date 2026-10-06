@@ -37,6 +37,10 @@
 
 # directories
 /build*/
+
+# Local Windows runtime ZIPs, staging payloads and installed validation copies
+/dist/*-windows-x64*
+/dist/verification-windows-portable/
 /_*/
 
 
