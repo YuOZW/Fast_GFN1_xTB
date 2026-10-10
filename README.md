@@ -24,7 +24,7 @@ fast-gfn1-xtb input.xyz --gfn 1 --hess --alpb water --norestart
 
 `bin`、`share`、`licenses` を含むフォルダ全体を保持してください。ランチャーがパラメータの場所を設定します。既存の `OMP_NUM_THREADS` を尊重し、未設定なら8スレッドを使用します。別の保存先にインストールする方法は同梱の `README.txt` に記載しています。
 
-この作業環境ではZIPとSHA-256を `dist/` に生成しています。配布パッケージの再作成・検証方法は [配布手順](tests/release/README.md) を参照してください。
+配布用ZIPとSHA-256は `dist/` に生成します。配布パッケージの再作成・検証方法は [配布手順](tests/release/README.md) を参照してください。
 
 ## 現在の機能
 
@@ -84,7 +84,7 @@ cmake --build build/windows-release --target fast-gfn1-xtb --parallel 4
 
 Debugビルドは、ビルド先を `build/windows-debug`、`CMAKE_BUILD_TYPE` を `Debug` に変え、`CMAKE_Fortran_FLAGS_RELEASE` の行を省略します。大きな局所配列に対応するため、Windowsでは64 MiBのスタックを指定しています。
 
-通常のPowerShellから、oneAPI環境の取り込みとスモークテストをまとめて行う既存スクリプトも利用できます。こちらは開発用Python環境 `C:\Users\f3r1i\mambaforge\envs\fastxtb\python.exe` が必要です。
+通常のPowerShellから、oneAPI環境の取り込みとスモークテストをまとめて行う既存スクリプトも利用できます。こちらはCondaの開発用Python環境 `fastxtb` が必要です。スクリプト冒頭のPythonとoneAPIの設定を利用環境に合わせて確認してください。
 
 ```powershell
 ./tests/gfn1_fast_2_2_6/run_windows_build.ps1 -BuildType Release
@@ -94,6 +94,53 @@ Debugビルドは、ビルド先を `build/windows-debug`、`CMAKE_BUILD_TYPE` �
 ```
 
 スクリプトのフォルダ名は履歴を引き継いでいますが、ビルドするのは現在のソースです。既定の出力先は `build-gfn1-fast-current-windows-ifx-release/fast-gfn1-xtb.exe` とDebug側の対応ディレクトリです。実行時もoneAPIのDLLがPATHに必要です。
+
+## Windows配布用ZIPの生成
+
+[生成スクリプト](tests/release/create_windows_package.py)で、Releaseのexe、Intel・MicrosoftランタイムDLL、パラメータ、インストーラー、対応するソースZIP、ライセンスとSHA-256情報をまとめた配布用ZIPを作成できます。oneAPIなどの開発環境は作成するPCに必要ですが、配布先のPCには不要です。
+
+先に「Windowsでのコンパイル」の手順で、`build/windows-release` に **Release・sequential MKL（`Intel10_64lp_seq`）** のビルドを用意し、必要な回帰検証を完了してください。依存ソースのmctc-libは上記の固定コミットを使用し、変更を加えていない状態にします。
+
+Intel oneAPIの開発環境を読み込んだPowerShellで、リポジトリのルートから次を実行します。`<...>` の部分は利用環境に合わせて置き換えてください。`$CompilerRoot` と `$MklRoot` は各バージョンのルートフォルダ、`$VcCrtDir` はVisual Studioのx64用CRT再配布DLLが入ったフォルダを指定します。
+
+```powershell
+$PY = '<fastxtb環境のpython.exe>'
+$CompilerRoot = '<Intel Fortranのルートフォルダ>'
+$MklRoot = '<MKLのルートフォルダ>'
+$VcCrtDir = '<Visual Studioのx64用CRT再配布フォルダ>'
+$Tag = Get-Date -Format 'yyyyMMdd-HHmmss'
+$Zip = "dist/fast-gfn1-xtb-4.7.0-windows-x64-portable-$Tag.zip"
+$Verify = "dist/verification-windows-portable-$Tag"
+
+& $PY tests/release/create_windows_package.py `
+    --build-dir build/windows-release `
+    --compiler-root $CompilerRoot `
+    --mkl-root $MklRoot `
+    --vc-crt-dir $VcCrtDir `
+    --output $Zip
+
+if ($LASTEXITCODE -ne 0) { throw 'ZIP生成に失敗しました' }
+```
+
+生成時にReleaseのexeを再ビルドします。既存のZIP、SHA-256ファイル、stagingフォルダ、対応するソースZIPは上書きしないため、出力名に日時を付けています。バージョンを更新した場合はZIP名の `4.7.0` も変更してください。
+
+同じPowerShellで、生成したZIPを検証します。
+
+```powershell
+& $PY tests/release/verify_windows_package.py `
+    --zip $Zip `
+    --output $Verify
+
+if ($LASTEXITCODE -ne 0) { throw '配布ZIPの検証に失敗しました' }
+
+Get-Content "$Verify/RESULTS.json"
+```
+
+検証はZIPを新しいフォルダに展開し、ファイルと同梱ソースのハッシュを照合します。さらに開発用PATHとoneAPI環境変数を除いた状態でインストール・実行し、Energy/Gradient、気相・ALPBの解析的Hessian、OpenMP、MKLのSSE4.2経路、実際に読み込んだDLLの場所を確認します。検証用インストールでは実際のユーザーPATHを変更しません。検証先のフォルダも毎回新しい名前にしてください。
+
+正常終了と `RESULTS.json` の **`"status": "PASS"`** を確認したら、生成した **配布用ZIPと同名の `.zip.sha256` ファイル**を配布してください。受け取った人はZIP全体を展開し、`install.cmd` を実行するか、`fast-gfn1-xtb.cmd` を直接使用します。
+
+詳しい内容は [配布手順](tests/release/README.md) を参照してください。
 
 ## Linuxでのコンパイル
 
@@ -176,11 +223,12 @@ fast-gfn1-xtb --version
 
 インストール前には、上記のようにターゲットを限定せずビルドし、依存ライブラリの補助プログラムも生成してください。
 
-Windowsでは次のようにインストールできます。
+Windowsで、リポジトリ内の `install/windows` にインストールする例:
 
 ```powershell
+$InstallPrefix = Join-Path (Get-Location).Path 'install/windows'
 cmake --build build/windows-release --parallel 4
-cmake --install build/windows-release --prefix C:/fast-gfn1-xtb
+cmake --install build/windows-release --prefix "$InstallPrefix"
 ```
 
 実行ファイルは `bin/fast-gfn1-xtb.exe`、パラメータは `share/xtb` に入ります。このCMakeインストールはランタイムDLLを同梱しないため、開発PCのoneAPIのDLL環境が必要です。oneAPIのないPCへ渡す場合は、冒頭のWindows配布ZIPを使用してください。

@@ -17,11 +17,12 @@ runtime/compiler binaries. `verify_source_package.py` checks extracted file
 hashes and safe paths; `--dependencies-only` verifies the bundled dependency
 inventory for the gitless Windows build runner.
 
-Use the prescribed Conda Python directly:
+Use the prescribed Conda `fastxtb` Python directly. Replace the placeholders
+with the interpreter location and extracted source directory in your environment:
 
 ```powershell
-$PY = 'C:\Users\f3r1i\mambaforge\envs\fastxtb\python.exe'
-& $PY tests/release/verify_source_package.py --root <extracted-source-root>
+$PY = '<fastxtb-python-executable>'
+& $PY tests/release/verify_source_package.py --root '<extracted-source-root>'
 ```
 
 Build with the extracted `tests/gfn1_fast_2_2_6/run_windows_build.ps1`, setting
@@ -40,15 +41,21 @@ The PE dependency closure includes delayed imports. Compiler DLLs must appear
 on the installed Intel Fortran redistribution list; VC CRT DLLs are taken
 from Visual Studio's x64 REDIST directory, never from System32.
 
-In an Intel oneAPI developer PowerShell, after the README Release build:
+In an Intel oneAPI developer PowerShell, after the README Release build,
+run from the repository root. Replace the placeholders with your interpreter,
+version-specific Intel Fortran and MKL roots, and Visual Studio's x64 CRT
+redistribution DLL directory:
 
 ```powershell
-$PY = 'C:\Users\f3r1i\mambaforge\envs\fastxtb\python.exe'
+$PY = '<fastxtb-python-executable>'
+$CompilerRoot = '<intel-fortran-version-root>'
+$MklRoot = '<mkl-version-root>'
+$VcCrtDir = '<visual-studio-x64-crt-redistribution-directory>'
 & $PY tests/release/create_windows_package.py `
     --build-dir build/windows-release `
-    --compiler-root 'C:\Program Files (x86)\Intel\oneAPI\compiler\2025.2' `
-    --mkl-root 'C:\Program Files (x86)\Intel\oneAPI\mkl\2025.2' `
-    --vc-crt-dir 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.44.35112\x64\Microsoft.VC143.CRT' `
+    --compiler-root $CompilerRoot `
+    --mkl-root $MklRoot `
+    --vc-crt-dir $VcCrtDir `
     --output dist/fast-gfn1-xtb-4.7.0-windows-x64-portable.zip
 & $PY tests/release/verify_windows_package.py `
     --zip dist/fast-gfn1-xtb-4.7.0-windows-x64-portable.zip `
